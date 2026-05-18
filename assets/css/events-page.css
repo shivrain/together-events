@@ -460,7 +460,11 @@
    SWIPER carousel scoping
    ============================================================ */
 .events_slider_wrap { position: relative; }
-.events_slider_swiper { overflow: visible; }
+/* Swiper must clip its slide track — otherwise the multi-thousand-pixel
+   .swiper-wrapper extends past the viewport and causes horizontal page scroll.
+   .events_slider_wrap intentionally stays overflow:visible so the arrow buttons
+   (positioned with bottom:-0.75rem) and the dragable scrollbar remain visible. */
+.events_slider_swiper { overflow: hidden; }
 .events_slider_swiper .swiper-slide { height: auto; display: flex; }
 
 .events_loading,
