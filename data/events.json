@@ -1,0 +1,333 @@
+{
+  "source": {
+    "file": "../data/events.csv",
+    "columns": ["Quarter", "Category", "Event Name", "Featured", "Location", "Description"],
+    "defaultsApplied": {
+      "status": "Past for every event (CSV has no Status column; all CSV events are historical)",
+      "externalLink": "'#' placeholder because the CSV has no external link column",
+      "featured": "Empty string where the CSV Featured cell is blank",
+      "location": "Empty string where the CSV Location cell is blank",
+      "heroPhoto": "Unsplash placeholder URL chosen by category vibe (see Image_Manifest.md for the planned final filenames)"
+    }
+  },
+  "categories": [
+    {
+      "id": "amas",
+      "name": "AMAs / Founder Chats",
+      "description": "Intimate sessions where founders unpack hard-won lessons with our network.",
+      "sourceCategories": ["AMA"],
+      "events": [
+        {
+          "id": "ama-with-srinivas-narayanan",
+          "name": "AMA with Srinivas Narayanan",
+          "rawCategory": "AMA",
+          "pageCategory": "amas",
+          "quarter": "Q2 2026",
+          "location": "Together Fund",
+          "shortDescription": "Intimate dinner with senior tech leaders.",
+          "featured": "Srinivas Narayanan (Former CTO, B2B Applications at OpenAI)",
+          "heroPhoto": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "fireside-with-the-openai-codex-team",
+          "name": "Fireside with the OpenAI Codex Team",
+          "rawCategory": "AMA",
+          "pageCategory": "amas",
+          "quarter": "Q1 2026",
+          "location": "",
+          "shortDescription": "Team walked through the new Codex, the computer-use agents launch, and demoed a new speech-to-speech model cloning a voice in under 15 seconds across live use cases.",
+          "featured": "OpenAI Codex team",
+          "heroPhoto": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "community-dialogue-with-openai",
+          "name": "Community Dialogue with OpenAI",
+          "rawCategory": "AMA",
+          "pageCategory": "amas",
+          "quarter": "Q1 2026",
+          "location": "Together Fund",
+          "shortDescription": "Off-the-record dialogue with OpenAI on the state of frontier AI.",
+          "featured": "OpenAI",
+          "heroPhoto": "https://images.unsplash.com/photo-1559223607-a43f990c692c?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "how-we-build-and-manage-15000-tools-at-composio",
+          "name": "How We Build and Manage 15,000+ Tools at Composio",
+          "rawCategory": "AMA",
+          "pageCategory": "amas",
+          "quarter": "Q1 2026",
+          "location": "Together Fund",
+          "shortDescription": "Part of the AI Founders: The Early Playbook series.",
+          "featured": "Jayesh Sharma (AI Engineer, Composio)",
+          "heroPhoto": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "the-composio-blueprint-inside-the-mind-of-an-ai-infra-founder",
+          "name": "The Composio Blueprint: Inside the Mind of an AI Infra Founder",
+          "rawCategory": "AMA",
+          "pageCategory": "amas",
+          "quarter": "Q4 2025",
+          "location": "Samarthanam Auditorium",
+          "shortDescription": "Part of the AI Founders: The Early Playbook series.",
+          "featured": "Soham Ganatra (Composio)",
+          "heroPhoto": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        }
+      ]
+    },
+    {
+      "id": "hackathons",
+      "name": "Hackathons",
+      "description": "Two-day sprints where builders ship something real, together.",
+      "sourceCategories": ["Hackathon"],
+      "events": [
+        {
+          "id": "openclaw-hackathon",
+          "name": "OpenClaw Hackathon",
+          "rawCategory": "Hackathon",
+          "pageCategory": "hackathons",
+          "quarter": "Q2 2026",
+          "location": "",
+          "shortDescription": "Hackathon in partnership with Zo World.",
+          "featured": "Co-hosted with Zo World",
+          "heroPhoto": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "claw-hack-blr",
+          "name": "Claw Hack BLR",
+          "rawCategory": "Hackathon",
+          "pageCategory": "hackathons",
+          "quarter": "Q2 2026",
+          "location": "Together Fund",
+          "shortDescription": "Bangalore edition of Claw Hack.",
+          "featured": "Co-hosted with Zo World, Boldrin, Colin Nebius",
+          "heroPhoto": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "together-voice-ai-hackathon",
+          "name": "Together: Voice AI Hackathon",
+          "rawCategory": "Hackathon",
+          "pageCategory": "hackathons",
+          "quarter": "Q3 2025",
+          "location": "Together Fund",
+          "shortDescription": "Two-day hackathon (Aug 1-2): Where Conversation Meets Code.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        }
+      ]
+    },
+    {
+      "id": "meetups",
+      "name": "Community Meetups",
+      "description": "Recurring gatherings - mixers, demo nights, pickleball - where the Together network meets in person.",
+      "sourceCategories": ["Meetup"],
+      "events": [
+        {
+          "id": "ai-mixer-together-google-cloud",
+          "name": "AI Mixer: Together x Google Cloud",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q1 2026",
+          "location": "ITC Grand Chola, Chennai",
+          "shortDescription": "Chennai edition of the AI builders mixer.",
+          "featured": "Co-hosted with Google Cloud",
+          "heroPhoto": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "together-funds-ai-mixer",
+          "name": "Together Fund's AI Mixer",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q1 2026",
+          "location": "Together Fund",
+          "shortDescription": "AI mixer for founders and operators in the Together community.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1543269664-7eef42226a21?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "shippin-hours-hsrhackerhouse",
+          "name": "Shippin' Hours (@hsrhackerhouse)",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q1 2026",
+          "location": "HSR Hacker House",
+          "shortDescription": "Recurring numbered coworking + demo sessions. Sessions #061 (Feb) and #064 (Mar) ran this quarter.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "pickleball-with-together",
+          "name": "Pickleball with Together",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q1 2026",
+          "location": "GoRally Pickleball Indiranagar",
+          "shortDescription": "Recurring pickleball meetup. Ran in Feb and Apr.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        }
+      ]
+    },
+    {
+      "id": "podcasts-workshops",
+      "name": "Podcasts + Workshops",
+      "description": "Live recordings and deep-dive talks from operators, researchers, and founders.",
+      "sourceCategories": ["Podcast", "Workshop"],
+      "events": [
+        {
+          "id": "from-human-video-to-robotic-action",
+          "name": "From Human Video to Robotic Action - How to Build General-Purpose Robots",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q1 2026",
+          "location": "Together Fund",
+          "shortDescription": "Co-hosted with Paras Chopra and Pratyush Choudhary (Lossfunk).",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "beyond-attention-memory-surprise-continual-learning",
+          "name": "Beyond Attention - Memory, Surprise, and Continual Learning in Modern AI",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q4 2025",
+          "location": "Lossfunk",
+          "shortDescription": "Co-hosted with Lossfunk.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "how-to-build-a-conscious-machine",
+          "name": "How to Build a Conscious Machine?",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q4 2025",
+          "location": "Lossfunk",
+          "shortDescription": "Co-hosted with Lossfunk.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "research-paper-reading-circle-oak-architecture",
+          "name": "Research Paper Reading Circle: Oak Architecture by Richard Sutton",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q4 2025",
+          "location": "Lossfunk",
+          "shortDescription": "Co-hosted reading circle with Lossfunk.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "dropout-three-pivots-scaling-fast-metaforms",
+          "name": "Dropout. Three Pivots. Scaling Fast - The Metaforms Story",
+          "rawCategory": "Podcast",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q3 2025",
+          "location": "Bangalore International Centre",
+          "shortDescription": "Live podcast recording at BIC with Metaforms.",
+          "featured": "Metaforms founders",
+          "heroPhoto": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "imagination-and-composition",
+          "name": "Imagination and Composition: Building the Next Generation of AI Reasoning Systems",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q3 2025",
+          "location": "Together Fund, Indiranagar",
+          "shortDescription": "Talk on imagination and composition techniques for long-running reasoning in LLMs.",
+          "featured": "Amit Sharma (Principal Researcher, Microsoft)",
+          "heroPhoto": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "scaling-llms-parameters-or-thinking-or-data",
+          "name": "Scaling LLMs: Parameters or Thinking or Data?",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q3 2025",
+          "location": "Together Fund",
+          "shortDescription": "Talk on what actually scales - model size, test-time thinking, or data.",
+          "featured": "Prateek Jain (Principal Scientist and Director, Google DeepMind)",
+          "heroPhoto": "https://images.unsplash.com/photo-1492366254240-43affaefc3e3?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "data-management-for-the-ai-era",
+          "name": "Data Management for the AI Era",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q3 2025",
+          "location": "Together Fund",
+          "shortDescription": "Talk on data management practices for AI-native organizations.",
+          "featured": "Ashwin Rajeeva",
+          "heroPhoto": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "podcast-with-composio",
+          "name": "Podcast with Composio",
+          "rawCategory": "Podcast",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q2 2025",
+          "location": "Bangalore International Centre",
+          "shortDescription": "Live podcast recording at BIC with Composio.",
+          "featured": "Composio founders",
+          "heroPhoto": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "podcast-with-emergent",
+          "name": "Podcast with Emergent",
+          "rawCategory": "Podcast",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q1 2025",
+          "location": "Bangalore International Centre",
+          "shortDescription": "Live podcast recording at BIC with Emergent.",
+          "featured": "Emergent founders",
+          "heroPhoto": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        }
+      ]
+    }
+  ]
+}
