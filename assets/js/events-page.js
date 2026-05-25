@@ -215,23 +215,26 @@
   }
 
   // ============================================================
-  // FEATURED EVENTS CAROUSEL
+  // FEATURED EVENTS — single-card layout (image left, content right)
+  // with prev/next arrows that step through one featured event at a
+  // time. The whole card is still the modal trigger.
   // ============================================================
   function featuredCardTemplate(entry, event) {
     var displayName = entry.displayName || event.name;
     var displayDesc = entry.displayDescription || event.shortDescription;
-    var chip = entry.chipLabel || 'Featured';
     var img = entry.heroPhoto || event.heroPhoto;
     return [
-      '<div class="swiper-slide events_featured_card" data-open-event-modal="' + escapeHtml(event.id) + '" role="button" tabindex="0">',
-      '  <div class="events_featured_card_visual">',
-      '    <img src="' + escapeHtml(img) + '" alt="' + escapeHtml(eventAltText(event)) + '" loading="lazy"/>',
-      '  </div>',
-      '  <div class="events_featured_card_body">',
-      '    <div class="events_featured_card_chip">' + escapeHtml(chip) + '</div>',
-      '    <h3 class="events_featured_card_heading heading-style-h6">' + escapeHtml(displayName) + '</h3>',
-      '    <p class="events_featured_card_copy text-size-regular">' + escapeHtml(displayDesc) + '</p>',
-      '    <span class="events_featured_card_link" aria-hidden="true">Read more</span>',
+      '<div class="swiper-slide events_featured_slide" data-open-event-modal="' + escapeHtml(event.id) + '" role="button" tabindex="0" aria-label="' + escapeHtml('Open details for ' + displayName) + '">',
+      '  <div class="events_featured_grid">',
+      '    <div class="events_featured_visual events_card_visual">',
+      '      <img class="events_card_img" src="' + escapeHtml(img) + '" alt="' + escapeHtml(eventAltText(event)) + '" loading="lazy"/>',
+      '    </div>',
+      '    <div class="events_featured_body">',
+      '      <div class="events_featured_chip">Featured</div>',
+      '      <h2 class="events_featured_heading heading-style-h4">' + escapeHtml(displayName) + '</h2>',
+      '      <div class="events_featured_meta text-size-small">' + escapeHtml(event.location || '') + '</div>',
+      '      <p class="events_featured_copy text-size-large">' + escapeHtml(displayDesc) + '</p>',
+      '    </div>',
       '  </div>',
       '</div>'
     ].join('');
@@ -241,7 +244,8 @@
     var track = document.querySelector('[data-featured-swiper-track]');
     if (!track) return;
     if (!Array.isArray(featuredEntries) || !featuredEntries.length) {
-      track.closest('.events_featured_section').hidden = true;
+      var section = track.closest('.events_featured_section');
+      if (section) section.hidden = true;
       return;
     }
     var html = featuredEntries.map(function (entry) {
@@ -255,7 +259,6 @@
     var root = document.querySelector('[data-featured-swiper]');
     var prev = document.querySelector('[data-featured-prev]');
     var next = document.querySelector('[data-featured-next]');
-    var scrollbar = document.querySelector('[data-featured-scrollbar]');
 
     if (featuredSwiperInstance) {
       featuredSwiperInstance.destroy(true, true);
@@ -269,18 +272,12 @@
     }
 
     featuredSwiperInstance = new Swiper(root, {
-      slidesPerView: 1.05,
-      spaceBetween: 16,
+      slidesPerView: 1,
+      spaceBetween: 0,
       speed: 700,
       grabCursor: true,
-      mousewheel: { forceToAxis: true, sensitivity: 0.6, releaseOnEdges: true },
-      scrollbar: scrollbar ? { el: scrollbar, draggable: true, hide: false } : false,
-      breakpoints: {
-        640:  { slidesPerView: 1.4, spaceBetween: 18 },
-        900:  { slidesPerView: 2.2, spaceBetween: 24 },
-        1200: { slidesPerView: 3, spaceBetween: 24 },
-        1440: { slidesPerView: 3.5, spaceBetween: 28 }
-      },
+      // Disable mousewheel here so wheel-scroll on the card scrolls the
+      // page, not the carousel.
       on: {
         init: function () { updateArrows(this); },
         slideChange: function () { updateArrows(this); },
@@ -290,8 +287,10 @@
       }
     });
 
-    if (prev) prev.addEventListener('click', function () { featuredSwiperInstance.slidePrev(); });
-    if (next) next.addEventListener('click', function () { featuredSwiperInstance.slideNext(); });
+    // The arrows live inside the card area; stop their clicks from
+    // bubbling to the slide's modal trigger.
+    if (prev) prev.addEventListener('click', function (e) { e.stopPropagation(); featuredSwiperInstance.slidePrev(); });
+    if (next) next.addEventListener('click', function (e) { e.stopPropagation(); featuredSwiperInstance.slideNext(); });
     updateArrows(featuredSwiperInstance);
   }
 

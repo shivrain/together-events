@@ -844,7 +844,8 @@ body {
 }
 
 /* ============================================================
-   FEATURED EVENTS CAROUSEL
+   FEATURED EVENTS — single-card layout. Image left, content right,
+   one event at a time, prev/next arrows step through the set.
    ============================================================ */
 .events_featured_slider_wrap {
   position: relative;
@@ -855,35 +856,32 @@ body {
   align-items: stretch;
 }
 
-.events_featured_card {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  height: 100%;
-  text-decoration: none;
-  color: inherit;
+.events_featured_slide {
   cursor: pointer;
-  transition: transform 0.5s var(--events-ease),
-              box-shadow 0.5s var(--events-ease);
-  border: 1px solid rgba(10, 10, 10, 0.06);
+  outline: none;
 }
 
-.events_featured_card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 32px -16px rgba(10, 10, 10, 0.18);
+.events_featured_slide:focus-visible {
+  outline: 2px solid var(--events-coral);
+  outline-offset: 4px;
+  border-radius: 0.5rem;
 }
 
-.events_featured_card_visual {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
+.events_featured_grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: clamp(1.5rem, 1.25rem + 1.5vw, 3rem);
+  align-items: center;
+}
+
+.events_featured_visual {
+  aspect-ratio: 4 / 3;
+  border-radius: 0.5rem;
   overflow: hidden;
   background: #1a1a1a;
 }
 
-.events_featured_card_visual img {
+.events_featured_visual img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -891,61 +889,84 @@ body {
   transition: transform 0.6s var(--events-ease);
 }
 
-.events_featured_card:hover .events_featured_card_visual img {
+.events_featured_slide:hover .events_featured_visual img {
   transform: scale(1.02);
 }
 
-.events_featured_card_body {
-  padding: 1.5rem 1.5rem 1.75rem;
+.events_featured_body {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  flex: 1;
+  gap: 1rem;
 }
 
-.events_featured_card_chip {
+.events_featured_chip {
   display: inline-block;
   align-self: flex-start;
   background: var(--events-coral);
   color: #fff;
   font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  padding: 0.3rem 0.75rem;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 0.85rem;
   border-radius: 999px;
   text-transform: uppercase;
 }
 
-.events_featured_card_heading {
+.events_featured_heading {
   margin: 0;
+  transition: color 0.3s var(--events-ease);
 }
 
-.events_featured_card_copy {
-  color: rgba(10, 10, 10, 0.72);
-  margin: 0;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+.events_featured_slide:hover .events_featured_heading {
+  color: var(--events-coral);
 }
 
-.events_featured_card_link {
-  margin-top: auto;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--events-ink);
-  font-size: 0.9rem;
+.events_featured_meta {
+  color: rgba(10, 10, 10, 0.55);
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
-.events_featured_card_link::after {
-  content: '\2192';
-  transition: transform 0.5s var(--events-ease);
+.events_featured_copy {
+  color: rgba(10, 10, 10, 0.78);
+  margin: 0;
+  max-width: 36rem;
+  line-height: 1.5;
 }
 
-.events_featured_card:hover .events_featured_card_link::after {
-  transform: translateX(4px);
+/* Prev/next arrows — circular buttons floating at the right edge of
+   the featured card area. Visible position over the section. */
+.events_featured_slider_wrap .events_slider_arrow {
+  position: absolute;
+  bottom: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  background: var(--events-ink);
+  color: #fff;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  transition: background 0.3s var(--events-ease),
+              opacity 0.3s var(--events-ease);
+}
+.events_featured_slider_wrap .events_slider_arrow.is-prev { right: 4rem; }
+.events_featured_slider_wrap .events_slider_arrow.is-next { right: 0; }
+.events_featured_slider_wrap .events_slider_arrow:hover { background: var(--events-coral); }
+.events_featured_slider_wrap .events_slider_arrow.is-disabled {
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .events_featured_grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .events_featured_visual { aspect-ratio: 16 / 9; order: -1; }
+  .events_featured_slider_wrap .events_slider_arrow { bottom: -1rem; }
 }
 
 /* ============================================================
@@ -1107,23 +1128,23 @@ body.events-modal-open {
 }
 
 /* ============================================================
-   FOOTER LUMA CTA — replaces the email form with a single button
-   that links to lu.ma/togetherfund.
+   COMBINED CORAL CTA — merges "Want to host or attend?" with
+   the Luma calendar follow. Two buttons: Follow on Luma (primary,
+   pill with arrow icon) + Get in touch (secondary, outlined pill).
    ============================================================ */
 .footer_luma_contain {
   display: grid;
-  grid-template-columns: 1.4fr auto;
+  grid-template-columns: 1.3fr auto;
   gap: clamp(1.5rem, 1rem + 2vw, 3rem);
   align-items: center;
 }
 
-.footer_luma_header {
-  color: #fff;
-}
+.footer_luma_header { color: #fff; }
 
 .footer_luma_header .footer_form_heading {
   margin: 0 0 0.75rem;
   color: #fff;
+  line-height: 1.1;
 }
 
 .footer_luma_sub {
@@ -1133,41 +1154,65 @@ body.events-modal-open {
   line-height: 1.5;
 }
 
+.footer_luma_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+
 .footer_luma_cta {
   display: inline-flex;
   align-items: center;
-  gap: 1rem;
-  padding: 0.5rem 0.5rem 0.5rem 1.75rem;
+  gap: 0.75rem;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
   background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
   color: #fff !important;
   text-decoration: none !important;
   letter-spacing: 0.02em;
   transition: background 0.4s var(--events-ease),
-              transform 0.4s var(--events-ease);
+              transform 0.4s var(--events-ease),
+              border-color 0.4s var(--events-ease);
   white-space: nowrap;
+  min-width: 14rem;
+  justify-content: space-between;
 }
 
 .footer_luma_cta:hover {
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.30);
+  border-color: rgba(255, 255, 255, 0.4);
   transform: translateX(2px);
 }
 
+.footer_luma_cta.is-secondary {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.55);
+  padding: 0.85rem 1.75rem;
+  justify-content: center;
+}
+
+.footer_luma_cta.is-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #fff;
+}
+
 .footer_luma_cta_text {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 400;
 }
 
-.footer_luma_cta_icon {
-  flex-shrink: 0;
-}
+.footer_luma_cta_icon { flex-shrink: 0; }
 
 @media (max-width: 768px) {
   .footer_luma_contain {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  .footer_luma_cta {
-    align-self: flex-start;
+  .footer_luma_actions {
+    align-items: flex-start;
+    flex-direction: column;
   }
+  .footer_luma_cta { width: 100%; max-width: 22rem; }
 }

@@ -19,7 +19,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525e"/>
+  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525f"/>
 
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
 </head>
@@ -149,7 +149,6 @@
             <div class="swiper-wrapper" data-featured-swiper-track>
               <!-- slides injected by events-page.js -->
             </div>
-            <div class="swiper-scrollbar events_slider_scrollbar" data-featured-scrollbar></div>
           </div>
           <button type="button" class="events_slider_arrow is-prev" data-featured-prev aria-label="Previous featured">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -438,36 +437,6 @@
     <div class="g_section_space"></div>
   </section>
 
-  <!-- ============================================================
-       CTA FOOTER BLOCK (cream)
-       ============================================================ -->
-
-  <section class="g_section events_cta_section" data-wf--global-section--section-color="cream">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_cta_wrap">
-          <h2 class="events_cta_heading heading-style-h3">Want to host or attend?</h2>
-          <p class="text-size-large events_cta_subline">
-            We co-host with portfolio companies and ecosystem partners, and we keep the invite list small on purpose. Tell us what you're working on.
-          </p>
-          <div class="events_cta_buttons">
-            <a href="https://www.together.fund/contact" class="button events_cta_button">
-              <div class="button-text">Get in touch</div>
-              <span class="events_button_arrow" aria-hidden="true">
-                <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="10" cy="10" r="9.25"/>
-                  <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
-
   </div><!-- /.main-wrapper -->
 
   <!-- ============================================================
@@ -482,18 +451,23 @@
         <div class="container-large">
           <div class="footer_luma_contain">
             <div class="footer_luma_header">
-              <h2 class="footer_form_heading heading-style-h3">Subscribe to our Luma</h2>
-              <p class="footer_luma_sub text-size-regular">Follow our calendar to get invites to every AMA, hackathon, mixer, and workshop the moment we open RSVPs.</p>
+              <h2 class="footer_form_heading heading-style-h3">Want to host or attend?<br/>Then subscribe to our Luma.</h2>
+              <p class="footer_luma_sub text-size-regular">Follow our calendar to get invites to every AMA, hackathon, mixer, and workshop the moment we open RSVPs. Want to host with us? Drop a line.</p>
             </div>
-            <a class="footer_luma_cta" href="https://luma.com/togetherfund" target="_blank" rel="noopener">
-              <span class="footer_luma_cta_text">Follow on Luma</span>
-              <span class="footer_luma_cta_icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 62" width="56" height="56" fill="none">
-                  <rect y="0.499023" width="61" height="61" rx="30.5" fill="white"></rect>
-                  <path d="M36.8625 29.474L28.6824 21.2939L30.839 19.1372L42.7008 30.999L30.839 42.8606L28.6824 40.7039L36.8625 32.524H18.3008V29.474H36.8625Z" fill="black"></path>
-                </svg>
-              </span>
-            </a>
+            <div class="footer_luma_actions">
+              <a class="footer_luma_cta" href="https://luma.com/togetherfund" target="_blank" rel="noopener">
+                <span class="footer_luma_cta_text">Follow on Luma</span>
+                <span class="footer_luma_cta_icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 62" width="48" height="48" fill="none">
+                    <rect y="0.499023" width="61" height="61" rx="30.5" fill="white"></rect>
+                    <path d="M36.8625 29.474L28.6824 21.2939L30.839 19.1372L42.7008 30.999L30.839 42.8606L28.6824 40.7039L36.8625 32.524H18.3008V29.474H36.8625Z" fill="black"></path>
+                  </svg>
+                </span>
+              </a>
+              <a class="footer_luma_cta is-secondary" href="mailto:hello@together.fund">
+                <span class="footer_luma_cta_text">Get in touch</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -573,7 +547,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" defer></script>
-  <script src="./assets/js/events-page.js?v=20260525e" defer></script>
+  <script src="./assets/js/events-page.js?v=20260525f" defer></script>
   <script>
     document.getElementById('footer-year').textContent = new Date().getFullYear();
   </script>
