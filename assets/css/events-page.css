@@ -127,7 +127,12 @@
 
 .events_hero_wrap.is-fullbleed {
   border-radius: 0;
-  min-height: clamp(34rem, 30rem + 30vw, 56rem);
+  /* Tall but always shorter than the viewport so the headline is
+     visible above the fold (the headline is anchored at the bottom).
+     ~72vh on a typical 900px viewport = ~650px; capped at 40rem on
+     ultra-tall screens. */
+  min-height: min(72vh, 40rem);
+  max-height: 80vh;
   width: 100%;
   max-width: 100%;
   margin: 0;
