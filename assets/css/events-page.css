@@ -127,31 +127,38 @@
 
 .events_hero_wrap.is-fullbleed {
   border-radius: 0;
-  height: clamp(26rem, 22rem + 18vw, 38rem);
-  min-height: 26rem;
-  max-height: 38rem;
+  height: clamp(28rem, 22rem + 22vw, 42rem);
+  min-height: 28rem;
+  max-height: 42rem;
   width: 100%;
   max-width: 100%;
   margin: 0;
-  /* Center the headline vertically AND horizontally so it reads as a
-     proper hero composition, not crammed in a corner. */
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  /* Headline + subline live in the lower-left, the classic VC hero
+     composition (matches the live together.fund homepage hero). */
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .events_hero_section.is-fullbleed .events_hero_content {
-  padding: clamp(2rem, 1.25rem + 2vw, 3rem);
-  text-align: center;
-  max-width: 64rem;
+  padding: clamp(2rem, 1.5rem + 3vw, 4.5rem);
+  text-align: left;
+  max-width: 60rem;
   width: 100%;
 }
 
 .events_hero_section.is-fullbleed .events_hero_heading {
-  margin: 0;
+  margin: 0 0 1.25rem;
   font-weight: 300;
   line-height: 1.05;
   letter-spacing: -0.01em;
+}
+
+.events_hero_section.is-fullbleed .events_hero_subline {
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  max-width: 40rem;
+  line-height: 1.45;
 }
 
 .events_hero_video_wrap {
@@ -875,7 +882,9 @@ body {
 }
 
 .events_featured_visual {
-  aspect-ratio: 4 / 3;
+  /* 16:9 matches Luma's native event-cover aspect, so the actual
+     image fills the box without cropping the top/bottom. */
+  aspect-ratio: 16 / 9;
   border-radius: 0.5rem;
   overflow: hidden;
   background: #1a1a1a;
@@ -1128,91 +1137,97 @@ body.events-modal-open {
 }
 
 /* ============================================================
-   COMBINED CORAL CTA — merges "Want to host or attend?" with
-   the Luma calendar follow. Two buttons: Follow on Luma (primary,
-   pill with arrow icon) + Get in touch (secondary, outlined pill).
+   CORAL CTA — "Want to host or attend?" with two distinct paths
+   (attend → follow Luma calendar, host → email us).
    ============================================================ */
-.footer_luma_contain {
-  display: grid;
-  grid-template-columns: 1.3fr auto;
-  gap: clamp(1.5rem, 1rem + 2vw, 3rem);
-  align-items: center;
+.cta_contain {
+  color: #fff;
+  text-align: center;
 }
 
-.footer_luma_header { color: #fff; }
-
-.footer_luma_header .footer_form_heading {
-  margin: 0 0 0.75rem;
+.cta_heading {
+  margin: 0 0 clamp(1.5rem, 1rem + 1.5vw, 3rem);
   color: #fff;
   line-height: 1.1;
 }
 
-.footer_luma_sub {
-  color: rgba(255, 255, 255, 0.86);
-  max-width: 40rem;
-  margin: 0;
-  line-height: 1.5;
+.cta_paths {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1.5rem, 1rem + 2vw, 4rem);
+  align-items: end;
+  max-width: 56rem;
+  margin: 0 auto;
 }
 
-.footer_luma_actions {
+.cta_path {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  align-items: flex-end;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
 }
 
-.footer_luma_cta {
+.cta_path_label {
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  line-height: 1.4;
+  max-width: 22rem;
+}
+
+.cta_btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.75rem;
-  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
-  background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
   color: #fff !important;
   text-decoration: none !important;
   letter-spacing: 0.02em;
-  transition: background 0.4s var(--events-ease),
-              transform 0.4s var(--events-ease),
-              border-color 0.4s var(--events-ease);
   white-space: nowrap;
+  transition: background 0.4s var(--events-ease),
+              border-color 0.4s var(--events-ease),
+              transform 0.4s var(--events-ease);
+}
+
+.cta_btn.is-primary {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 0.4rem 0.4rem 0.4rem 1.5rem;
   min-width: 14rem;
   justify-content: space-between;
 }
 
-.footer_luma_cta:hover {
-  background: rgba(255, 255, 255, 0.30);
-  border-color: rgba(255, 255, 255, 0.4);
-  transform: translateX(2px);
+.cta_btn.is-primary:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.45);
+  transform: translateY(-1px);
 }
 
-.footer_luma_cta.is-secondary {
+.cta_btn.is-secondary {
   background: transparent;
-  border-color: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   padding: 0.85rem 1.75rem;
-  justify-content: center;
+  min-width: 14rem;
 }
 
-.footer_luma_cta.is-secondary:hover {
+.cta_btn.is-secondary:hover {
   background: rgba(255, 255, 255, 0.12);
   border-color: #fff;
+  transform: translateY(-1px);
 }
 
-.footer_luma_cta_text {
+.cta_btn_text {
   font-size: 1.05rem;
   font-weight: 400;
 }
 
-.footer_luma_cta_icon { flex-shrink: 0; }
+.cta_btn_icon { flex-shrink: 0; display: inline-flex; }
 
-@media (max-width: 768px) {
-  .footer_luma_contain {
+@media (max-width: 720px) {
+  .cta_paths {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 2rem;
   }
-  .footer_luma_actions {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .footer_luma_cta { width: 100%; max-width: 22rem; }
+  .cta_btn { width: 100%; max-width: 22rem; }
 }
