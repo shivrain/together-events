@@ -37,7 +37,8 @@
           "featured": "Srinivas Narayanan (Former CTO, B2B Applications at OpenAI)",
           "heroPhoto": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "An intimate dinner with Srinivas Narayanan, former CTO of B2B Applications at OpenAI, hosted at Together Fund.\n\nThe evening was an off-the-record conversation with senior tech leaders from the Together community on the engineering and operating playbook behind shipping enterprise AI products at frontier scale — what actually works, what gets in the way, and where the next 12 months of enterprise AI infrastructure is heading."
         },
         {
           "id": "fireside-with-the-openai-codex-team",
@@ -50,7 +51,8 @@
           "featured": "OpenAI Codex team",
           "heroPhoto": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A closed-door session with the OpenAI Codex team for founders and senior engineers in the Together community.\n\nThe team walked the room through the redesigned Codex, the new computer-use agents launch, and demonstrated a speech-to-speech model that cloned a voice in under 15 seconds across live use cases. Q&A ran long; attendees left with a sharp view of where the next wave of agent infrastructure is heading."
         },
         {
           "id": "how-we-build-and-manage-15000-tools-at-composio",
@@ -63,7 +65,8 @@
           "featured": "Jayesh Sharma (AI Engineer, Composio)",
           "heroPhoto": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Jayesh Sharma (AI Engineer at Composio) on the engineering reality of orchestrating 15,000+ tools that AI agents call in production.\n\nPart of the AI Founders: Early Playbook series. The session covered the architectural choices that scale, the failure modes that don't, and how an infrastructure team handles a tool catalog growing by hundreds of integrations per month — aimed at founders building agentic systems and operators integrating them."
         },
         {
           "id": "the-composio-blueprint-inside-the-mind-of-an-ai-infra-founder",
@@ -78,7 +81,7 @@
           "externalLink": "https://luma.com/48q2jdd9",
           "status": "Past",
           "dateISO": "2025-11-12",
-          "longDescription": "The Composio Blueprint: Inside the Mind of an AI Infra Founder\nJoin us for a conversation with Soham Ganatra, Co-founder of Composio, and Manav Garg, Co-founder of Together Fund, as they unpack how Composio is powering the agentic AI revolution from India to the Valley, and what it takes to build a developer-first AI infra company with a global GTM. \n\nComposio is a San Francisco- and Bengaluru-based AI infrastructure startup that gives developers the “skill layer” for AI agents — helping LLMs connect, automate, and act across hundreds of enterprise tools. They are building the integration backbone for the agent-powered enterprise of the future. They also announced the launch of Rube, their MCP server, recently.\nThis conversation will unpack:\nBuilding deep tech in India with a Valley-native mindset\nCrafting a GTM playbook from India to the US\nDesigning business models for AI infra vs. AI apps\nRaising capital from top SF investors while building from India\nCharting Composio’s journey alongside fast-moving frontier-model companies\nWho should attend?\nFounders & product leaders building AI-native or infra-first startups\nDevelopers, PMs, and GTM leaders scaling global AI products from India\nEvent Flow:\n5PM - Doors open\n5:30PM-6:45 PM - Fireside chat with Q&A\n6:45PM-8PM - Networking & High Tea\n\nNote: We'd appreciate if everyone is seated in the auditorium by 5:15 PM latest so we can begin on time!\n📅 Date & Time: 12th November, 2025 | 5-8 PM\n📍 Location: Samarthanam Auditorium, HSR Layout"
+          "longDescription": "Soham Ganatra (co-founder of Composio) in conversation with Manav Garg at Samarthanam Auditorium.\n\nHow Composio went from an early bet on agentic tooling to becoming the infrastructure that dozens of AI startups now depend on. Soham unpacked the early product calls, the wedges that worked, and the wedges that didn't. Part of the AI Founders: Early Playbook series — a long-running line of intimate sessions where founders share what they actually learned."
         },
         {
           "id": "emergent-journey-to-10m-arr",
@@ -92,7 +95,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/tg/09d1c977-b9ba-465f-b853-3b7e3078506e.jpg",
           "externalLink": "https://luma.com/sai18cy4",
           "status": "Past",
-          "longDescription": "🚀 Fireside chat: Scaling Global Agentic Products from India\nJoin us for an exclusive conversation between Mukund Jha, Founder & CEO of Emergent, and Manav…"
+          "longDescription": "A fireside with Mukund Jha (founder & CEO of Emergent) and Manav Garg at Bangalore International Centre.\n\nTwo months. $10M ARR. Globally distributed users. Mukund walked the room through the product decisions, the GTM motions, and the team shape that made it possible — and the things that broke along the way. A candid look at what it takes to ship a global agentic product out of India and have it land."
         },
         {
           "id": "google-ai-search-fireside-srinivasan-v",
@@ -107,7 +110,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/fb/a0734916-84ae-40c8-a721-458f09cd7db9",
           "externalLink": "https://luma.com/evt-VOHQx0DlSFSlqG4",
           "status": "Past",
-          "longDescription": "Together Fund, in partnership with Insight Partners, invites AI Founders & Operators to a lively evening mixer discussing the future potential of AI & search.\nHere are some details:\n📆 Date: 12th September 2024\n⏰ Time: 6 to 8:30 PM\n\n📍 Location: Big Sur Event Space, 3rd Floor, 250 California Dr, Burlingame, CA 94010"
+          "longDescription": "A fireside chat with Srinivasan V (VP Search, Google), hosted in Burlingame, California.\n\nA conversation on where AI is taking search — what changes under the hood, what changes for end users, and what changes for the businesses built on top of search distribution. Co-hosted with Insight Partners for the Bay Area AI community."
         },
         {
           "id": "fireside-with-neha-singh-tracxn",
@@ -122,7 +125,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/t0/ee07e2fe-1722-49d4-ac26-8f3cf168e41d",
           "externalLink": "https://luma.com/4kwej16c",
           "status": "Past",
-          "longDescription": "Fireside chat with Neha Singh (Co-founder of Tracxn): Masterclass on navigating the entrepreneurial ladder\nHere are some details:\nAgenda: Learn through the lens of a woman leader on how to build a startup 0-1 and scale it to a publicly listed company. Understand challenges faced by women entrepreneurs in the journey and progress made as an ecosystem in the last decade and the collective determination and effort needed to further drive change.\nDate: August 13th 2024\nTime: 6-8pm IST\nWe hope this will ignite important conversations in and around the tech and investing ecosystems and amplify the impact of women leaders in the ecosystem!"
+          "longDescription": "A masterclass with Neha Singh, co-founder of Tracxn, hosted at Together Fund in Bengaluru.\n\nTwo parts: the founder journey of building Tracxn into a category-defining data platform, and a frank look at navigating the entrepreneurial ladder as a woman founder in Indian tech. Q&A from the room turned the session into a working discussion on the real dilemmas attendees were sitting with."
         },
         {
           "id": "monetizing-ai-w-madhavan-girish",
@@ -137,7 +140,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/23/9210acef-59bf-4c23-a58c-8c37480d385a.png",
           "externalLink": "https://luma.com/mj3sc2s0",
           "status": "Past",
-          "longDescription": "SaaSBoomi is around the corner, and we’re excited to see the community come together to exchange ideas, learn, and grow. On the sidelines of the conference,…"
+          "longDescription": "A sideline session at SaaSBoomi with Madhavan and Girish Mathrubootham.\n\nThe thorniest open question for most AI-native startups right now: how do you price something whose marginal cost moves every week? Madhavan and Girish stress-tested several models live with the room — usage-based, outcome-based, hybrid — and traded notes on what's actually sticking with customers and what isn't."
         }
       ]
     },
@@ -160,7 +163,8 @@
           "featured": "Co-hosted with Zo World",
           "heroPhoto": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "An all-night build sprint with the Zo World community.\n\nBuilders shipped end-to-end through agents, voice, and payments stacks in a single sitting. Demos ran late into the night, with the strongest teams pitching live to the Together partners at sunrise."
         },
         {
           "id": "claw-hack-blr",
@@ -173,7 +177,8 @@
           "featured": "Co-hosted with Zo World, Boldrin, Colin Nebius",
           "heroPhoto": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "The Bangalore edition of the Claw Hack — a 24-hour agentic-AI hackathon held at Together Fund.\n\nSmall teams of two to four shipped working products against a single brief over a single day. The strongest demos earned fast-track access to Together's portfolio engineering circle for ongoing follow-up support."
         },
         {
           "id": "runtogether-hackathon-2026",
@@ -188,7 +193,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/3e/63ee8e82-6329-4b1d-bba0-170409ed0a75.png",
           "externalLink": "https://luma.com/l8i1t3dr",
           "status": "Upcoming",
-          "longDescription": "Event Description\nRunTogether is a 10-hour, in-person startup execution sprint in Bangalore.\nIn a single day, solo founders and small teams (2–3) go from an idea to a working product demo to an investor pitch deck using runable.com\nTop teams pitch live to Together Fund, with winners earning a fast-track to SwarmSpace (up to $1M funding opportunity) plus cash, Runable subscriptions, and more.\nPartners\nOfficial LLM Partner: Anthropic \nOfficial Voice AI Partner: Eleven Labs\nOfficial Payments Partner: Stripe\nKey Details\n📍 Location: Bangalore (In-person only)\n⏱ Duration: 10 hours (single day)\n👥 Team size: Solo founders or teams of 2–3\n🛠 What you build:\nWorking product demo\nLaunch-ready landing website\nBasic brand kit\nInvestor pitch deck\n🍽️ Food (Lunch, Dinner, & Snacks) & loads of Diet Coke and Beer available on site\nWho Should Apply\nThis event is for people who ship, not just ideate.\nYou should apply if you are:\nA solo founder or early-stage startup team\nAn engineer, designer, or operator who can build end-to-end\nA student serious about startups and execution\nWhat Makes RunTogether Different\nMost hackathons reward ideas and participation; RunTogether rewards execution, real demos, investor-level clarity, and products that can actually survive beyond the event.\nBy the end of the day, teams walk away with something they can show users, show investors, and keep building after the sprint.\nRules & Constraints\nAll work must be done within the 10-hour event\nPre-built assets are not allowed\nPre-existing ideas are allowed\nTeams must use Runable to build core assets\nExternal APIs/tools may be used (TBD)\nJudges must be able to access demos and links\nApplication & Approval\nThis event is application-based.\nLimited seats\nTeams are shortlisted based on execution ability and clarity\nApproved participants will receive confirmation via email/WhatsApp\nPlease apply only if you can attend in-person for the full duration.\n\nAbout Together Fund\nTogether Fund is India’s only operator-led venture capital firm with presence across India and US. With over $200M in AUM, Together backs ambitious founders building global-first companies.\nAbout Runable\nrunable.com is a design-driven, general AI agent that helps you go from idea to finished output in minutes.\nBuild websites, presentations, images, videos, documents, and more in one place, no tool-hopping, just outcomes."
+          "longDescription": "A 10-hour in-person execution sprint in Bangalore. Upcoming on January 31, 2026.\n\nSolo founders and small teams (2-3) go from an idea to a working product demo to an investor pitch deck in a single day, using runable.com. The strongest teams pitch live to Together Fund partners; winners earn a fast-track to SwarmSpace (up to $1M funding opportunity), Runable subscriptions, and more. Partners on the day: Anthropic (LLM), Eleven Labs (voice AI), Stripe (payments).\n\nAimed at people who ship, not just ideate — solo founders, early-stage teams, engineers and designers who build end-to-end, and students serious about startups."
         },
         {
           "id": "together-voice-ai-hackathon",
@@ -201,7 +206,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Together's two-day flagship hackathon held at Together Fund in Bengaluru.\n\nBrief: where conversation meets code. Eighty builders — half from Together portfolio companies and half from the broader Bangalore community — stress-tested the new wave of voice agents over 48 hours. Building, breaking, and refining real product demos under the room's gaze."
         }
       ]
     },
@@ -224,7 +230,8 @@
           "featured": "Co-hosted with Google Cloud",
           "heroPhoto": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "The Chennai edition of Together's AI builders mixer, held at ITC Grand Chola.\n\nAn evening of conversation across infrastructure, model choice, and the architectural decisions that show up six months into a build. Aimed at founders and operators shipping AI products from the Chennai ecosystem."
         },
         {
           "id": "together-funds-ai-mixer",
@@ -237,7 +244,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1543269664-7eef42226a21?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "An open-floor evening at Together Fund's Indiranagar office for the Bangalore AI community.\n\nNo structured agenda — just a room of people building, investing in, and operating AI companies, exchanging notes on what's working right now and what isn't."
         },
         {
           "id": "shippin-hours-hsrhackerhouse",
@@ -250,7 +258,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Recurring coworking + demo evenings at HSR Hacker House in Bangalore.\n\nThe format is straightforward: show what you've shipped this week, get sharp feedback from the room, then keep building. Sessions are numbered so you know which one you're at and how it connects to the ones before."
         },
         {
           "id": "pickleball-with-together",
@@ -263,7 +272,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Recurring pickleball mornings at GoRally Pickleball in Indiranagar, Bangalore.\n\nTogether founders and operators on the courts in open-format play, all skill levels welcome. The best community-building tends to happen off-screen — this is a recurring stretch of off-screen time."
         },
         {
           "id": "together-fridays-beer-and-you",
@@ -276,7 +286,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1436076863939-06870fe779c2?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Casual end-of-week drinks for the Together community at Brau Galie Micro Brewery & Pub in Bangalore.\n\nAn open invite — drop in after work, run into the network, leave with a new collaborator. No agenda, no slides, no pitches."
         },
         {
           "id": "thursday-to-do-sing-sip-repeat",
@@ -289,7 +300,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A Together community night out at The Biere Club, HSR Layout.\n\nKaraoke and drinks. The kind of off-screen energy that the rest of the working week doesn't leave room for, with the people you're already running into in workshops, hackathons, and demo days."
         },
         {
           "id": "together-consumer-ai-demo-day",
@@ -303,7 +315,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/e6/68a2508b-b451-450e-a71c-7779c77eda05.png",
           "externalLink": "https://luma.com/i6ea0cxl",
           "status": "Past",
-          "longDescription": "Together Consumer AI Demo Day\nAI is transforming industries & spawning new experiences never envisioned before. One of the categories where we’ve seen this to…"
+          "longDescription": "A portfolio + community demo day for founders shipping consumer-AI products, hosted at Together Fund.\n\nAI is spawning consumer product categories that didn't exist 18 months ago. The Demo Day brought the Together community and adjacent builders together for an evening of working demos, structured feedback, and post-demo introductions."
         },
         {
           "id": "together-agm-networking-dinner",
@@ -316,7 +328,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "The closing dinner of Together's Inaugural Annual General Meeting, held at The Leela Palace, Bangalore.\n\nAfter the day's structured AGM sessions, a smaller group of LPs and senior portfolio founders moved to dinner for an unstructured continuation of the day's conversations — across investment thesis, portfolio progression, and the next stretch of fund activity."
         },
         {
           "id": "togethers-inaugural-agm",
@@ -329,7 +342,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Together's first formal Annual General Meeting, held at The Leela Palace, Bangalore.\n\nA working AGM, not a ceremonial one. The fund's first formal gathering of LPs and portfolio founders to share what's worked across the investment thesis, where the active investing focus is heading, and what the next stretch of fund activity looks like."
         },
         {
           "id": "together-ai-summit-24",
@@ -344,7 +358,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/op/61efef0b-90dc-4548-9c58-25c3aa85c4d0",
           "externalLink": "https://luma.com/27rijtxp",
           "status": "Past",
-          "longDescription": "Together AI Summit '24 🎉\nWe are excited to announce our annual flagship event, Together AI Summit '24, and invite all AI founders, operators, & researchers for an evening filled with insightful keynotes, riveting panel discussions, & engaging conversations with fellow enthusiasts.\nRSVP at the earliest to book your seats.\n\nHere are some details:\n📆 Date: 13th December, 2024\n⏰ Time: 4 PM onwards\n📍 Location: The Leela Palace, Domlur, Bengaluru"
+          "longDescription": "Together's annual flagship summit for AI founders, operators, and researchers, held at The Leela Palace, Bangalore in December 2024.\n\nA full evening of keynotes from founding partners, panels with portfolio and ecosystem leaders, startup showcases from across the India AI build-out, and dinner. The 2024 edition focused on the operating playbook for AI-native companies in the wake of the foundation-model boom — what changes in product, in GTM, and in team-shape."
         },
         {
           "id": "get-together-24",
@@ -359,7 +373,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/4r/a0d3f5bc-c9f6-43ef-bc42-266b2e47778c",
           "externalLink": "https://luma.com/mcnc7rj9",
           "status": "Past",
-          "longDescription": "Get Together 2024 🎉\nWe are excited to invite you for a night of celebration and togetherness. This December, let's all of us GetTogether to celebrate India AI & SaaS!\nYou've been an integral part of our story over the last three years, and we cannot think of having this celebration without you.\nHere are some details:\n📆 Date: 13th December 2024\n⏰ Time: 7 PM onwards\n📍 Location: The Leela Palace, Old Airport Road, Bangalore"
+          "longDescription": "A year-end community celebration at The Leela Palace, Bangalore.\n\nLess program, more people. An evening to mark the year in India AI & SaaS with the Together community — founders, operators, partners, and the team in one room before the year wrapped."
         },
         {
           "id": "healthcare-ai-mixer-nyc",
@@ -374,7 +388,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/4w/37b5324e-e0e2-4330-87a2-1b9988b30342",
           "externalLink": "https://luma.com/evt-yuzBEXj6RmkIXUW",
           "status": "Past",
-          "longDescription": "Calling all healthcare builders Together for an evening of learning!\nWe at Together Fund welcome all health-tech founders and operators to join us as we exchange learnings from building and investing in US healthcare. We are excited about AI-led productivity gains in delivering better patient care and reducing the administrative burden faced by the Health Systems.\nAbout us: Together Fund invests $1-10M in early stage AI focussed companies out of their $250M Fund II. Our current portfolio serves health practitioners from SMB clinics to larger Health Systems, across the value chain in categories including EMR, Remote patient monitoring, Revenue Cycle Management and Care coordination."
+          "longDescription": "A rooftop mixer for healthcare-AI founders and operators at PHD Terrace, Dream Midtown in New York.\n\nHealthcare-AI is one of the categories where regulation, distribution, and model choice all interact in unusual ways. The mixer brought together builders and investors active in that space for an evening of unstructured conversation across the active questions in the field."
         },
         {
           "id": "mumbai-fintech-happy-hour-aug-2024",
@@ -389,7 +403,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/dg/1ea7769e-a3c6-4683-899e-96fad6031429",
           "externalLink": "https://luma.com/fhha24",
           "status": "Past",
-          "longDescription": "Hi fintech friends!\n\nPlease join us for the Mumbai Fintech Happy Hour brought to you by AWS, Lex Consult, Cockroach Labs and MarsShotVC, hosted by This Week in Fintech! We are excited to host you on Wednesday, 28th August at BKC, Mumbai along the sidelines of Global Fintech Fest.\nIf you're attending the Global Fintech Fest the Fintech Happy Hour is going to be the best sundowner meetup to attend. \n\nEvent Details:\n- Date: Wednesday, 28th Aug, 2024\n- Time: 6pm to 9pm\n- Venue: BKC, Mumbai (venue details will be shared with approved guests).\nAgenda: \n- 6:00pm: registration\n- 6:30pm: panel discussion\n- 7:00pm to 09:00pm: snacks and cocktails\nBig thanks to our sponsors: \n- AWS: Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally.\n- Lex Consult: Lex Consult is a next-generation law firm representing founders, corporates, investors and institutions, on corporate transactions, regulatory and advisory matters across sectors. The Firm’s fintech practice has been ranked as one of the best in the country by Chambers and Partners in 2024. The Firm has been involved in significant transactions and collaborations in the fintech sector in the last few years.\n- Cockroach Labs: Cockroach Labs is the creator of CockroachDB, the cloud-native, distributed SQL database designed to enable global businesses to build and operate world-changing applications. CockroachDB is trusted to run mission-critical workloads for some of the world's largest enterprises, including JP Morgan, Netflix, Bose, Comcast, Hard Rock Digital, Fortune 50 financial institutions, as well as category leaders in retail and media.\n- MarsShot.VC: MarsShot.VC is an investment initiative by Razorpay’s Founding members who believe that for India to be a $10Tn economy we need the startup ecosystem to increase its impact manifolds. MarsShot actively invests in and supports early-stage startups based on what the team has learnt from the Razorpay journey. Their portfolio of 85+ companies includes some of the best startups doing extraordinary work across Fintech, SaaS, Consumer Internet, D2C, Healthtech, Sustainability and AI fields.\nWho is this event for?\n- Founders in fintech, DeFi, insurtech and others\n- Product managers, marketers, designers etc.\n- Investors\n- Senior executives at regulated financial firms\n- Industry participants (legal firms, CA firms, and so on)\n- Folks wanting to switch from traditional financial firms to fintech startups\nSpace is limited for the Happy Hour.\nWould you like to be a sponsor? Email me\n\nWe look forward to seeing you soon! In the meantime, check out our weekly summary of the front page of Asia fintech news here.\n\nOur events in other cities are coming soon!\n\nFintech Happy Hour is hosted by This Week in Fintech and Osborne Saldanha."
+          "longDescription": "A Mumbai fintech community mixer for founders, operators, and investors.\n\nAn open-floor evening across infrastructure, regulation, lending, payments, and the early-stage product surface. The format leaves the conversations to be set by whoever shows up — what's most interesting tends to surface that way."
         },
         {
           "id": "india-saas-ai-opportunity-insight-partners",
@@ -404,7 +418,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/cg/3225ecd9-444a-4253-96d1-d87c9f86ac43",
           "externalLink": "https://luma.com/sf6ojb6m",
           "status": "Past",
-          "longDescription": "Insight Partners & Together Fund invites SaaS & AI Founders and  Operators to a lively evening mixer celebrating the rise of India SaaS and discussing the AI opportunity that lies ahead of us.\nHere are some details:\n📆 Date: 10th April 2024\n⏰ Time: 5 PM onwards\n📍 Location: Big Sur Event Space, 3rd Floor, 250 California Dr, Burlingame, CA 94010"
+          "longDescription": "A Bay Area mixer celebrating the rise of India SaaS, held in Burlingame, California.\n\nAn evening of conversation on the next decade of India SaaS, with focus on where AI changes both the product surface and the GTM motion. Aimed at SaaS and AI founders, operators, and investors who run both sides of the US-India corridor."
         },
         {
           "id": "saas-ai-us-india-corridor-flybridge-mixer",
@@ -419,7 +433,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/0b/8687899e-3c6c-4b79-ba62-d90b5fe97971",
           "externalLink": "https://luma.com/nrw2wkkx",
           "status": "Past",
-          "longDescription": "Flybridge Capital Partners & Together Fund invites SaaS & AI Founders and Operators to a lively evening mixer discussing the rise of SaaS x AI & the potential of AI to reimagine how we interact with software in coming years.\nHere are some details:\n📆 Date: 2nd April 2024\n⏰ Time: 6 - 8 PM\n📍 Location: Flybridge Capital Partners, 5th Floor, 16 W 23rd Street, New York\nWe are excited to host you all for an exciting evening with Indian food bites and exciting conversations!"
+          "longDescription": "An evening mixer at Flybridge Capital Partners' New York office, in partnership with Together Fund.\n\nHow does a startup whose engineering happens in India but whose customers are in the US set up its first 18 months? The mixer turned that question over with a few dozen founders and operators working that corridor today — across product, sales, and the inevitable timezone arithmetic."
         },
         {
           "id": "ai-mixer-with-together-fund-2024",
@@ -434,7 +448,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/kg/24a57d4b-b45e-414a-8ba3-63c27cc93fae",
           "externalLink": "https://luma.com/evt-kCDEzGtNz7n07RX",
           "status": "Past",
-          "longDescription": "We, at Together Fund, are excited about opportunities in the space of AI, having invested in 15+ core Generative AI companies in the last 18 months.\nIn the…"
+          "longDescription": "An evening mixer for AI founders and operators in the Together community, early in our 15+ Generative AI investments arc.\n\nTopics ranged across foundation-model choice, agent reliability, and the GTM motion for technical AI products. The mixer set the tone for many of the recurring formats that followed — workshops, fireside chats, and Summit later in the year."
         },
         {
           "id": "togethers-ai-summit-copilot-2023",
@@ -449,7 +463,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/px/d2180948-a1aa-477f-a13b-fea558f8abaa",
           "externalLink": "https://luma.com/e1t4sgup",
           "status": "Past",
-          "longDescription": "Together's AI Summit: CoPilot\nAgenda:\n4 to 4:30 PM: High Tea\n4:30 to 7 PM: Sessions\nEmerging Opportunities in AIKeynote by Girish Mathrubootham & Manav Garg (Founding Partners at Together Fund)\nStartup ShowcasePresentations AI: ChatGPT for presentations\nJhana AI: AI Paralegal for law firms\nSpry: AI powered Physiotherapy clinic solution\nAI for IndiaPanel discussion with Anand Raman (Director - AI Products, Microsoft), Vivek Raghavan (Co-founder, Sarvam AI), Vivek Seshadri (Co-founder, Karya) and Shubham Gupta (Founding Partner, Together Fund)\nInvestor Perspectives on AIPanel discussion with Shekhar Kirani (Accel), Hemant Mohapatra (Lightspeed) and Manav Garg (Together Fund)\n7:30 PM Onwards: Get Together for Drinks & Dinner"
+          "longDescription": "Together's first AI Summit — CoPilot — held at The Leela Palace, Bangalore in December 2023.\n\nKeynote by founding partners Girish Mathrubootham and Manav Garg on the emerging opportunities in AI, followed by product showcases from leading AI-first startups across the India ecosystem. The inaugural edition of what's since become the fund's annual flagship event."
         }
       ]
     },
@@ -473,7 +487,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A research talk on one of the bigger open questions in general-purpose robotics: can you skip simulation entirely and learn directly from the millions of hours of human video already on the internet?\n\nThe session walked the room through the current methods, their limits, and what comes next. Aimed at researchers and engineers working at the intersection of computer vision, reinforcement learning, and robotics."
         },
         {
           "id": "building-with-agents-modern-ai-orchestration",
@@ -488,7 +503,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/y8/62912f25-8635-4f94-878e-5fc4736eaabe.png",
           "externalLink": "https://luma.com/pkwsdtc4",
           "status": "Past",
-          "longDescription": "Building with Agents: Inside the Emerging Patterns of Multi-Agent Orchestration\nAs AI systems evolve, single-model pipelines are giving way to multi-agent orchestration — where retrievers, planners, and executors work together to perform complex tasks autonomously.\nThis session, in collaboration with AWS, explores the emerging design patterns behind building such agentic workflows that are scalable, cost-efficient, and production-ready.\n🧩 What We’ll Cover\nComparing different approaches to multi-agent orchestration — from RAG-driven agents to optimized fine-tuning.\nDesigning agentic systems that balance context transfer, compatibility, latency, and cost.\nKey architectural considerations for building robust agentic workflows on modern cloud infrastructure.\nReal-world examples of how teams are using AWS tools and frameworks to enable adaptive, modular AI systems.\n💬 Interactive Q&A\nThe final 30 minutes will be open for discussion — a chance to ask Sudhanshu anything on building, deploying, or scaling your own agentic workflows.\nBring your questions, share what you’re building, and join a community shaping the next frontier of applied AI.\n👤 Meet Sudhanshu Hate (AI Principal Architect, AWS)\nWith over 27 years in AI architecture and platform engineering, Sudhanshu leads AWS initiatives in Generative and Agentic AI — helping 100+ startups and enterprises design intelligent, multi-agent systems. His expertise spans RAG, prompt engineering, fine-tuning, and MLOps, making him one of the most practical voices in bringing agentic workflows to production.\n🌎 About Together: \nTogether Fund is India’s only operator-led venture capital firm with presence across India and US. With over $200M in AUM, Together backs ambitious founders building global-first companies, with a strong focus on AI and deep tech.\nTogether’s portfolio comprises 35+ companies, including Emergent, Composio, Rapid Claims, Presentations AI, Spry Health, and Rocket to name a few.\n\nNote: By registering, you consent to Together fund sharing your contact details with AWS for updates and offers via email, post, or phone. You can unsubscribe anytime following the instructions in their communications. Your information will be handled per their Privacy Notices."
+          "longDescription": "An online deep-dive into multi-agent orchestration patterns, powered by AWS.\n\nAs AI systems evolve, single-model pipelines are giving way to multi-agent systems — retrievers, planners, executors all working as a coordinated whole. The session covered the patterns that are working in production today and the rough edges that aren't yet solved."
         },
         {
           "id": "beyond-attention-memory-surprise-continual-learning",
@@ -501,7 +516,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A reading-circle deep-dive into post-attention architectures, surprise as a learning signal, and the open problem of continual learning in modern AI.\n\nA working session with researchers and engineers from the Together community — paper-by-paper discussion on what holds up empirically, what doesn't, and what the research lines pointing forward look like."
         },
         {
           "id": "how-to-build-a-conscious-machine",
@@ -514,7 +530,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A research talk on machine consciousness — what it would actually take, and what the field still doesn't know.\n\nThe talk worked through the philosophical setup, the current research lines, and the open empirical questions the field hasn't yet found a way to answer. Q&A ran long, with researchers and engineers from the Together community sitting with the harder questions afterwards."
         },
         {
           "id": "research-paper-reading-circle-oak-architecture",
@@ -527,7 +544,8 @@
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A reading circle on Richard Sutton's Oak architecture — an attempt at a unified blueprint for lifelong reinforcement learning agents.\n\nThe session worked through the paper section by section, with discussion on the parts that hold up and the parts that don't. Aimed at researchers and engineers actively building reinforcement learning systems."
         },
         {
           "id": "data-management-for-the-ai-era",
@@ -542,7 +560,7 @@
           "externalLink": "https://luma.com/evt-Ph2hlDUHVa8xvEM",
           "status": "Past",
           "dateISO": "2025-08-08",
-          "longDescription": "How can AI redefine the backbone of your data workflows—automating pipeline reliability, surfacing hidden insights, and future-proofing your infrastructure for the AI era?\nJoin Ashwin Rajeeva — Co-founder & CTO, Acceldata to unpack the art of AI-driven data management: the end-to-end practices that power real-time monitoring, optimize delivery pipelines, and scale data systems without the usual operational overhead.\nHere are some details:\n📆 Date: 8th Aug, 2025\n⏰ Time: 5 to 6 PM onwards\n📍 Location: Together Fund, Indiranagar, Bangalore\n👤 About the speaker\nAshwin Rajeeva co-founded Acceldata to tackle today’s toughest data challenges with AI. As CTO, he leads the development of scalable observability and governance platforms that help enterprises automate root-cause analysis, optimize resource utilization, and accelerate time-to-insight—all without ballooning engineering teams."
+          "longDescription": "Ashwin Rajeeva, co-founder of Acceldata, on data infrastructure for the AI era — held at Together Fund.\n\nWhat does a data stack look like when AI workflows are first-class consumers, not bolt-ons? Ashwin walked the room through the choices that pay off in production — observability across pipelines, controls around data quality, and the architectural decisions that hold up when models start writing back into the system."
         },
         {
           "id": "inside-your-digital-dna-user-embeddings",
@@ -557,7 +575,7 @@
           "externalLink": "https://luma.com/acuco4cd",
           "status": "Past",
           "dateISO": "2025-08-01",
-          "longDescription": "How can a tiny cloud of numbers capture your tastes, friendships, even your future health risks—then feed that insight to an AI assistant that plans your future?\n\nJoin Drew Kirchhoff — Founder, ShareDot & ex‑Algo PM & Data Scientist, TikTok to unpack the craft of user embeddings: the slim, multidimensional vectors that drive every “For You” feed, music recommendation and personalised copilot.\n\nHere are some details:\n📆 Date: 1st Aug, 2025\n  ⏰ Time: 5 to 6 PM onwards\n  📍 Location: Together Fund, Indiranagar, Bangalore\n\n👤 About the speaker\nDrew shipped recommender‑system features at TikTok that now reach more than a billion people. At ShareDot he’s building infrastructure that lets any startup drop user vectors into its stack—no MLOps team required."
+          "longDescription": "Drew Kirchhoff, founder of ShareD, on user embeddings as the substrate for personal AI.\n\nHow does a compact numerical representation of who you are — what you read, who you talk to, what you care about — become useful input to an AI assistant making decisions on your behalf? Drew walked the room through how embeddings get constructed in practice, where the product surface is interesting, and the privacy questions that arrive immediately."
         },
         {
           "id": "from-imitation-to-intelligence-humanoids",
@@ -572,7 +590,7 @@
           "externalLink": "https://luma.com/gfmrq8w4",
           "status": "Past",
           "dateISO": "2025-07-31",
-          "longDescription": "What does it take to move from teaching cars to drive themselves to enabling robots that can walk, manipulate objects and reason about the world?\n\nJoin Srikanth Vidapanakal — Founder & CEO, xSpecies AI & ex‑Director of AI, Ola Electric for a deep‑dive into the algorithms, architectures and hard‑won lessons that connect today’s autonomous‑driving breakthroughs with tomorrow’s whole‑body intelligent humanoids.\n\n🔍 What we’ll cover\nEvolution of Learning: why imitation, self‑supervision and reinforcement each matter at different stages of capability building.\nPart I – Autonomous DrivingSee how self‑driving moved from separate modules to one big “camera‑to‑steering” neural network, using bird’s‑eye‑view transformers and attention tricks for perception and control.\nWe’ll also cover easy‑to‑grasp reinforcement‑learning tweaks that make cars drive safely in messy real‑world traffic.\nPart II – Humanoids & Whole‑Body IntelligenceWe’ll apply those learning ideas to robots with arms and legs, treating walking, grabbing and navigating as one combined problem.\nYou’ll hear how imitation learning plus smart reward rules (like “stay balanced” and “repeat steps”) train robots to move smoothly and work with humans.\n👤 About the speaker\nSrikanth Vidapanakal is a seasoned technologist with 24+ years of experience & he most recently served as Director of AI at Ola Electric before founding xSpecies AI, a Bangalore‑based startup building a full‑stack platform for general‑purpose humanoids."
+          "longDescription": "Srikanth Vidapanakal, founder & CEO of xSpecies AI, on porting autonomous-driving lessons into general-purpose robotics.\n\nA decade of autonomous-driving research yielded a playbook for learning policies from massive data. Humanoid robotics is now trying to port that playbook into a new domain — walking, manipulation, reasoning about the physical world. The talk covered what transfers, what doesn't, and what comes next."
         },
         {
           "id": "dropout-three-pivots-scaling-fast-metaforms",
@@ -587,7 +605,7 @@
           "externalLink": "https://luma.com/ytjzgg7t",
           "status": "Past",
           "dateISO": "2025-09-15",
-          "longDescription": "Dropout. Three Pivots. Scaling Fast: The Metaforms Story\nJoin us for a conversation with Akshat Tyagi, Co-founder & CEO of Metaforms, and Manav Garg, Co-founder of Together Fund, as they talk about how Metaforms is reinventing market research with AI and what Akshat's early playbook looks like - as a founder who didn't have a manual.\nMetaforms gives research agencies AI superpowers: automating survey programming, data processing, vendor coordination, voice research, and reporting. In just six months, it has onboarded four of the world’s top 20 agencies, processes 1,000+ surveys a month, and is reshaping a $130B global industry.\nThis conversation will unpack:\nTaking unconventional bets—dropping out, pivoting, and navigating uncertainty\nMoving early in AI and breaking into market research with an outsider lens\nWinning trust—across investors, teammates, and customers\nBuilding a category-defining giant in a niche, 'uncool' market\nWho should attend?\nFounders & product leaders building AI-native platforms\nGTM & ops leaders scaling AI products from India to global markets\nMarketing professionals exploring AI’s role in speed, scale & efficiency\nEvent Flow:\n5PM - Doors open\n5:30PM-6:45 PM - Fireside chat with Q&A\n6:45OM-8PM - Networking & High Tea \n\nNote: We'd appreciate if everyone is seated in the auditorium by 5:15 PM latest so we can begin on time!\n📅 Date & Time: 15th September, 2025 | 5-8 PM\n📍 Location: Bangalore International Center (BIC), Domlur"
+          "longDescription": "A live podcast recording at Bangalore International Centre with Akshat Tyagi (co-founder & CEO of Metaforms) and Manav Garg.\n\nDropout. Three pivots. From scratch to fast-scaling AI company in 18 months. Akshat walked through the founder calls that turned each pivot, the customer signals that drove them, and what the next eighteen months look like."
         },
         {
           "id": "imagination-and-composition",
@@ -602,7 +620,7 @@
           "externalLink": "https://luma.com/kvg8xmgn",
           "status": "Past",
           "dateISO": "2025-08-28",
-          "longDescription": "How do we push large language models beyond pattern recognition into true reasoning, enabling them to imagine “what if” scenarios and compose ideas into long, complex chains?\nJoin us for a deep-dive into the next frontier of AI: imagination and composition. This talk will explore the current limits of today’s systems, what’s missing, and how novel techniques like axiomatic training and reasoning monitors can unlock reliable, long-running reasoning in LLMs. Expect insights at the intersection of science, engineering, and product impact.\nHere are some details:\n📆 Date: 28 Aug, 2025\n⏰ Time: 5:30 PM Onwards\n📍 Location: Together Fund, Indiranagar, Bangalore\n👤 About the speaker\nAmit Sharma (Principal Researcher, Microsoft) brings cutting-edge research and practical expertise in building reasoning-capable AI systems. Their work focuses on advancing beyond narrow pattern-matching into models that can imagine, compose, and sustain multi-step reasoning paving the way for breakthroughs in both science and business."
+          "longDescription": "Amit Sharma, principal researcher at Microsoft Research, on moving large language models past surface-level pattern matching.\n\nWhat does it take to get an LLM to handle long chains of reasoning, hypothetical scenarios, and composition of intermediate steps without falling apart? Amit walked the room through the current methods, where they break, and the research lines pointing at more robust reasoning systems."
         },
         {
           "id": "scaling-llms-parameters-or-thinking-or-data",
@@ -615,7 +633,8 @@
           "featured": "Prateek Jain (Principal Scientist and Director, Google DeepMind)",
           "heroPhoto": "https://images.unsplash.com/photo-1492366254240-43affaefc3e3?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Prateek Jain, principal scientist & director at Google DeepMind, on what actually scales modern LLMs.\n\nParameters, test-time thinking, or data — which lever delivers the next gains? Prateek walked through the empirical evidence across each and made the case for where the next round of progress is most likely to come from. Q&A with founders building on top of foundation models."
         },
         {
           "id": "podcast-with-composio",
@@ -628,7 +647,8 @@
           "featured": "Composio founders",
           "heroPhoto": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A live podcast recording at Bangalore International Centre with the Composio founders.\n\nA long-form conversation on what it took to build AI infrastructure that other AI startups now depend on — founder narrative on the early bets, the engineering choices that scaled, and what's changed in the year since the first thousand customers."
         },
         {
           "id": "podcast-with-emergent",
@@ -641,7 +661,8 @@
           "featured": "Emergent founders",
           "heroPhoto": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1600&q=80&fm=jpg",
           "externalLink": "#",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "A live podcast recording at Bangalore International Centre with the Emergent founders.\n\nHow Emergent went from idea to global agentic product — founder narrative on the product calls, the team shape, and the GTM motion that drove the early scaling arc. The conversation that set up many of the later sessions on the same topic."
         }
       ]
     }

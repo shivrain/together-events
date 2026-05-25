@@ -127,28 +127,32 @@
 
 .events_hero_wrap.is-fullbleed {
   border-radius: 0;
-  height: clamp(28rem, 22rem + 22vw, 42rem);
-  min-height: 28rem;
-  max-height: 42rem;
+  /* Taller hero so the centered headline + subline have proper
+     breathing room above and below. */
+  height: clamp(34rem, 28rem + 26vw, 48rem);
+  min-height: 34rem;
+  max-height: 48rem;
   width: 100%;
   max-width: 100%;
   margin: 0;
-  /* Headline + subline live in the lower-left, the classic VC hero
-     composition (matches the live together.fund homepage hero). */
-  align-items: flex-end;
-  justify-content: flex-start;
-  text-align: left;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .events_hero_section.is-fullbleed .events_hero_content {
-  padding: clamp(2rem, 1.5rem + 3vw, 4.5rem);
-  text-align: left;
+  padding: clamp(2rem, 1.5rem + 3vw, 4rem);
+  text-align: center;
   max-width: 60rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .events_hero_section.is-fullbleed .events_hero_heading {
-  margin: 0 0 1.25rem;
+  margin: 0;
   font-weight: 300;
   line-height: 1.05;
   letter-spacing: -0.01em;
@@ -157,8 +161,8 @@
 .events_hero_section.is-fullbleed .events_hero_subline {
   color: rgba(255, 255, 255, 0.92);
   margin: 0;
-  max-width: 40rem;
-  line-height: 1.45;
+  max-width: 42rem;
+  line-height: 1.5;
 }
 
 .events_hero_video_wrap {
