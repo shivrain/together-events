@@ -1,7 +1,14 @@
 {
   "source": {
     "file": "../data/events.csv",
-    "columns": ["Quarter", "Category", "Event Name", "Featured", "Location", "Description"],
+    "columns": [
+      "Quarter",
+      "Category",
+      "Event Name",
+      "Featured",
+      "Location",
+      "Description"
+    ],
     "defaultsApplied": {
       "status": "Past for every event (CSV has no Status column; all CSV events are historical)",
       "externalLink": "'#' placeholder because the CSV has no external link column",
@@ -15,7 +22,9 @@
       "id": "amas",
       "name": "AMAs / Founder Chats",
       "description": "Intimate sessions where founders unpack hard-won lessons with our network.",
-      "sourceCategories": ["AMA"],
+      "sourceCategories": [
+        "AMA"
+      ],
       "events": [
         {
           "id": "ama-with-srinivas-narayanan",
@@ -81,6 +90,19 @@
           "heroPhoto": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past"
+        },
+        {
+          "id": "emergent-journey-to-10m-arr",
+          "name": "Emergent: Journey to $10M ARR in 2 Months",
+          "rawCategory": "AMA",
+          "pageCategory": "amas",
+          "quarter": "Q3 2025",
+          "location": "Bangalore International Centre",
+          "shortDescription": "Live fireside at BIC with the Emergent team on what it took to hit $10M ARR in two months.",
+          "featured": "Emergent team",
+          "heroPhoto": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
         }
       ]
     },
@@ -88,7 +110,9 @@
       "id": "hackathons",
       "name": "Hackathons",
       "description": "Two-day sprints where builders ship something real, together.",
-      "sourceCategories": ["Hackathon"],
+      "sourceCategories": [
+        "Hackathon"
+      ],
       "events": [
         {
           "id": "openclaw-hackathon",
@@ -135,7 +159,9 @@
       "id": "meetups",
       "name": "Community Meetups",
       "description": "Recurring gatherings - mixers, demo nights, pickleball - where the Together network meets in person.",
-      "sourceCategories": ["Meetup"],
+      "sourceCategories": [
+        "Meetup"
+      ],
       "events": [
         {
           "id": "ai-mixer-together-google-cloud",
@@ -188,6 +214,71 @@
           "heroPhoto": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past"
+        },
+        {
+          "id": "together-fridays-beer-and-you",
+          "name": "Together Fridays: Beer (on us!) and You!",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q3 2025",
+          "location": "Brau Galie Micro Brewery & Pub",
+          "shortDescription": "Casual end-of-week drinks for the Together community at Brau Galie in Bangalore.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1436076863939-06870fe779c2?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "thursday-to-do-sing-sip-repeat",
+          "name": "Thursday To-Do: Sing, Sip, Repeat",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q3 2025",
+          "location": "The Biere Club, HSR Layout",
+          "shortDescription": "Karaoke and drinks at The Biere Club HSR — a Together community night out.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "together-consumer-ai-demo-day",
+          "name": "Together Consumer AI Demo Day",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q2 2025",
+          "location": "Together Fund",
+          "shortDescription": "Portfolio + community demo day featuring consumer AI builds.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "together-agm-networking-dinner",
+          "name": "Together AGM Networking Dinner",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q1 2025",
+          "location": "The Leela Palace Bengaluru",
+          "shortDescription": "Closing dinner of Together's Inaugural AGM at The Leela Palace in Bangalore.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "togethers-inaugural-agm",
+          "name": "Together's Inaugural Annual General Meeting (AGM)",
+          "rawCategory": "Meetup",
+          "pageCategory": "meetups",
+          "quarter": "Q1 2025",
+          "location": "The Leela Palace Bengaluru",
+          "shortDescription": "Together's first AGM with LPs and portfolio founders at The Leela Palace.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
         }
       ]
     },
@@ -195,7 +286,10 @@
       "id": "podcasts-workshops",
       "name": "Podcasts + Workshops",
       "description": "Live recordings and deep-dive talks from operators, researchers, and founders.",
-      "sourceCategories": ["Podcast", "Workshop"],
+      "sourceCategories": [
+        "Podcast",
+        "Workshop"
+      ],
       "events": [
         {
           "id": "from-human-video-to-robotic-action",
@@ -297,6 +391,32 @@
           "location": "Together Fund",
           "shortDescription": "Talk on data management practices for AI-native organizations.",
           "featured": "Ashwin Rajeeva",
+          "heroPhoto": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "inside-your-digital-dna-user-embeddings",
+          "name": "Inside Your Digital DNA: A Talk on User Embeddings & Truly Personal AI",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q3 2025",
+          "location": "Together Fund",
+          "shortDescription": "Technical talk on user embeddings as the substrate for personalized AI.",
+          "featured": "",
+          "heroPhoto": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80&fm=jpg",
+          "externalLink": "#",
+          "status": "Past"
+        },
+        {
+          "id": "from-imitation-to-intelligence-humanoids",
+          "name": "From Imitation to Intelligence: Lessons from Autonomous Driving to Humanoids",
+          "rawCategory": "Workshop",
+          "pageCategory": "podcasts-workshops",
+          "quarter": "Q3 2025",
+          "location": "Together Fund",
+          "shortDescription": "What humanoid robotics is learning from a decade of autonomous-driving research.",
+          "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past"
