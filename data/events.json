@@ -53,19 +53,6 @@
           "status": "Past"
         },
         {
-          "id": "community-dialogue-with-openai",
-          "name": "Community Dialogue with OpenAI",
-          "rawCategory": "AMA",
-          "pageCategory": "amas",
-          "quarter": "Q1 2026",
-          "location": "Together Fund",
-          "shortDescription": "Off-the-record dialogue with OpenAI on the state of frontier AI.",
-          "featured": "OpenAI",
-          "heroPhoto": "https://images.unsplash.com/photo-1559223607-a43f990c692c?w=1600&q=80&fm=jpg",
-          "externalLink": "#",
-          "status": "Past"
-        },
-        {
           "id": "how-we-build-and-manage-15000-tools-at-composio",
           "name": "How We Build and Manage 15,000+ Tools at Composio",
           "rawCategory": "AMA",
