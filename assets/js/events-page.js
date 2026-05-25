@@ -46,18 +46,14 @@
     // Quarter intentionally omitted — the timeline (Q3 2025 etc.) is no longer
     // shown on event cards. Only the location displays as meta now.
     var metaParts = [event.location].filter(Boolean);
-    var rootClasses = 'news_slider_item events_card';
+    var rootClasses = 'news_slider_item events_card is-clickable';
     if (!asGridCard) rootClasses += ' swiper-slide';
     else rootClasses += ' events_grid_card';
 
-    var featuredRow = event.featured
-      ? '<div class="events_card_featured text-size-small">' + escapeHtml(event.featured) + '</div>'
-      : '';
-
-    // Every card now opens the modal via data-open-event-modal. The Luma
-    // externalLink still appears in the modal as the "View on Luma" CTA.
+    // Whole card is the modal trigger now. No separate Read More button,
+    // no featured/co-host line \u2014 those were redundant noise on cards.
     return [
-      '<div class="' + rootClasses + '" data-event-id="' + escapeHtml(event.id) + '">',
+      '<div class="' + rootClasses + '" data-event-id="' + escapeHtml(event.id) + '" data-open-event-modal="' + escapeHtml(event.id) + '" role="button" tabindex="0" aria-label="' + escapeHtml('Open details for ' + event.name) + '">',
       '  <div class="events_card_visual">',
       '    <img class="news_slider_img events_card_img" src="' + escapeHtml(event.heroPhoto) + '" alt="' + escapeHtml(eventAltText(event)) + '" loading="lazy"/>',
       '  </div>',
@@ -65,15 +61,6 @@
       '    <div class="events_card_meta text-size-small">' + escapeHtml(metaParts.join(' \u00B7 ')) + '</div>',
       '    <h3 class="events_card_heading heading-style-h6">' + escapeHtml(event.name) + '</h3>',
       '    <p class="events_card_copy text-size-regular">' + escapeHtml(event.shortDescription) + '</p>',
-           featuredRow,
-      '    <button type="button" class="events_card_link news_slider_link" data-open-event-modal="' + escapeHtml(event.id) + '">',
-      '      <span class="events_card_link_text" data-text="Read More">Read More</span>',
-      '      <span class="events_card_link_arrow" aria-hidden="true">',
-      '        <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">',
-      '          <path d="M3 8h10M9 4l4 4-4 4"/>',
-      '        </svg>',
-      '      </span>',
-      '    </button>',
       '  </div>',
       '</div>'
     ].join('');
@@ -319,7 +306,6 @@
 
     var titleEl    = modal.querySelector('[data-event-modal-title]');
     var metaEl     = modal.querySelector('[data-event-modal-meta]');
-    var featuredEl = modal.querySelector('[data-event-modal-featured]');
     var descEl     = modal.querySelector('[data-event-modal-description]');
     var imgEl      = modal.querySelector('[data-event-modal-img]');
     var chipEl     = modal.querySelector('[data-event-modal-chip]');
@@ -327,7 +313,6 @@
 
     if (titleEl)    titleEl.textContent = event.name;
     if (metaEl)     metaEl.textContent = event.location || '';
-    if (featuredEl) featuredEl.textContent = event.featured || '';
     if (descEl)     descEl.textContent = event.longDescription || event.shortDescription || '';
     if (chipEl)     chipEl.textContent = (event.rawCategory || '').toUpperCase();
     if (imgEl) {

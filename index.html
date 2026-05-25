@@ -19,7 +19,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525d"/>
+  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525e"/>
 
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
 </head>
@@ -439,41 +439,9 @@
   </section>
 
   <!-- ============================================================
-       8. SUBSCRIBE (coral red) - dedicated event invites form
+       CTA FOOTER BLOCK (cream)
        ============================================================ -->
-  <section class="g_section bg-color-fb5b51 events_subscribe_section" id="subscribe" data-wf--global-section--section-color="base">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_subscribe_inner">
-          <div class="events_subscribe_copy">
-            <h2 class="heading-style-h3 events_subscribe_heading">Get the next invite first.</h2>
-            <p class="text-size-large events_subscribe_subline">
-              A short note in your inbox when we open the doors to the next AMA, hackathon, or workshop.
-            </p>
-          </div>
-          <form class="events_subscribe_form" data-subscribe-form novalidate>
-            <input type="email" required placeholder="you@founders.com" class="events_subscribe_input" aria-label="Email address"/>
-            <button type="submit" class="button events_subscribe_submit">
-              <div class="button-text">Subscribe</div>
-              <span class="events_button_arrow" aria-hidden="true">
-                <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="10" cy="10" r="9.25"/>
-                  <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </button>
-          </form>
-          <p class="events_subscribe_note text-size-small" data-subscribe-success hidden>Thanks - we'll be in touch.</p>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
 
-  <!-- ============================================================
-       9. CTA FOOTER BLOCK (cream)
-       ============================================================ -->
   <section class="g_section events_cta_section" data-wf--global-section--section-color="cream">
     <div class="g_section_space"></div>
     <div class="padding-global">
@@ -486,15 +454,6 @@
           <div class="events_cta_buttons">
             <a href="https://www.together.fund/contact" class="button events_cta_button">
               <div class="button-text">Get in touch</div>
-              <span class="events_button_arrow" aria-hidden="true">
-                <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="10" cy="10" r="9.25"/>
-                  <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </a>
-            <a href="#subscribe" class="button events_cta_button is-secondary" data-scroll-to="subscribe">
-              <div class="button-text">Subscribe for invites</div>
               <span class="events_button_arrow" aria-hidden="true">
                 <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
                   <circle cx="10" cy="10" r="9.25"/>
@@ -614,7 +573,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" defer></script>
-  <script src="./assets/js/events-page.js?v=20260525d" defer></script>
+  <script src="./assets/js/events-page.js?v=20260525e" defer></script>
   <script>
     document.getElementById('footer-year').textContent = new Date().getFullYear();
   </script>
@@ -639,7 +598,6 @@
         <div class="events_modal_chip" data-event-modal-chip></div>
         <h3 id="event-modal-title" class="events_modal_heading heading-style-h4" data-event-modal-title></h3>
         <div class="events_modal_meta text-size-small" data-event-modal-meta></div>
-        <div class="events_modal_featured text-size-small" data-event-modal-featured></div>
         <div class="events_modal_description" data-event-modal-description></div>
         <div class="events_modal_actions">
           <a class="button events_modal_cta" data-event-modal-luma href="#" target="_blank" rel="noopener">
