@@ -1041,12 +1041,92 @@ body {
   margin-top: 0.5rem;
 }
 
-.events_modal_cta[data-empty-link] {
-  opacity: 0.5;
-  pointer-events: none;
+/* When the event has no real Luma URL, hide the CTA entirely so the
+   modal doesn't show a dead button. */
+.events_modal_cta[data-empty-link] { display: none !important; }
+
+/* Hide the actions row entirely if every CTA inside is hidden. */
+.events_modal_actions:has(> [data-empty-link]:only-child) { display: none; }
+
+/* Phone: modal goes full-screen so long descriptions are readable. */
+@media (max-width: 640px) {
+  .events_modal { padding: 0; }
+  .events_modal_dialog {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border-radius: 0;
+  }
 }
 
 /* Lock body scroll when modal is open */
 body.events-modal-open {
   overflow: hidden;
+}
+
+/* ============================================================
+   FOOTER LUMA CTA — replaces the email form with a single button
+   that links to lu.ma/togetherfund.
+   ============================================================ */
+.footer_luma_contain {
+  display: grid;
+  grid-template-columns: 1.4fr auto;
+  gap: clamp(1.5rem, 1rem + 2vw, 3rem);
+  align-items: center;
+}
+
+.footer_luma_header {
+  color: #fff;
+}
+
+.footer_luma_header .footer_form_heading {
+  margin: 0 0 0.75rem;
+  color: #fff;
+}
+
+.footer_luma_sub {
+  color: rgba(255, 255, 255, 0.86);
+  max-width: 40rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer_luma_cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 1.75rem;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  color: #fff !important;
+  text-decoration: none !important;
+  letter-spacing: 0.02em;
+  transition: background 0.4s var(--events-ease),
+              transform 0.4s var(--events-ease);
+  white-space: nowrap;
+}
+
+.footer_luma_cta:hover {
+  background: rgba(255, 255, 255, 0.28);
+  transform: translateX(2px);
+}
+
+.footer_luma_cta_text {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.footer_luma_cta_icon {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .footer_luma_contain {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .footer_luma_cta {
+    align-self: flex-start;
+  }
 }
