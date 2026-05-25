@@ -127,15 +127,21 @@
 
 .events_hero_wrap.is-fullbleed {
   border-radius: 0;
-  /* Tall but always shorter than the viewport so the headline is
-     visible above the fold (the headline is anchored at the bottom).
-     ~72vh on a typical 900px viewport = ~650px; capped at 40rem on
-     ultra-tall screens. */
-  min-height: min(72vh, 40rem);
-  max-height: 80vh;
+  /* Explicit rem-based hero height. Caps at 34rem (544px) on
+     desktops so the headline (anchored at the bottom of the hero)
+     is always above the fold on common laptop viewports. */
+  height: clamp(22rem, 17rem + 18vw, 34rem);
+  min-height: 22rem;
+  max-height: 34rem;
   width: 100%;
   max-width: 100%;
   margin: 0;
+  /* Re-anchor headline padding-down so it sits 1.5rem off the bottom. */
+  align-items: flex-end;
+}
+
+.events_hero_section.is-fullbleed .events_hero_content {
+  padding-bottom: clamp(1.25rem, 1rem + 1vw, 2rem);
 }
 
 .events_hero_video_wrap {
