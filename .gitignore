@@ -4,3 +4,6 @@ Thumbs.db
 .vscode/
 .idea/
 node_modules/
+
+# Claude Code internals (preview launch config, local memory)
+.claude/

@@ -4,6 +4,9 @@
   var swiperInstances = new Map();
   var expandedCategories = new Set();
   var categoryById = new Map();
+  var eventsById = new Map();          // id -> full event object (for the modal)
+  var featuredSwiperInstance = null;
+  var lastFocusBeforeModal = null;
 
   function quarterRank(quarter) {
     // Convert "Qn YYYY" into a sortable integer: year * 10 + quarter.
@@ -43,11 +46,6 @@
     // Quarter intentionally omitted — the timeline (Q3 2025 etc.) is no longer
     // shown on event cards. Only the location displays as meta now.
     var metaParts = [event.location].filter(Boolean);
-    var href = event.externalLink || '#';
-    var hasExternal = event.externalLink && event.externalLink !== '#';
-    var linkAttrs = hasExternal
-      ? ' target="_blank" rel="noopener"'
-      : ' aria-disabled="true" data-empty-link';
     var rootClasses = 'news_slider_item events_card';
     if (!asGridCard) rootClasses += ' swiper-slide';
     else rootClasses += ' events_grid_card';
@@ -56,6 +54,8 @@
       ? '<div class="events_card_featured text-size-small">' + escapeHtml(event.featured) + '</div>'
       : '';
 
+    // Every card now opens the modal via data-open-event-modal. The Luma
+    // externalLink still appears in the modal as the "View on Luma" CTA.
     return [
       '<div class="' + rootClasses + '" data-event-id="' + escapeHtml(event.id) + '">',
       '  <div class="events_card_visual">',
@@ -66,14 +66,14 @@
       '    <h3 class="events_card_heading heading-style-h6">' + escapeHtml(event.name) + '</h3>',
       '    <p class="events_card_copy text-size-regular">' + escapeHtml(event.shortDescription) + '</p>',
            featuredRow,
-      '    <a href="' + escapeHtml(href) + '" class="events_card_link news_slider_link"' + linkAttrs + '>',
+      '    <button type="button" class="events_card_link news_slider_link" data-open-event-modal="' + escapeHtml(event.id) + '">',
       '      <span class="events_card_link_text" data-text="Read More">Read More</span>',
       '      <span class="events_card_link_arrow" aria-hidden="true">',
       '        <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">',
       '          <path d="M3 8h10M9 4l4 4-4 4"/>',
       '        </svg>',
       '      </span>',
-      '    </a>',
+      '    </button>',
       '  </div>',
       '</div>'
     ].join('');
@@ -227,6 +227,171 @@
     });
   }
 
+  // ============================================================
+  // FEATURED EVENTS CAROUSEL
+  // ============================================================
+  function featuredCardTemplate(entry, event) {
+    var displayName = entry.displayName || event.name;
+    var displayDesc = entry.displayDescription || event.shortDescription;
+    var chip = entry.chipLabel || 'Featured';
+    var img = entry.heroPhoto || event.heroPhoto;
+    return [
+      '<div class="swiper-slide events_featured_card" data-open-event-modal="' + escapeHtml(event.id) + '" role="button" tabindex="0">',
+      '  <div class="events_featured_card_visual">',
+      '    <img src="' + escapeHtml(img) + '" alt="' + escapeHtml(eventAltText(event)) + '" loading="lazy"/>',
+      '  </div>',
+      '  <div class="events_featured_card_body">',
+      '    <div class="events_featured_card_chip">' + escapeHtml(chip) + '</div>',
+      '    <h3 class="events_featured_card_heading heading-style-h6">' + escapeHtml(displayName) + '</h3>',
+      '    <p class="events_featured_card_copy text-size-regular">' + escapeHtml(displayDesc) + '</p>',
+      '    <span class="events_featured_card_link" aria-hidden="true">Read more</span>',
+      '  </div>',
+      '</div>'
+    ].join('');
+  }
+
+  function renderFeatured(featuredEntries) {
+    var track = document.querySelector('[data-featured-swiper-track]');
+    if (!track) return;
+    if (!Array.isArray(featuredEntries) || !featuredEntries.length) {
+      track.closest('.events_featured_section').hidden = true;
+      return;
+    }
+    var html = featuredEntries.map(function (entry) {
+      var event = eventsById.get(entry.id);
+      if (!event) return '';
+      return featuredCardTemplate(entry, event);
+    }).filter(Boolean).join('');
+    track.innerHTML = html;
+
+    if (!window.Swiper) return;
+    var root = document.querySelector('[data-featured-swiper]');
+    var prev = document.querySelector('[data-featured-prev]');
+    var next = document.querySelector('[data-featured-next]');
+    var scrollbar = document.querySelector('[data-featured-scrollbar]');
+
+    if (featuredSwiperInstance) {
+      featuredSwiperInstance.destroy(true, true);
+      featuredSwiperInstance = null;
+    }
+
+    function updateArrows(inst) {
+      if (!inst) return;
+      if (prev) prev.classList.toggle('is-disabled', !!inst.isBeginning);
+      if (next) next.classList.toggle('is-disabled', !!inst.isEnd);
+    }
+
+    featuredSwiperInstance = new Swiper(root, {
+      slidesPerView: 1.05,
+      spaceBetween: 16,
+      speed: 700,
+      grabCursor: true,
+      mousewheel: { forceToAxis: true, sensitivity: 0.6, releaseOnEdges: true },
+      scrollbar: scrollbar ? { el: scrollbar, draggable: true, hide: false } : false,
+      breakpoints: {
+        640:  { slidesPerView: 1.4, spaceBetween: 18 },
+        900:  { slidesPerView: 2.2, spaceBetween: 24 },
+        1200: { slidesPerView: 3, spaceBetween: 24 },
+        1440: { slidesPerView: 3.5, spaceBetween: 28 }
+      },
+      on: {
+        init: function () { updateArrows(this); },
+        slideChange: function () { updateArrows(this); },
+        resize: function () { updateArrows(this); },
+        reachBeginning: function () { updateArrows(this); },
+        reachEnd: function () { updateArrows(this); }
+      }
+    });
+
+    if (prev) prev.addEventListener('click', function () { featuredSwiperInstance.slidePrev(); });
+    if (next) next.addEventListener('click', function () { featuredSwiperInstance.slideNext(); });
+    updateArrows(featuredSwiperInstance);
+  }
+
+  // ============================================================
+  // EVENT DETAIL MODAL
+  // ============================================================
+  function openModal(eventId) {
+    var modal = document.querySelector('[data-event-modal]');
+    if (!modal) return;
+    var event = eventsById.get(eventId);
+    if (!event) return;
+
+    var titleEl    = modal.querySelector('[data-event-modal-title]');
+    var metaEl     = modal.querySelector('[data-event-modal-meta]');
+    var featuredEl = modal.querySelector('[data-event-modal-featured]');
+    var descEl     = modal.querySelector('[data-event-modal-description]');
+    var imgEl      = modal.querySelector('[data-event-modal-img]');
+    var chipEl     = modal.querySelector('[data-event-modal-chip]');
+    var lumaEl     = modal.querySelector('[data-event-modal-luma]');
+
+    if (titleEl)    titleEl.textContent = event.name;
+    if (metaEl)     metaEl.textContent = event.location || '';
+    if (featuredEl) featuredEl.textContent = event.featured || '';
+    if (descEl)     descEl.textContent = event.longDescription || event.shortDescription || '';
+    if (chipEl)     chipEl.textContent = (event.rawCategory || '').toUpperCase();
+    if (imgEl) {
+      imgEl.src = event.heroPhoto || '';
+      imgEl.alt = eventAltText(event);
+    }
+    if (lumaEl) {
+      var hasLink = event.externalLink && event.externalLink !== '#';
+      lumaEl.setAttribute('href', hasLink ? event.externalLink : '#');
+      if (hasLink) {
+        lumaEl.removeAttribute('data-empty-link');
+      } else {
+        lumaEl.setAttribute('data-empty-link', '');
+      }
+    }
+
+    lastFocusBeforeModal = document.activeElement;
+    modal.hidden = false;
+    requestAnimationFrame(function () { modal.classList.add('is-open'); });
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('events-modal-open');
+    var closeBtn = modal.querySelector('.events_modal_close');
+    if (closeBtn) closeBtn.focus();
+  }
+
+  function closeModal() {
+    var modal = document.querySelector('[data-event-modal]');
+    if (!modal || modal.hidden) return;
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('events-modal-open');
+    setTimeout(function () {
+      modal.hidden = true;
+      if (lastFocusBeforeModal && lastFocusBeforeModal.focus) {
+        lastFocusBeforeModal.focus();
+      }
+    }, 300);
+  }
+
+  function wireModal() {
+    // Open on any trigger
+    document.addEventListener('click', function (e) {
+      var trigger = e.target.closest('[data-open-event-modal]');
+      if (!trigger) return;
+      e.preventDefault();
+      openModal(trigger.getAttribute('data-open-event-modal'));
+    });
+    // Open via Enter/Space on keyboard-focused trigger
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      var trigger = e.target.closest('[data-open-event-modal]');
+      if (!trigger || trigger.tagName === 'BUTTON') return; // buttons handle Space themselves
+      e.preventDefault();
+      openModal(trigger.getAttribute('data-open-event-modal'));
+    });
+    // Close handlers
+    document.querySelectorAll('[data-event-modal-close]').forEach(function (el) {
+      el.addEventListener('click', closeModal);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeModal();
+    });
+  }
+
   function wireSubscribeForm() {
     var form = document.querySelector('[data-subscribe-form]');
     if (!form) return;
@@ -292,9 +457,11 @@
         var categories = (data && data.categories) || [];
         categories.forEach(function (cat) {
           categoryById.set(cat.id, cat);
+          (cat.events || []).forEach(function (ev) { eventsById.set(ev.id, ev); });
         });
         categories.forEach(function (cat) { renderCategory(cat.id); });
         wireSeeAllButtons();
+        renderFeatured(data && data.featuredEvents);
       })
       .catch(function (error) {
         console.warn('[events-page]', error);
@@ -315,6 +482,7 @@
     wireWhatTiles();
     wireScrollToButtons();
     wireSubscribeForm();
+    wireModal();
     loadEvents();
   }
 

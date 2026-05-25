@@ -90,7 +90,8 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/7x/49f00bc6-2b2b-4e91-9f01-6faca48bb34e.png",
           "externalLink": "https://luma.com/48q2jdd9",
           "status": "Past",
-          "dateISO": "2025-11-12"
+          "dateISO": "2025-11-12",
+          "longDescription": "The Composio Blueprint: Inside the Mind of an AI Infra Founder\nJoin us for a conversation with Soham Ganatra, Co-founder of Composio, and Manav Garg, Co-founder of Together Fund, as they unpack how Composio is powering the agentic AI revolution from India to the Valley, and what it takes to build a developer-first AI infra company with a global GTM. \n\nComposio is a San Francisco- and Bengaluru-based AI infrastructure startup that gives developers the “skill layer” for AI agents — helping LLMs connect, automate, and act across hundreds of enterprise tools. They are building the integration backbone for the agent-powered enterprise of the future. They also announced the launch of Rube, their MCP server, recently.\nThis conversation will unpack:\nBuilding deep tech in India with a Valley-native mindset\nCrafting a GTM playbook from India to the US\nDesigning business models for AI infra vs. AI apps\nRaising capital from top SF investors while building from India\nCharting Composio’s journey alongside fast-moving frontier-model companies\nWho should attend?\nFounders & product leaders building AI-native or infra-first startups\nDevelopers, PMs, and GTM leaders scaling global AI products from India\nEvent Flow:\n5PM - Doors open\n5:30PM-6:45 PM - Fireside chat with Q&A\n6:45PM-8PM - Networking & High Tea\n\nNote: We'd appreciate if everyone is seated in the auditorium by 5:15 PM latest so we can begin on time!\n📅 Date & Time: 12th November, 2025 | 5-8 PM\n📍 Location: Samarthanam Auditorium, HSR Layout"
         },
         {
           "id": "emergent-journey-to-10m-arr",
@@ -103,7 +104,8 @@
           "featured": "Mukund Jha (Founder & CEO, Emergent) with Manav Garg",
           "heroPhoto": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event?calendar_avatar=https%3A%2F%2Fcdn.lu.ma%2Favatars-default%2Fcommunity_avatar_12.png&amp;color0=%23020303&amp;color1=%231b2b21&amp;color2=%2338e6a4&amp;color3=%23f8f8f8&amp;host_avatar=https%3A%2F%2Fcdn.lu.ma%2Favatars%2Fvq%2F8e096bc6-7b69-485e-b1da-7c390d0babd9&amp;host_name=Shivam&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Ftg%2F09d1c977-b9ba-465f-b853-3b7e3078506e.jpg&amp;name=Emergent%3A%20Journey%20to%20%2410M%20ARR%20in%202%20Months&amp;palette_neutral=%23010101%3A73.71%2C%23fafafa%3A1.95&amp;palette_vibrant=%232bf197%3A1.23%2C%230c5e32%3A1.05",
           "externalLink": "https://luma.com/sai18cy4",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "🚀 Fireside chat: Scaling Global Agentic Products from India\nJoin us for an exclusive conversation between Mukund Jha, Founder & CEO of Emergent, and Manav…"
         },
         {
           "id": "google-ai-search-fireside-srinivasan-v",
@@ -117,7 +119,8 @@
           "featured": "Srinivasan V (VP Search, Google)",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/fb/a0734916-84ae-40c8-a721-458f09cd7db9",
           "externalLink": "https://luma.com/evt-VOHQx0DlSFSlqG4",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Together Fund, in partnership with Insight Partners, invites AI Founders & Operators to a lively evening mixer discussing the future potential of AI & search.\nHere are some details:\n📆 Date: 12th September 2024\n⏰ Time: 6 to 8:30 PM\n\n📍 Location: Big Sur Event Space, 3rd Floor, 250 California Dr, Burlingame, CA 94010"
         },
         {
           "id": "fireside-with-neha-singh-tracxn",
@@ -131,7 +134,8 @@
           "featured": "Neha Singh (Co-founder, Tracxn)",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/t0/ee07e2fe-1722-49d4-ac26-8f3cf168e41d",
           "externalLink": "https://luma.com/4kwej16c",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Fireside chat with Neha Singh (Co-founder of Tracxn): Masterclass on navigating the entrepreneurial ladder\nHere are some details:\nAgenda: Learn through the lens of a woman leader on how to build a startup 0-1 and scale it to a publicly listed company. Understand challenges faced by women entrepreneurs in the journey and progress made as an ecosystem in the last decade and the collective determination and effort needed to further drive change.\nDate: August 13th 2024\nTime: 6-8pm IST\nWe hope this will ignite important conversations in and around the tech and investing ecosystems and amplify the impact of women leaders in the ecosystem!"
         },
         {
           "id": "monetizing-ai-w-madhavan-girish",
@@ -145,7 +149,8 @@
           "featured": "Madhavan & Girish Mathrubootham",
           "heroPhoto": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event?calendar_avatar=https%3A%2F%2Fcdn.lu.ma%2Favatars-default%2Fcommunity_avatar_7.png&amp;color0=%23fb5b51&amp;color1=%23ffffff&amp;color2=%23fec6c2&amp;color3=%23fd8c85&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fm4%2F31c1c4d0-6bff-4ce1-a3c5-793344f34c80&amp;host_name=Together%20Fund&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2F23%2F9210acef-59bf-4c23-a58c-8c37480d385a.png&amp;name=Monetizing%20AI%20w%2F%20Madhavan%20%26%20Girish&amp;palette_neutral=%23fffefd%3A14.38&amp;palette_vibrant=%23fc5b51%3A84.01",
           "externalLink": "https://luma.com/mj3sc2s0",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "SaaSBoomi is around the corner, and we’re excited to see the community come together to exchange ideas, learn, and grow. On the sidelines of the conference,…"
         }
       ]
     },
@@ -195,7 +200,8 @@
           "featured": "Anthropic, Eleven Labs, Stripe — partners",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/3e/63ee8e82-6329-4b1d-bba0-170409ed0a75.png",
           "externalLink": "https://luma.com/l8i1t3dr",
-          "status": "Upcoming"
+          "status": "Upcoming",
+          "longDescription": "Event Description\nRunTogether is a 10-hour, in-person startup execution sprint in Bangalore.\nIn a single day, solo founders and small teams (2–3) go from an idea to a working product demo to an investor pitch deck using runable.com\nTop teams pitch live to Together Fund, with winners earning a fast-track to SwarmSpace (up to $1M funding opportunity) plus cash, Runable subscriptions, and more.\nPartners\nOfficial LLM Partner: Anthropic \nOfficial Voice AI Partner: Eleven Labs\nOfficial Payments Partner: Stripe\nKey Details\n📍 Location: Bangalore (In-person only)\n⏱ Duration: 10 hours (single day)\n👥 Team size: Solo founders or teams of 2–3\n🛠 What you build:\nWorking product demo\nLaunch-ready landing website\nBasic brand kit\nInvestor pitch deck\n🍽️ Food (Lunch, Dinner, & Snacks) & loads of Diet Coke and Beer available on site\nWho Should Apply\nThis event is for people who ship, not just ideate.\nYou should apply if you are:\nA solo founder or early-stage startup team\nAn engineer, designer, or operator who can build end-to-end\nA student serious about startups and execution\nWhat Makes RunTogether Different\nMost hackathons reward ideas and participation; RunTogether rewards execution, real demos, investor-level clarity, and products that can actually survive beyond the event.\nBy the end of the day, teams walk away with something they can show users, show investors, and keep building after the sprint.\nRules & Constraints\nAll work must be done within the 10-hour event\nPre-built assets are not allowed\nPre-existing ideas are allowed\nTeams must use Runable to build core assets\nExternal APIs/tools may be used (TBD)\nJudges must be able to access demos and links\nApplication & Approval\nThis event is application-based.\nLimited seats\nTeams are shortlisted based on execution ability and clarity\nApproved participants will receive confirmation via email/WhatsApp\nPlease apply only if you can attend in-person for the full duration.\n\nAbout Together Fund\nTogether Fund is India’s only operator-led venture capital firm with presence across India and US. With over $200M in AUM, Together backs ambitious founders building global-first companies.\nAbout Runable\nrunable.com is a design-driven, general AI agent that helps you go from idea to finished output in minutes.\nBuild websites, presentations, images, videos, documents, and more in one place, no tool-hopping, just outcomes."
         },
         {
           "id": "together-voice-ai-hackathon",
@@ -309,7 +315,8 @@
           "featured": "",
           "heroPhoto": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event?calendar_avatar=https%3A%2F%2Fcdn.lu.ma%2Favatars-default%2Fcommunity_avatar_7.png&amp;color0=%2317111f&amp;color1=%23292331&amp;color2=%23e2e6ed&amp;color3=%23d85424&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fm4%2F31c1c4d0-6bff-4ce1-a3c5-793344f34c80&amp;host_name=Together%20Fund&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Fe6%2F68a2508b-b451-450e-a71c-7779c77eda05.png&amp;name=Together%20Consumer%20AI%20Demo%20Day&amp;palette_neutral=%23120c15%3A17.38%2C%23f7f6f8%3A3.5&amp;palette_vibrant=%23cd4722%3A3.57",
           "externalLink": "https://luma.com/i6ea0cxl",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Together Consumer AI Demo Day\nAI is transforming industries & spawning new experiences never envisioned before. One of the categories where we’ve seen this to…"
         },
         {
           "id": "together-agm-networking-dinner",
@@ -349,7 +356,8 @@
           "featured": "Together Fund's annual AI summit",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/op/61efef0b-90dc-4548-9c58-25c3aa85c4d0",
           "externalLink": "https://luma.com/27rijtxp",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Together AI Summit '24 🎉\nWe are excited to announce our annual flagship event, Together AI Summit '24, and invite all AI founders, operators, & researchers for an evening filled with insightful keynotes, riveting panel discussions, & engaging conversations with fellow enthusiasts.\nRSVP at the earliest to book your seats.\n\nHere are some details:\n📆 Date: 13th December, 2024\n⏰ Time: 4 PM onwards\n📍 Location: The Leela Palace, Domlur, Bengaluru"
         },
         {
           "id": "get-together-24",
@@ -363,7 +371,8 @@
           "featured": "",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/4r/a0d3f5bc-c9f6-43ef-bc42-266b2e47778c",
           "externalLink": "https://luma.com/mcnc7rj9",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Get Together 2024 🎉\nWe are excited to invite you for a night of celebration and togetherness. This December, let's all of us GetTogether to celebrate India AI & SaaS!\nYou've been an integral part of our story over the last three years, and we cannot think of having this celebration without you.\nHere are some details:\n📆 Date: 13th December 2024\n⏰ Time: 7 PM onwards\n📍 Location: The Leela Palace, Old Airport Road, Bangalore"
         },
         {
           "id": "healthcare-ai-mixer-nyc",
@@ -377,7 +386,8 @@
           "featured": "",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/4w/37b5324e-e0e2-4330-87a2-1b9988b30342",
           "externalLink": "https://luma.com/evt-yuzBEXj6RmkIXUW",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Calling all healthcare builders Together for an evening of learning!\nWe at Together Fund welcome all health-tech founders and operators to join us as we exchange learnings from building and investing in US healthcare. We are excited about AI-led productivity gains in delivering better patient care and reducing the administrative burden faced by the Health Systems.\nAbout us: Together Fund invests $1-10M in early stage AI focussed companies out of their $250M Fund II. Our current portfolio serves health practitioners from SMB clinics to larger Health Systems, across the value chain in categories including EMR, Remote patient monitoring, Revenue Cycle Management and Care coordination."
         },
         {
           "id": "mumbai-fintech-happy-hour-aug-2024",
@@ -391,7 +401,8 @@
           "featured": "Co-hosted with This Week in Fintech",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/dg/1ea7769e-a3c6-4683-899e-96fad6031429",
           "externalLink": "https://luma.com/fhha24",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Hi fintech friends!\n\nPlease join us for the Mumbai Fintech Happy Hour brought to you by AWS, Lex Consult, Cockroach Labs and MarsShotVC, hosted by This Week in Fintech! We are excited to host you on Wednesday, 28th August at BKC, Mumbai along the sidelines of Global Fintech Fest.\nIf you're attending the Global Fintech Fest the Fintech Happy Hour is going to be the best sundowner meetup to attend. \n\nEvent Details:\n- Date: Wednesday, 28th Aug, 2024\n- Time: 6pm to 9pm\n- Venue: BKC, Mumbai (venue details will be shared with approved guests).\nAgenda: \n- 6:00pm: registration\n- 6:30pm: panel discussion\n- 7:00pm to 09:00pm: snacks and cocktails\nBig thanks to our sponsors: \n- AWS: Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally.\n- Lex Consult: Lex Consult is a next-generation law firm representing founders, corporates, investors and institutions, on corporate transactions, regulatory and advisory matters across sectors. The Firm’s fintech practice has been ranked as one of the best in the country by Chambers and Partners in 2024. The Firm has been involved in significant transactions and collaborations in the fintech sector in the last few years.\n- Cockroach Labs: Cockroach Labs is the creator of CockroachDB, the cloud-native, distributed SQL database designed to enable global businesses to build and operate world-changing applications. CockroachDB is trusted to run mission-critical workloads for some of the world's largest enterprises, including JP Morgan, Netflix, Bose, Comcast, Hard Rock Digital, Fortune 50 financial institutions, as well as category leaders in retail and media.\n- MarsShot.VC: MarsShot.VC is an investment initiative by Razorpay’s Founding members who believe that for India to be a $10Tn economy we need the startup ecosystem to increase its impact manifolds. MarsShot actively invests in and supports early-stage startups based on what the team has learnt from the Razorpay journey. Their portfolio of 85+ companies includes some of the best startups doing extraordinary work across Fintech, SaaS, Consumer Internet, D2C, Healthtech, Sustainability and AI fields.\nWho is this event for?\n- Founders in fintech, DeFi, insurtech and others\n- Product managers, marketers, designers etc.\n- Investors\n- Senior executives at regulated financial firms\n- Industry participants (legal firms, CA firms, and so on)\n- Folks wanting to switch from traditional financial firms to fintech startups\nSpace is limited for the Happy Hour.\nWould you like to be a sponsor? Email me\n\nWe look forward to seeing you soon! In the meantime, check out our weekly summary of the front page of Asia fintech news here.\n\nOur events in other cities are coming soon!\n\nFintech Happy Hour is hosted by This Week in Fintech and Osborne Saldanha."
         },
         {
           "id": "india-saas-ai-opportunity-insight-partners",
@@ -405,7 +416,8 @@
           "featured": "Co-hosted with Insight Partners",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/cg/3225ecd9-444a-4253-96d1-d87c9f86ac43",
           "externalLink": "https://luma.com/sf6ojb6m",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Insight Partners & Together Fund invites SaaS & AI Founders and  Operators to a lively evening mixer celebrating the rise of India SaaS and discussing the AI opportunity that lies ahead of us.\nHere are some details:\n📆 Date: 10th April 2024\n⏰ Time: 5 PM onwards\n📍 Location: Big Sur Event Space, 3rd Floor, 250 California Dr, Burlingame, CA 94010"
         },
         {
           "id": "saas-ai-us-india-corridor-flybridge-mixer",
@@ -419,7 +431,8 @@
           "featured": "Co-hosted with Flybridge Capital Partners",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/0b/8687899e-3c6c-4b79-ba62-d90b5fe97971",
           "externalLink": "https://luma.com/nrw2wkkx",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Flybridge Capital Partners & Together Fund invites SaaS & AI Founders and Operators to a lively evening mixer discussing the rise of SaaS x AI & the potential of AI to reimagine how we interact with software in coming years.\nHere are some details:\n📆 Date: 2nd April 2024\n⏰ Time: 6 - 8 PM\n📍 Location: Flybridge Capital Partners, 5th Floor, 16 W 23rd Street, New York\nWe are excited to host you all for an exciting evening with Indian food bites and exciting conversations!"
         },
         {
           "id": "ai-mixer-with-together-fund-2024",
@@ -433,7 +446,8 @@
           "featured": "",
           "heroPhoto": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event?calendar_avatar=https%3A%2F%2Fcdn.lu.ma%2Favatars-default%2Fcommunity_avatar_12.png&amp;color0=%23190b2c&amp;color1=%23736599&amp;color2=%23bbcbcb&amp;color3=%23f35b58&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fm4%2F31c1c4d0-6bff-4ce1-a3c5-793344f34c80&amp;host_name=Together%20Fund&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Fkg%2F24a57d4b-b45e-414a-8ba3-63c27cc93fae&amp;name=AI%20Mixer%20with%20Together%20Fund&amp;palette_neutral=%23180a2b%3A73.67%2C%23dae2cd%3A2.67&amp;palette_vibrant=%23794f8a%3A3.37%2C%23e25e61%3A2.02",
           "externalLink": "https://luma.com/evt-kCDEzGtNz7n07RX",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "We, at Together Fund, are excited about opportunities in the space of AI, having invested in 15+ core Generative AI companies in the last 18 months.\nIn the…"
         },
         {
           "id": "togethers-ai-summit-copilot-2023",
@@ -447,7 +461,8 @@
           "featured": "Girish Mathrubootham & Manav Garg",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/px/d2180948-a1aa-477f-a13b-fea558f8abaa",
           "externalLink": "https://luma.com/e1t4sgup",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Together's AI Summit: CoPilot\nAgenda:\n4 to 4:30 PM: High Tea\n4:30 to 7 PM: Sessions\nEmerging Opportunities in AIKeynote by Girish Mathrubootham & Manav Garg (Founding Partners at Together Fund)\nStartup ShowcasePresentations AI: ChatGPT for presentations\nJhana AI: AI Paralegal for law firms\nSpry: AI powered Physiotherapy clinic solution\nAI for IndiaPanel discussion with Anand Raman (Director - AI Products, Microsoft), Vivek Raghavan (Co-founder, Sarvam AI), Vivek Seshadri (Co-founder, Karya) and Shubham Gupta (Founding Partner, Together Fund)\nInvestor Perspectives on AIPanel discussion with Shekhar Kirani (Accel), Hemant Mohapatra (Lightspeed) and Manav Garg (Together Fund)\n7:30 PM Onwards: Get Together for Drinks & Dinner"
         }
       ]
     },
@@ -485,7 +500,8 @@
           "featured": "Powered by AWS",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/y8/62912f25-8635-4f94-878e-5fc4736eaabe.png",
           "externalLink": "https://luma.com/pkwsdtc4",
-          "status": "Past"
+          "status": "Past",
+          "longDescription": "Building with Agents: Inside the Emerging Patterns of Multi-Agent Orchestration\nAs AI systems evolve, single-model pipelines are giving way to multi-agent orchestration — where retrievers, planners, and executors work together to perform complex tasks autonomously.\nThis session, in collaboration with AWS, explores the emerging design patterns behind building such agentic workflows that are scalable, cost-efficient, and production-ready.\n🧩 What We’ll Cover\nComparing different approaches to multi-agent orchestration — from RAG-driven agents to optimized fine-tuning.\nDesigning agentic systems that balance context transfer, compatibility, latency, and cost.\nKey architectural considerations for building robust agentic workflows on modern cloud infrastructure.\nReal-world examples of how teams are using AWS tools and frameworks to enable adaptive, modular AI systems.\n💬 Interactive Q&A\nThe final 30 minutes will be open for discussion — a chance to ask Sudhanshu anything on building, deploying, or scaling your own agentic workflows.\nBring your questions, share what you’re building, and join a community shaping the next frontier of applied AI.\n👤 Meet Sudhanshu Hate (AI Principal Architect, AWS)\nWith over 27 years in AI architecture and platform engineering, Sudhanshu leads AWS initiatives in Generative and Agentic AI — helping 100+ startups and enterprises design intelligent, multi-agent systems. His expertise spans RAG, prompt engineering, fine-tuning, and MLOps, making him one of the most practical voices in bringing agentic workflows to production.\n🌎 About Together: \nTogether Fund is India’s only operator-led venture capital firm with presence across India and US. With over $200M in AUM, Together backs ambitious founders building global-first companies, with a strong focus on AI and deep tech.\nTogether’s portfolio comprises 35+ companies, including Emergent, Composio, Rapid Claims, Presentations AI, Spry Health, and Rocket to name a few.\n\nNote: By registering, you consent to Together fund sharing your contact details with AWS for updates and offers via email, post, or phone. You can unsubscribe anytime following the instructions in their communications. Your information will be handled per their Privacy Notices."
         },
         {
           "id": "beyond-attention-memory-surprise-continual-learning",
@@ -538,7 +554,8 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/tq/ea73504d-0902-43a7-92e9-412ccf92426c.png",
           "externalLink": "https://luma.com/evt-Ph2hlDUHVa8xvEM",
           "status": "Past",
-          "dateISO": "2025-08-08"
+          "dateISO": "2025-08-08",
+          "longDescription": "How can AI redefine the backbone of your data workflows—automating pipeline reliability, surfacing hidden insights, and future-proofing your infrastructure for the AI era?\nJoin Ashwin Rajeeva — Co-founder & CTO, Acceldata to unpack the art of AI-driven data management: the end-to-end practices that power real-time monitoring, optimize delivery pipelines, and scale data systems without the usual operational overhead.\nHere are some details:\n📆 Date: 8th Aug, 2025\n⏰ Time: 5 to 6 PM onwards\n📍 Location: Together Fund, Indiranagar, Bangalore\n👤 About the speaker\nAshwin Rajeeva co-founded Acceldata to tackle today’s toughest data challenges with AI. As CTO, he leads the development of scalable observability and governance platforms that help enterprises automate root-cause analysis, optimize resource utilization, and accelerate time-to-insight—all without ballooning engineering teams."
         },
         {
           "id": "inside-your-digital-dna-user-embeddings",
@@ -552,7 +569,8 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/lq/451ec85d-9fca-42c2-af69-b479b4dd9b81.png",
           "externalLink": "https://luma.com/acuco4cd",
           "status": "Past",
-          "dateISO": "2025-08-01"
+          "dateISO": "2025-08-01",
+          "longDescription": "How can a tiny cloud of numbers capture your tastes, friendships, even your future health risks—then feed that insight to an AI assistant that plans your future?\n\nJoin Drew Kirchhoff — Founder, ShareDot & ex‑Algo PM & Data Scientist, TikTok to unpack the craft of user embeddings: the slim, multidimensional vectors that drive every “For You” feed, music recommendation and personalised copilot.\n\nHere are some details:\n📆 Date: 1st Aug, 2025\n  ⏰ Time: 5 to 6 PM onwards\n  📍 Location: Together Fund, Indiranagar, Bangalore\n\n👤 About the speaker\nDrew shipped recommender‑system features at TikTok that now reach more than a billion people. At ShareDot he’s building infrastructure that lets any startup drop user vectors into its stack—no MLOps team required."
         },
         {
           "id": "from-imitation-to-intelligence-humanoids",
@@ -566,7 +584,8 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/q8/bbf32593-f239-4b12-9508-2df7348ae387.png",
           "externalLink": "https://luma.com/gfmrq8w4",
           "status": "Past",
-          "dateISO": "2025-07-31"
+          "dateISO": "2025-07-31",
+          "longDescription": "What does it take to move from teaching cars to drive themselves to enabling robots that can walk, manipulate objects and reason about the world?\n\nJoin Srikanth Vidapanakal — Founder & CEO, xSpecies AI & ex‑Director of AI, Ola Electric for a deep‑dive into the algorithms, architectures and hard‑won lessons that connect today’s autonomous‑driving breakthroughs with tomorrow’s whole‑body intelligent humanoids.\n\n🔍 What we’ll cover\nEvolution of Learning: why imitation, self‑supervision and reinforcement each matter at different stages of capability building.\nPart I – Autonomous DrivingSee how self‑driving moved from separate modules to one big “camera‑to‑steering” neural network, using bird’s‑eye‑view transformers and attention tricks for perception and control.\nWe’ll also cover easy‑to‑grasp reinforcement‑learning tweaks that make cars drive safely in messy real‑world traffic.\nPart II – Humanoids & Whole‑Body IntelligenceWe’ll apply those learning ideas to robots with arms and legs, treating walking, grabbing and navigating as one combined problem.\nYou’ll hear how imitation learning plus smart reward rules (like “stay balanced” and “repeat steps”) train robots to move smoothly and work with humans.\n👤 About the speaker\nSrikanth Vidapanakal is a seasoned technologist with 24+ years of experience & he most recently served as Director of AI at Ola Electric before founding xSpecies AI, a Bangalore‑based startup building a full‑stack platform for general‑purpose humanoids."
         },
         {
           "id": "dropout-three-pivots-scaling-fast-metaforms",
@@ -580,7 +599,8 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/ek/16a0b3be-8429-40fa-ba47-2bc5ce0e42a4.png",
           "externalLink": "https://luma.com/ytjzgg7t",
           "status": "Past",
-          "dateISO": "2025-09-15"
+          "dateISO": "2025-09-15",
+          "longDescription": "Dropout. Three Pivots. Scaling Fast: The Metaforms Story\nJoin us for a conversation with Akshat Tyagi, Co-founder & CEO of Metaforms, and Manav Garg, Co-founder of Together Fund, as they talk about how Metaforms is reinventing market research with AI and what Akshat's early playbook looks like - as a founder who didn't have a manual.\nMetaforms gives research agencies AI superpowers: automating survey programming, data processing, vendor coordination, voice research, and reporting. In just six months, it has onboarded four of the world’s top 20 agencies, processes 1,000+ surveys a month, and is reshaping a $130B global industry.\nThis conversation will unpack:\nTaking unconventional bets—dropping out, pivoting, and navigating uncertainty\nMoving early in AI and breaking into market research with an outsider lens\nWinning trust—across investors, teammates, and customers\nBuilding a category-defining giant in a niche, 'uncool' market\nWho should attend?\nFounders & product leaders building AI-native platforms\nGTM & ops leaders scaling AI products from India to global markets\nMarketing professionals exploring AI’s role in speed, scale & efficiency\nEvent Flow:\n5PM - Doors open\n5:30PM-6:45 PM - Fireside chat with Q&A\n6:45OM-8PM - Networking & High Tea \n\nNote: We'd appreciate if everyone is seated in the auditorium by 5:15 PM latest so we can begin on time!\n📅 Date & Time: 15th September, 2025 | 5-8 PM\n📍 Location: Bangalore International Center (BIC), Domlur"
         },
         {
           "id": "imagination-and-composition",
@@ -594,7 +614,8 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1600,height=900/event-covers/8u/ddcb0ec3-c80e-4890-8d5d-78bacfa9f0ca.png",
           "externalLink": "https://luma.com/kvg8xmgn",
           "status": "Past",
-          "dateISO": "2025-08-28"
+          "dateISO": "2025-08-28",
+          "longDescription": "How do we push large language models beyond pattern recognition into true reasoning, enabling them to imagine “what if” scenarios and compose ideas into long, complex chains?\nJoin us for a deep-dive into the next frontier of AI: imagination and composition. This talk will explore the current limits of today’s systems, what’s missing, and how novel techniques like axiomatic training and reasoning monitors can unlock reliable, long-running reasoning in LLMs. Expect insights at the intersection of science, engineering, and product impact.\nHere are some details:\n📆 Date: 28 Aug, 2025\n⏰ Time: 5:30 PM Onwards\n📍 Location: Together Fund, Indiranagar, Bangalore\n👤 About the speaker\nAmit Sharma (Principal Researcher, Microsoft) brings cutting-edge research and practical expertise in building reasoning-capable AI systems. Their work focuses on advancing beyond narrow pattern-matching into models that can imagine, compose, and sustain multi-step reasoning paving the way for breakthroughs in both science and business."
         },
         {
           "id": "scaling-llms-parameters-or-thinking-or-data",
@@ -636,6 +657,32 @@
           "status": "Past"
         }
       ]
+    }
+  ],
+  "featuredEvents": [
+    {
+      "id": "ama-with-srinivas-narayanan",
+      "displayName": "AMA with Srinivas Narayanan",
+      "displayDescription": "Intimate dinner with senior tech leaders, hosted by former OpenAI CTO Srinivas Narayanan.",
+      "chipLabel": "AMA"
+    },
+    {
+      "id": "emergent-journey-to-10m-arr",
+      "displayName": "Emergent: Journey to $10M ARR in 2 Months",
+      "displayDescription": "Mukund Jha and Manav Garg on what it took to scale a global agentic product from India to $10M ARR in just two months.",
+      "chipLabel": "Featured"
+    },
+    {
+      "id": "together-ai-summit-24",
+      "displayName": "Together AI Summit",
+      "displayDescription": "Our annual flagship — keynotes, panels, dinner. Editions in 2023 (CoPilot) and 2024 (Summit '24).",
+      "chipLabel": "Annual flagship"
+    },
+    {
+      "id": "fireside-with-neha-singh-tracxn",
+      "displayName": "Fireside with Neha Singh (Tracxn)",
+      "displayDescription": "A masterclass with Tracxn co-founder Neha Singh on navigating the entrepreneurial ladder as a woman founder.",
+      "chipLabel": "Fireside"
     }
   ]
 }
