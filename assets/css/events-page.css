@@ -11,10 +11,41 @@
   --events-ink: var(--swatch--ink, #0A0A0A);
 }
 
-/* The site's .button uses a Webflow JS-driven cover; without the runtime it
-   renders as a black blob. Hide it. */
-.button .button-cover { display: none !important; }
-.navbar { position: relative; background: transparent; }
+/* The .button-cover override is no longer needed now that webflow.js is loaded
+   (the runtime drives the hover cover animation natively). Left as a comment
+   for future reference in case the runtime gets removed:
+       .button .button-cover { display: none !important; } */
+
+/* ============================================================
+   NAV DROPDOWN — these rules live as a page-embedded <style> on
+   together.fund, not in the shared Webflow CSS bundle, so we
+   reproduce them here. They hide the Programs > SwarmSpace list
+   until the Webflow runtime adds .w--open on hover.
+   ============================================================ */
+.navbar_dropdown-list {
+  transform: translateY(10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar_dropdown-wrap:has(.w--open) .navbar_dropdown-list {
+  transform: translateY(0);
+  pointer-events: auto;
+  opacity: 1;
+}
+
+/* Webflow's bundle ships an `a { text-decoration: underline }` default that
+   the live site overrides in its rich-text reset. We don't import that reset
+   here, so we strip the underline ourselves on nav + footer link anchors. */
+.navbar a,
+.navbar_dropdown-list a,
+.footer_wrap a,
+.footer_link-text,
+.footer_link-sub-text,
+.footer_link-social {
+  text-decoration: none;
+}
 
 /* ============================================================
    SHARED: warm filter + grain treatment for every event photo
@@ -698,162 +729,12 @@ button.events_slider_arrow_btn svg {
 }
 
 /* ============================================================
-   NAVBAR + FOOTER PROTOTYPE FALLBACKS
+   NAVBAR + FOOTER — the prototype now uses the live together.fund
+   markup verbatim (.navbar, .footer_wrap, etc.), so all the
+   .events_proto_nav / .events_proto_footer overrides that used to
+   live here have been removed. The Webflow CSS bundle styles those
+   classes natively; loading webflow.js gives us the dropdown.
    ============================================================ */
-.events_proto_nav {
-  display: flex !important;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.25rem clamp(1rem, 3vw, 3rem) !important;
-  background: var(--events-cream) !important;
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  border-bottom: 1px solid rgba(10, 10, 10, 0.06);
-  height: auto !important;
-}
-
-.events_proto_nav_links {
-  display: flex !important;
-  align-items: center;
-  gap: clamp(1rem, 2vw, 2rem);
-}
-
-.events_proto_nav_link {
-  position: relative;
-  display: inline-block !important;
-  overflow: hidden;
-  height: 1.4em;
-  line-height: 1.4;
-  color: var(--events-ink) !important;
-  text-decoration: none !important;
-  font-size: 0.95rem !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  width: auto !important;
-}
-
-.events_proto_nav_link_text {
-  display: inline-block;
-  transition: transform 0.5s var(--events-ease);
-}
-
-.events_proto_nav_link_text::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.events_proto_nav_link:hover .events_proto_nav_link_text {
-  transform: translateY(-100%);
-}
-
-.events_proto_nav_link.is-active .events_proto_nav_link_text {
-  color: var(--events-coral);
-}
-
-.events_proto_nav_logo img { height: 1.75rem; display: block; }
-
-.events_proto_nav_toggle {
-  display: none;
-  background: transparent;
-  border: none;
-  font-size: 0.95rem;
-  cursor: pointer;
-  color: var(--events-ink);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-@media (max-width: 900px) {
-  .events_proto_nav_links { display: none !important; }
-  .events_proto_nav_toggle { display: inline-flex; }
-  .events_proto_nav_links.is-open {
-    display: flex !important;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 1.5rem;
-    background: var(--events-cream);
-    border-bottom: 1px solid rgba(10, 10, 10, 0.06);
-  }
-}
-
-.events_proto_footer {
-  background: var(--events-cream);
-  color: var(--events-ink);
-}
-
-.events_proto_footer_main {
-  padding: clamp(3rem, 3rem + 3vw, 5rem) clamp(1rem, 3vw, 3rem);
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: 2.5rem;
-  max-width: 80rem;
-  margin: 0 auto;
-}
-
-.events_proto_footer_col h4 {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0 0 1rem;
-  opacity: 0.55;
-  font-weight: 500;
-}
-
-.events_proto_footer_link {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  height: 1.4em;
-  line-height: 1.4;
-  color: var(--events-ink);
-  text-decoration: none;
-  margin-bottom: 0.5rem;
-}
-
-.events_proto_footer_link_text {
-  display: inline-block;
-  transition: transform 0.5s var(--events-ease);
-}
-
-.events_proto_footer_link_text::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.events_proto_footer_link:hover .events_proto_footer_link_text {
-  transform: translateY(-100%);
-}
-
-.events_proto_footer_bottom {
-  border-top: 1px solid rgba(10, 10, 10, 0.08);
-  padding: 1.5rem clamp(1rem, 3vw, 3rem);
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  font-size: 0.85rem;
-  opacity: 0.65;
-  flex-wrap: wrap;
-  max-width: 80rem;
-  margin: 0 auto;
-}
-
-@media (max-width: 900px) {
-  .events_proto_footer_main { grid-template-columns: 1fr 1fr; }
-}
-
-@media (max-width: 560px) {
-  .events_proto_footer_main { grid-template-columns: 1fr; }
-}
 
 /* ============================================================
    FALLBACKS (in case Webflow CSS doesn't load - local previews)
