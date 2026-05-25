@@ -40,7 +40,9 @@
   function cardTemplate(event, options) {
     options = options || {};
     var asGridCard = !!options.asGridCard;
-    var metaParts = [event.quarter, event.location].filter(Boolean);
+    // Quarter intentionally omitted — the timeline (Q3 2025 etc.) is no longer
+    // shown on event cards. Only the location displays as meta now.
+    var metaParts = [event.location].filter(Boolean);
     var href = event.externalLink || '#';
     var hasExternal = event.externalLink && event.externalLink !== '#';
     var linkAttrs = hasExternal

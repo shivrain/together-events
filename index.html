@@ -109,41 +109,26 @@
   <div class="main-wrapper">
 
   <!-- ============================================================
-       1. HERO (cream) - video bg + headline + types-of-events strip
+       1. HERO (cream) — full-bleed background image with only the
+       headline overlaid. Subline + format pills removed per spec.
        ============================================================ -->
-  <section class="g_section events_hero_section" data-wf--global-section--section-color="cream">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_hero_wrap">
-          <div class="events_hero_video_wrap" aria-hidden="true">
-            <video class="events_hero_video"
-                   autoplay loop muted playsinline
-                   poster="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=2000&q=80&fm=jpg">
-              <source src="./assets/video/hero-placeholder.mp4" type="video/mp4"/>
-            </video>
-            <div class="events_hero_video_overlay"></div>
-          </div>
+  <section class="g_section events_hero_section is-fullbleed" data-wf--global-section--section-color="cream">
+    <div class="events_hero_wrap is-fullbleed">
+      <div class="events_hero_video_wrap" aria-hidden="true">
+        <video class="events_hero_video"
+               autoplay loop muted playsinline
+               poster="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=2400&q=80&fm=jpg">
+          <source src="./assets/video/hero-placeholder.mp4" type="video/mp4"/>
+        </video>
+        <div class="events_hero_video_overlay"></div>
+      </div>
 
-          <div class="events_hero_content">
-            <h1 class="events_hero_heading heading-style-h2">
-              Where Together <em class="text-color-coral-red">comes</em> together.
-            </h1>
-            <p class="events_hero_subline text-size-large">
-              From AMAs to hackathons, here's how we bring founders, operators, and builders into the same room.
-            </p>
-            <ul class="events_hero_strip" aria-label="What we host">
-              <li class="events_hero_pill"><span>AMAs</span></li>
-              <li class="events_hero_pill"><span>Hackathons</span></li>
-              <li class="events_hero_pill"><span>Workshops</span></li>
-              <li class="events_hero_pill"><span>Meetups</span></li>
-              <li class="events_hero_pill"><span>Podcasts</span></li>
-            </ul>
-          </div>
-        </div>
+      <div class="events_hero_content">
+        <h1 class="events_hero_heading heading-style-h2">
+          Where Together <em class="text-color-coral-red">comes</em> together.
+        </h1>
       </div>
     </div>
-    <div class="g_section_space"></div>
   </section>
 
   <!-- ============================================================
@@ -163,7 +148,7 @@
           <div class="events_featured_body">
             <div class="events_featured_chip">Featured</div>
             <h2 class="events_featured_heading heading-style-h4">Together: Voice AI Hackathon</h2>
-            <div class="events_featured_meta text-size-small">Q3 2025<span class="events_card_meta_dot">&middot;</span>Together Fund</div>
+            <div class="events_featured_meta text-size-small">Together Fund</div>
             <p class="events_featured_copy text-size-regular">
               Two days. Eighty builders. One brief: where conversation meets code. A flagship Together hackathon stress-testing the new wave of voice agents, with portfolio engineers shipping alongside the room.
             </p>
@@ -192,9 +177,6 @@
       <div class="container-large">
         <div class="events_what_header">
           <h2 class="heading-style-h4">What we host</h2>
-          <p class="events_section_description text-size-regular">
-            Four formats, one through-line - getting the Together network into the same room (or call) often enough that something useful sticks.
-          </p>
         </div>
         <div class="events_what_grid">
           <a href="#cat-amas" class="events_what_tile" data-jump="cat-amas">
@@ -542,7 +524,7 @@
         <div class="container-large">
           <div class="footer_form_contain">
             <div class="footer_form_header">
-              <h2 class="footer_form_heading heading-style-h3">Subscribe to our newsletter</h2>
+              <h2 class="footer_form_heading heading-style-h3">Subscribe to our Luma</h2>
             </div>
             <div class="footer_form_item">
               <div class="footer_form_main w-form">

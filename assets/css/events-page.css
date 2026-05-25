@@ -104,6 +104,9 @@
    ============================================================ */
 .events_hero_section { position: relative; }
 
+/* Default (containered) hero — kept as fallback in case we ever
+   reintroduce the bordered variant. The is-fullbleed modifier
+   below is what the page actually uses. */
 .events_hero_wrap {
   position: relative;
   border-radius: 0.5rem;
@@ -111,6 +114,23 @@
   min-height: clamp(28rem, 24rem + 16vw, 40rem);
   display: flex;
   align-items: flex-end;
+}
+
+/* Full-bleed hero: edge-to-edge horizontally, taller, no border-radius.
+   Headline lives in the lower-left of a much larger background area. */
+.events_hero_section.is-fullbleed {
+  padding: 0;
+  margin: 0;
+}
+
+.events_hero_section.is-fullbleed .g_section_space { display: none; }
+
+.events_hero_wrap.is-fullbleed {
+  border-radius: 0;
+  min-height: clamp(34rem, 30rem + 30vw, 56rem);
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
 }
 
 .events_hero_video_wrap {
