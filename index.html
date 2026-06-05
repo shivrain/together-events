@@ -2,10 +2,10 @@
 <html lang="en" data-wf-domain="www.together.fund">
 <head>
   <meta charset="utf-8"/>
-  <title>Events | Together Fund</title>
-  <meta name="description" content="AMAs, hackathons, community meetups, podcasts and workshops - the rooms where Together comes together."/>
+  <title>Community | Together Fund</title>
+  <meta name="description" content="AMAs, hackathons, community meetups, podcasts and workshops, the rooms where Together comes together."/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <meta property="og:title" content="Events | Together Fund"/>
+  <meta property="og:title" content="Community | Together Fund"/>
   <meta property="og:type" content="website"/>
   <meta name="twitter:card" content="summary_large_image"/>
 
@@ -19,7 +19,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525j"/>
+  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525k"/>
 
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
 </head>
@@ -78,8 +78,8 @@
           </div>
           <a href="./" aria-current="page" class="nav_link w--current w-inline-block">
             <div class="nav_link_text-wrap">
-              <div class="nav_link-text text-size-regular">Events</div>
-              <div class="nav_link-text text-size-regular is-abs">Events</div>
+              <div class="nav_link-text text-size-regular">Community</div>
+              <div class="nav_link-text text-size-regular is-abs">Community</div>
             </div>
           </a>
           <a href="https://www.together.fund/perspectives" class="nav_link w-inline-block">
@@ -116,7 +116,7 @@
     <div class="events_hero_wrap is-fullbleed">
       <div class="events_hero_video_wrap" aria-hidden="true">
         <img class="events_hero_video"
-             src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=2400&q=80&fm=jpg"
+             src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=2400&q=80&fm=jpg"
              alt=""
              loading="eager"/>
         <div class="events_hero_video_overlay"></div>
@@ -127,50 +127,15 @@
           Where Together <em class="text-color-coral-red">comes</em> together.
         </h1>
         <p class="events_hero_subline text-size-large">
-          A glance of the community we've built — AMAs with founders, hackathons with builders, and the mixers, dinners, and workshops in between.
+          A glance of the community we've built. AMAs with founders, hackathons with builders, and the mixers, dinners, and workshops in between.
         </p>
       </div>
     </div>
   </section>
 
   <!-- ============================================================
-       2. FEATURED EVENTS (cream) — horizontal carousel populated from
-       events.json `featuredEvents`. JS renders one slide per entry.
-       ============================================================ -->
-  <section class="g_section events_featured_section" data-wf--global-section--section-color="cream" id="featured-events">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_section_header">
-          <div class="events_section_header_text">
-            <h2 class="heading-style-h4">Featured events</h2>
-          </div>
-        </div>
-
-        <div class="events_slider_wrap events_featured_slider_wrap">
-          <div class="events_slider_swiper" data-featured-swiper>
-            <div class="swiper-wrapper" data-featured-swiper-track>
-              <!-- slides injected by events-page.js -->
-            </div>
-          </div>
-          <button type="button" class="events_slider_arrow is-prev" data-featured-prev aria-label="Previous featured">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-          <button type="button" class="events_slider_arrow is-next" data-featured-next aria-label="Next featured">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
-
-  <!-- ============================================================
-       3. WHAT WE DO category overview strip (base)
+       2. WHAT WE HOST category overview strip (base) — placed before
+       Featured events per spec.
        ============================================================ -->
   <section class="g_section events_what_section" data-wf--global-section--section-color="base">
     <div class="g_section_space"></div>
@@ -199,7 +164,7 @@
             <span class="events_what_title_wrap">
               <span class="events_what_title heading-style-h6" data-text="Jump to &rarr;">Community Meetups</span>
             </span>
-            <span class="events_what_copy text-size-regular">Mixers, demo nights, pickleball - the network in person.</span>
+            <span class="events_what_copy text-size-regular">Mixers, demo nights, pickleball, the network in person.</span>
           </a>
           <a href="#cat-podcasts-workshops" class="events_what_tile" data-jump="cat-podcasts-workshops">
             <span class="events_what_index">(04)</span>
@@ -208,6 +173,42 @@
             </span>
             <span class="events_what_copy text-size-regular">Live recordings and deep-dive talks from operators, researchers, and founders.</span>
           </a>
+        </div>
+      </div>
+    </div>
+    <div class="g_section_space"></div>
+  </section>
+
+  <!-- ============================================================
+       3. FEATURED EVENTS (cream) — horizontal carousel populated from
+       events.json `featuredEvents`. JS renders one slide per entry.
+       ============================================================ -->
+  <section class="g_section events_featured_section" data-wf--global-section--section-color="cream" id="featured-events">
+    <div class="g_section_space"></div>
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="events_section_header">
+          <div class="events_section_header_text">
+            <h2 class="heading-style-h4">Featured events</h2>
+          </div>
+        </div>
+
+        <div class="events_slider_wrap events_featured_slider_wrap">
+          <div class="events_slider_swiper" data-featured-swiper>
+            <div class="swiper-wrapper" data-featured-swiper-track>
+              <!-- slides injected by events-page.js -->
+            </div>
+          </div>
+          <button type="button" class="events_slider_arrow is-prev" data-featured-prev aria-label="Previous featured">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <button type="button" class="events_slider_arrow is-next" data-featured-next aria-label="Next featured">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
         </div>
       </div>
     </div>
@@ -453,10 +454,10 @@
       <div class="padding-global">
         <div class="container-large">
           <div class="cta_contain">
-            <h2 class="cta_heading heading-style-h3">Want to host or attend?</h2>
-            <div class="cta_paths">
+            <h2 class="cta_heading heading-style-h3">Want to attend?</h2>
+            <div class="cta_paths is-single">
               <div class="cta_path">
-                <p class="cta_path_label text-size-regular">To attend, follow our calendar for invites.</p>
+                <p class="cta_path_label text-size-regular">Follow our calendar to get invites to every AMA, hackathon, mixer, and workshop.</p>
                 <a class="cta_btn is-primary" href="https://luma.com/togetherfund" target="_blank" rel="noopener">
                   <span class="cta_btn_text">Follow on Luma</span>
                   <span class="cta_btn_icon" aria-hidden="true">
@@ -465,12 +466,6 @@
                       <path d="M36.8625 29.474L28.6824 21.2939L30.839 19.1372L42.7008 30.999L30.839 42.8606L28.6824 40.7039L36.8625 32.524H18.3008V29.474H36.8625Z" fill="black"></path>
                     </svg>
                   </span>
-                </a>
-              </div>
-              <div class="cta_path">
-                <p class="cta_path_label text-size-regular">Want to host with us? Drop us an email.</p>
-                <a class="cta_btn is-secondary" href="mailto:hello@together.fund">
-                  <span class="cta_btn_text">Get in touch</span>
                 </a>
               </div>
             </div>
@@ -489,7 +484,7 @@
               <a href="https://www.together.fund/portfolio" class="footer_link-text heading-style-h6">Portfolio</a>
               <a href="https://www.together.fund/team" class="footer_link-text heading-style-h6">Team</a>
               <a href="https://www.together.fund/perspectives" class="footer_link-text heading-style-h6">Perspectives</a>
-              <a href="./" class="footer_link-text heading-style-h6">Events</a>
+              <a href="./" class="footer_link-text heading-style-h6">Community</a>
               <a href="https://www.together.fund/contact" class="footer_link-text heading-style-h6">Contact</a>
             </div>
             <div class="footer_link_wrap is-right">
@@ -553,7 +548,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" defer></script>
-  <script src="./assets/js/events-page.js?v=20260525j" defer></script>
+  <script src="./assets/js/events-page.js?v=20260525k" defer></script>
   <script>
     document.getElementById('footer-year').textContent = new Date().getFullYear();
   </script>

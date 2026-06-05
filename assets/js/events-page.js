@@ -54,7 +54,7 @@
     // no featured/co-host line \u2014 those were redundant noise on cards.
     return [
       '<div class="' + rootClasses + '" data-event-id="' + escapeHtml(event.id) + '" data-open-event-modal="' + escapeHtml(event.id) + '" role="button" tabindex="0" aria-label="' + escapeHtml('Open details for ' + event.name) + '">',
-      '  <div class="events_card_visual">',
+      '  <div class="events_card_visual" style="--card-bg:url(\'' + escapeHtml(event.heroPhoto) + '\')">',
       '    <img class="news_slider_img events_card_img" src="' + escapeHtml(event.heroPhoto) + '" alt="' + escapeHtml(eventAltText(event)) + '" loading="lazy"/>',
       '  </div>',
       '  <div class="events_card_body">',
@@ -74,9 +74,10 @@
     var dragEl = wrap.querySelector('.events_slider_dragable .events_slider_drag');
 
     function updateArrows(instance) {
-      if (!instance) return;
-      if (prev) prev.classList.toggle('is-disabled', !!instance.isBeginning);
-      if (next) next.classList.toggle('is-disabled', !!instance.isEnd);
+      // Loop is on, so navigation never hits a hard edge — keep both
+      // arrows enabled at all times for the circular feel.
+      if (prev) prev.classList.remove('is-disabled');
+      if (next) next.classList.remove('is-disabled');
     }
 
     if (swiperInstances.has(root)) {
@@ -89,7 +90,11 @@
       spaceBetween: 16,
       speed: 700,
       grabCursor: true,
-      mousewheel: { forceToAxis: true, sensitivity: 0.6, releaseOnEdges: true },
+      // Continuous loop: dragging or arrowing past the last card wraps
+      // back to the first. Mousewheel is intentionally NOT enabled — with
+      // loop it would trap page scroll and never release.
+      loop: true,
+      loopAdditionalSlides: 4,
       scrollbar: dragEl ? {
         el: dragEl.parentElement,
         dragClass: 'events_slider_drag',
@@ -104,9 +109,7 @@
       on: {
         init: function () { updateArrows(this); },
         slideChange: function () { updateArrows(this); },
-        resize: function () { updateArrows(this); },
-        reachBeginning: function () { updateArrows(this); },
-        reachEnd: function () { updateArrows(this); }
+        resize: function () { updateArrows(this); }
       }
     });
 
@@ -226,7 +229,7 @@
     return [
       '<div class="swiper-slide events_featured_slide" data-open-event-modal="' + escapeHtml(event.id) + '" role="button" tabindex="0" aria-label="' + escapeHtml('Open details for ' + displayName) + '">',
       '  <div class="events_featured_grid">',
-      '    <div class="events_featured_visual events_card_visual">',
+      '    <div class="events_featured_visual events_card_visual" style="--card-bg:url(\'' + escapeHtml(img) + '\')">',
       '      <img class="events_card_img" src="' + escapeHtml(img) + '" alt="' + escapeHtml(eventAltText(event)) + '" loading="lazy"/>',
       '    </div>',
       '    <div class="events_featured_body">',
@@ -266,9 +269,9 @@
     }
 
     function updateArrows(inst) {
-      if (!inst) return;
-      if (prev) prev.classList.toggle('is-disabled', !!inst.isBeginning);
-      if (next) next.classList.toggle('is-disabled', !!inst.isEnd);
+      // Loop is on — both arrows always enabled (circular navigation).
+      if (prev) prev.classList.remove('is-disabled');
+      if (next) next.classList.remove('is-disabled');
     }
 
     featuredSwiperInstance = new Swiper(root, {
@@ -276,14 +279,14 @@
       spaceBetween: 0,
       speed: 700,
       grabCursor: true,
-      // Disable mousewheel here so wheel-scroll on the card scrolls the
-      // page, not the carousel.
+      // Continuous loop: arrowing or dragging past the last featured event
+      // wraps back to the first. No mousewheel (would trap page scroll).
+      loop: true,
+      loopAdditionalSlides: 2,
       on: {
         init: function () { updateArrows(this); },
         slideChange: function () { updateArrows(this); },
-        resize: function () { updateArrows(this); },
-        reachBeginning: function () { updateArrows(this); },
-        reachEnd: function () { updateArrows(this); }
+        resize: function () { updateArrows(this); }
       }
     });
 
@@ -307,6 +310,7 @@
     var metaEl     = modal.querySelector('[data-event-modal-meta]');
     var descEl     = modal.querySelector('[data-event-modal-description]');
     var imgEl      = modal.querySelector('[data-event-modal-img]');
+    var visualEl   = modal.querySelector('.events_modal_visual');
     var chipEl     = modal.querySelector('[data-event-modal-chip]');
     var lumaEl     = modal.querySelector('[data-event-modal-luma]');
 
@@ -318,6 +322,8 @@
       imgEl.src = event.heroPhoto || '';
       imgEl.alt = eventAltText(event);
     }
+    // Blurred backdrop fill for the modal image (matches the card treatment).
+    if (visualEl) visualEl.style.setProperty('--card-bg', "url('" + (event.heroPhoto || '') + "')");
     if (lumaEl) {
       var hasLink = event.externalLink && event.externalLink !== '#';
       lumaEl.setAttribute('href', hasLink ? event.externalLink : '#');

@@ -39,7 +39,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/uploads/n3/682b47af-44c5-4350-a006-f088415b2b7d.png",
           "externalLink": "https://luma.com/ol5gtn10",
           "status": "Upcoming",
-          "longDescription": "A conversation with Vrushank Vyas, who led GTM at Portkey from the very first sale through the company's acquisition.\n\nVrushank unpacks how Portkey built its go-to-market motion through what he calls \"narrative violations\" — and what it actually takes to sell AI infrastructure from India to a global customer base. Portkey is an AI gateway and observability platform that helps companies deploy, manage, and govern LLMs in production."
+          "longDescription": "A conversation with Vrushank Vyas, who led GTM at Portkey from the very first sale through the company's acquisition. Vrushank unpacks how Portkey built its go-to-market motion through what he calls \"narrative violations\", and what it actually takes to sell AI infrastructure from India to a global customer base. Portkey is an AI gateway and observability platform that helps companies deploy, manage, and govern LLMs in production."
         },
         {
           "id": "ama-with-srinivas-narayanan",
@@ -53,7 +53,7 @@
           "heroPhoto": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past",
-          "longDescription": "An intimate dinner with Srinivas Narayanan, former CTO of B2B Applications at OpenAI, hosted at Together Fund.\n\nThe evening was an off-the-record conversation with senior tech leaders from the Together community on the engineering and operating playbook behind shipping enterprise AI products at frontier scale — what actually works, what gets in the way, and where the next 12 months of enterprise AI infrastructure is heading."
+          "longDescription": "An intimate dinner with Srinivas Narayanan, former CTO of B2B Applications at OpenAI, hosted at Together Fund. The evening was an off-the-record conversation with senior tech leaders from the Together community on the engineering and operating playbook behind shipping enterprise AI products at frontier scale, what actually works, what gets in the way, and where the next 12 months of enterprise AI infrastructure is heading."
         },
         {
           "id": "community-dialogue-with-openai-2026",
@@ -68,7 +68,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/wr/5f460643-ba9f-44c9-a227-0dc2c29a75f0.png",
           "externalLink": "https://luma.com/4q9fymnx",
           "status": "Upcoming",
-          "longDescription": "An evening with the OpenAI team for builders, researchers, and operators working at the frontier of AI systems.\n\nNot a demo day, not office hours, not a pitch event — a focused conversation on what it actually takes to build AI systems in production. The session opens with a deep-dive presentation from the OpenAI team along with a technical Q&A."
+          "longDescription": "An evening with the OpenAI team for builders, researchers, and operators working at the frontier of AI systems. Not a demo day, not office hours, not a pitch event, a focused conversation on what it actually takes to build AI systems in production. The session opens with a deep-dive presentation from the OpenAI team along with a technical Q&A."
         },
         {
           "id": "how-we-build-and-manage-15000-tools-at-composio",
@@ -82,7 +82,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/gj/d1801be6-74c5-4790-ae92-25d6ce24f8f8.png",
           "externalLink": "https://luma.com/oywdp4bu",
           "status": "Past",
-          "longDescription": "Jayesh from the Composio team on how AI agents are used to discover, build, test, and maintain 15,000+ tools across 900+ applications — entirely end-to-end and largely without human intervention.\n\nHow do you manage thousands of integrations across hundreds of apps without drowning in manual work? The session unpacks how agent-driven systems run real integration workflows in production. Aimed at founders building agentic systems and operators integrating them.",
+          "longDescription": "Jayesh from the Composio team on how AI agents are used to discover, build, test, and maintain 15,000+ tools across 900+ applications, entirely end-to-end and largely without human intervention. How do you manage thousands of integrations across hundreds of apps without drowning in manual work? The session unpacks how agent-driven systems run real integration workflows in production. Aimed at founders building agentic systems and operators integrating them.",
           "dateISO": "2026-02-13"
         },
         {
@@ -112,7 +112,7 @@
           "externalLink": "https://luma.com/48q2jdd9",
           "status": "Past",
           "dateISO": "2025-11-12",
-          "longDescription": "Soham Ganatra (co-founder of Composio) in conversation with Manav Garg at Samarthanam Auditorium.\n\nHow Composio went from an early bet on agentic tooling to becoming the infrastructure that dozens of AI startups now depend on. Soham unpacked the early product calls, the wedges that worked, and the wedges that didn't. Part of the AI Founders: Early Playbook series — a long-running line of intimate sessions where founders share what they actually learned."
+          "longDescription": "Soham Ganatra (co-founder of Composio) in conversation with Manav Garg at Samarthanam Auditorium. How Composio went from an early bet on agentic tooling to becoming the infrastructure that dozens of AI startups now depend on. Soham unpacked the early product calls, the wedges that worked, and the wedges that didn't. Part of the AI Founders: Early Playbook series, a long-running line of intimate sessions where founders share what they actually learned."
         },
         {
           "id": "emergent-journey-to-10m-arr",
@@ -126,7 +126,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/tg/09d1c977-b9ba-465f-b853-3b7e3078506e.jpg",
           "externalLink": "https://luma.com/sai18cy4",
           "status": "Past",
-          "longDescription": "A fireside with Mukund Jha (founder & CEO of Emergent) and Manav Garg at Bangalore International Centre.\n\nTwo months. $10M ARR. Globally distributed users. Mukund walked the room through the product decisions, the GTM motions, and the team shape that made it possible — and the things that broke along the way. A candid look at what it takes to ship a global agentic product out of India and have it land."
+          "longDescription": "A fireside with Mukund Jha (founder & CEO of Emergent) and Manav Garg at Bangalore International Centre. Two months. $10M ARR. Globally distributed users. Mukund walked the room through the product decisions, the GTM motions, and the team shape that made it possible, and the things that broke along the way. A candid look at what it takes to ship a global agentic product out of India and have it land."
         },
         {
           "id": "google-ai-search-fireside-srinivasan-v",
@@ -141,7 +141,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/fb/a0734916-84ae-40c8-a721-458f09cd7db9",
           "externalLink": "https://luma.com/evt-VOHQx0DlSFSlqG4",
           "status": "Past",
-          "longDescription": "A fireside chat with Srinivasan V (VP Search, Google), hosted in Burlingame, California.\n\nA conversation on where AI is taking search — what changes under the hood, what changes for end users, and what changes for the businesses built on top of search distribution. Co-hosted with Insight Partners for the Bay Area AI community."
+          "longDescription": "A fireside chat with Srinivasan V (VP Search, Google), hosted in Burlingame, California. A conversation on where AI is taking search, what changes under the hood, what changes for end users, and what changes for the businesses built on top of search distribution. Co-hosted with Insight Partners for the Bay Area AI community."
         },
         {
           "id": "fireside-with-neha-singh-tracxn",
@@ -171,7 +171,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/23/9210acef-59bf-4c23-a58c-8c37480d385a.png",
           "externalLink": "https://luma.com/mj3sc2s0",
           "status": "Past",
-          "longDescription": "A sideline session at SaaSBoomi with Madhavan and Girish Mathrubootham.\n\nThe thorniest open question for most AI-native startups right now: how do you price something whose marginal cost moves every week? Madhavan and Girish stress-tested several models live with the room — usage-based, outcome-based, hybrid — and traded notes on what's actually sticking with customers and what isn't."
+          "longDescription": "A sideline session at SaaSBoomi with Madhavan and Girish Mathrubootham. The thorniest open question for most AI-native startups right now: how do you price something whose marginal cost moves every week? Madhavan and Girish stress-tested several models live with the room, usage-based, outcome-based, hybrid, and traded notes on what's actually sticking with customers and what isn't."
         }
       ]
     },
@@ -190,12 +190,12 @@
           "pageCategory": "hackathons",
           "quarter": "Q2 2026",
           "location": "Together Fund",
-          "shortDescription": "Bangalore edition of the Claw Hack — agentic-AI builders shipping working products in 24 hours.",
+          "shortDescription": "Bangalore edition of the Claw Hack, agentic-AI builders shipping working products in 24 hours.",
           "featured": "Co-hosted with Zo World, Boldrin, Colin Nebius",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/hm/affc2a32-14d3-4bbe-8910-cd4e810aded2.png",
           "externalLink": "https://luma.com/claw-hack-BLR",
           "status": "Past",
-          "longDescription": "A one-day build sprint for AI and deep-tech builders in Bengaluru.\n\nThe format is straightforward: show up, pick a problem, build an AI agent, ship it by end of day. No decks, no spectators — builders in a room with laptops, APIs, credits, and a shared obsession with making things work. Aimed at founders, engineers, and operators who'd rather ship than talk about shipping.",
+          "longDescription": "A one-day build sprint for AI and deep-tech builders in Bengaluru. The format is straightforward: show up, pick a problem, build an AI agent, ship it by end of day. No decks, no spectators, builders in a room with laptops, APIs, credits, and a shared obsession with making things work. Aimed at founders, engineers, and operators who'd rather ship than talk about shipping.",
           "dateISO": "2026-04-25"
         },
         {
@@ -205,7 +205,7 @@
           "pageCategory": "hackathons",
           "quarter": "Q2 2026",
           "location": "",
-          "shortDescription": "All-night build sprint with the Zo World community — agents, voice, and payments stacks shipped end-to-end.",
+          "shortDescription": "All-night build sprint with the Zo World community, agents, voice, and payments stacks shipped end-to-end.",
           "featured": "Co-hosted with Zo World",
           "heroPhoto": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1600&q=80&fm=jpg",
           "externalLink": "#",
@@ -225,7 +225,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/3e/63ee8e82-6329-4b1d-bba0-170409ed0a75.png",
           "externalLink": "https://luma.com/l8i1t3dr",
           "status": "Upcoming",
-          "longDescription": "A 10-hour in-person execution sprint in Bangalore. Upcoming on January 31, 2026.\n\nSolo founders and small teams (2-3) go from an idea to a working product demo to an investor pitch deck in a single day, using runable.com. The strongest teams pitch live to Together Fund partners; winners earn a fast-track to SwarmSpace (up to $1M funding opportunity), Runable subscriptions, and more. Partners on the day: Anthropic (LLM), Eleven Labs (voice AI), Stripe (payments).\n\nAimed at people who ship, not just ideate — solo founders, early-stage teams, engineers and designers who build end-to-end, and students serious about startups."
+          "longDescription": "A 10-hour in-person execution sprint in Bangalore. Upcoming on January 31, 2026. Solo founders and small teams (2-3) go from an idea to a working product demo to an investor pitch deck in a single day, using runable.com. The strongest teams pitch live to Together Fund partners; winners earn a fast-track to SwarmSpace (up to $1M funding opportunity), Runable subscriptions, and more. Partners on the day: Anthropic (LLM), Eleven Labs (voice AI), Stripe (payments). Aimed at people who ship, not just ideate, solo founders, early-stage teams, engineers and designers who build end-to-end, and students serious about startups."
         },
         {
           "id": "together-voice-ai-hackathon",
@@ -239,7 +239,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/ht/71a2402a-18b4-4f96-99c2-e56d830f3834.png",
           "externalLink": "https://luma.com/t1s752k4",
           "status": "Past",
-          "longDescription": "A 48-hour Voice AI Hackathon at the Together Fund office — a build sprint to prototype the next generation of voice-first experiences.\n\nWhether you were building AI voice agents for customer support, real-time speech-to-action workflows, audio-native games and creative tools, or just tinkering with what becomes possible when voice meets AI — the brief was the same: where conversation meets code. Half the room was Together portfolio engineers; half was the wider Bangalore community.",
+          "longDescription": "A 48-hour Voice AI Hackathon at the Together Fund office, a build sprint to prototype the next generation of voice-first experiences. Whether you were building AI voice agents for customer support, real-time speech-to-action workflows, audio-native games and creative tools, or just tinkering with what becomes possible when voice meets AI, the brief was the same: where conversation meets code. Half the room was Together portfolio engineers; half was the wider Bangalore community.",
           "dateISO": "2025-08-01"
         }
       ]
@@ -264,7 +264,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/3r/48105528-bc29-4352-9923-31e8af5fbe2c.png",
           "externalLink": "https://luma.com/2qpzufep",
           "status": "Past",
-          "longDescription": "An AI social mixer and panel discussion on GTM engineering, held in Chennai.\n\nNot a conference, not a pitch night, not a business-card networking event — a focused, high-signal gathering for people serious about where AI is heading. The panel brings together operators who've scaled AI products and teams from the inside, in conversation with builders, operators, and leaders working at the frontier of AI.",
+          "longDescription": "An AI social mixer and panel discussion on GTM engineering, held in Chennai. Not a conference, not a pitch night, not a business-card networking event, a focused, high-signal gathering for people serious about where AI is heading. The panel brings together operators who've scaled AI products and teams from the inside, in conversation with builders, operators, and leaders working at the frontier of AI.",
           "dateISO": "2026-03-18"
         },
         {
@@ -279,7 +279,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/gallery-images/ve/ab94b70b-d954-410a-b686-1a32c74a4d75.png",
           "externalLink": "https://luma.com/ck6ppl4g",
           "status": "Past",
-          "longDescription": "An evening at Together Fund for founders, researchers, operators, and investors building at the frontier of AI.\n\nCurated room across foundation models and infrastructure, memory and agent architectures, robotics and embodied AI, applications across enterprise and consumer, and deep-tech (semiconductors, materials, data infra). No panel, no slides — focused conversation between people building real things.",
+          "longDescription": "An evening at Together Fund for founders, researchers, operators, and investors building at the frontier of AI. Curated room across foundation models and infrastructure, memory and agent architectures, robotics and embodied AI, applications across enterprise and consumer, and deep-tech (semiconductors, materials, data infra). No panel, no slides, focused conversation between people building real things.",
           "dateISO": "2026-03-06"
         },
         {
@@ -289,12 +289,12 @@
           "pageCategory": "meetups",
           "quarter": "Q1 2026",
           "location": "GoRally Pickleball Indiranagar",
-          "shortDescription": "Recurring pickleball mornings — Together founders and operators on the courts.",
+          "shortDescription": "Recurring pickleball mornings, Together founders and operators on the courts.",
           "featured": "",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/gallery-images/ic/02fe2c9a-a1f3-41da-9b1a-1b0e773b919f",
           "externalLink": "https://luma.com/l830x3pf",
           "status": "Past",
-          "longDescription": "What happens when builders, operators, and investors swap boardrooms for a pickleball court?\n\nAn easygoing evening of pickleball plus meet-and-greet with the Together Fund team and a curated group of operators, founders, and ecosystem friends. Not a panel, not a pitch event — good games, good conversations, great people. Held at GoRally Pickleball Indiranagar.",
+          "longDescription": "What happens when builders, operators, and investors swap boardrooms for a pickleball court? An easygoing evening of pickleball plus meet-and-greet with the Together Fund team and a curated group of operators, founders, and ecosystem friends. Not a panel, not a pitch event, good games, good conversations, great people. Held at GoRally Pickleball Indiranagar.",
           "dateISO": "2026-02-20"
         },
         {
@@ -304,12 +304,12 @@
           "pageCategory": "meetups",
           "quarter": "Q1 2026",
           "location": "HSR Hacker House",
-          "shortDescription": "Recurring coworking + demo nights at HSR Hacker House — show what you've shipped, get sharp feedback.",
+          "shortDescription": "Recurring coworking + demo nights at HSR Hacker House, show what you've shipped, get sharp feedback.",
           "featured": "",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/mw/f5dd49da-cb21-4e4e-b7ff-2b0611265b6a.jpg",
           "externalLink": "https://luma.com/oevov6lv",
           "status": "Past",
-          "longDescription": "A recurring numbered coworking + demo session at HSR Hacker House. Two parts:\n\nDeep work — 3 to 3.5 hours of silent work on your individual builds or projects alongside others doing the same. Not just for software engineers; bring whatever you want to push forward — design, portfolio, startup ideas, product features.\n\nDemos — 30 minutes at the end to share what you got done, brainstorm together, and trade questions.",
+          "longDescription": "A recurring numbered coworking + demo session at HSR Hacker House. Two parts: Deep work, 3 to 3.5 hours of silent work on your individual builds or projects alongside others doing the same. Not just for software engineers; bring whatever you want to push forward, design, portfolio, startup ideas, product features. Demos, 30 minutes at the end to share what you got done, brainstorm together, and trade questions.",
           "dateISO": "2026-02-15"
         },
         {
@@ -324,7 +324,7 @@
           "heroPhoto": "https://images.unsplash.com/photo-1436076863939-06870fe779c2?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past",
-          "longDescription": "Casual end-of-week drinks for the Together community at Brau Galie Micro Brewery & Pub in Bangalore.\n\nAn open invite — drop in after work, run into the network, leave with a new collaborator. No agenda, no slides, no pitches."
+          "longDescription": "Casual end-of-week drinks for the Together community at Brau Galie Micro Brewery & Pub in Bangalore. An open invite, drop in after work, run into the network, leave with a new collaborator. No agenda, no slides, no pitches."
         },
         {
           "id": "thursday-to-do-sing-sip-repeat",
@@ -333,7 +333,7 @@
           "pageCategory": "meetups",
           "quarter": "Q3 2025",
           "location": "The Biere Club, HSR Layout",
-          "shortDescription": "Karaoke and drinks at The Biere Club HSR — a Together community night out.",
+          "shortDescription": "Karaoke and drinks at The Biere Club HSR, a Together community night out.",
           "featured": "",
           "heroPhoto": "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?w=1600&q=80&fm=jpg",
           "externalLink": "#",
@@ -366,7 +366,7 @@
           "heroPhoto": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past",
-          "longDescription": "The closing dinner of Together's Inaugural Annual General Meeting, held at The Leela Palace, Bangalore.\n\nAfter the day's structured AGM sessions, a smaller group of LPs and senior portfolio founders moved to dinner for an unstructured continuation of the day's conversations — across investment thesis, portfolio progression, and the next stretch of fund activity."
+          "longDescription": "The closing dinner of Together's Inaugural Annual General Meeting, held at The Leela Palace, Bangalore. After the day's structured AGM sessions, a smaller group of LPs and senior portfolio founders moved to dinner for an unstructured continuation of the day's conversations, across investment thesis, portfolio progression, and the next stretch of fund activity."
         },
         {
           "id": "togethers-inaugural-agm",
@@ -390,12 +390,12 @@
           "quarter": "Q4 2024",
           "dateISO": "2024-12-13",
           "location": "The Leela Palace Bengaluru - Garden City's Only Modern Palace Hotel",
-          "shortDescription": "Together's annual flagship summit for AI founders, operators, and researchers — keynotes, panels, dinner.",
+          "shortDescription": "Together's annual flagship summit for AI founders, operators, and researchers, keynotes, panels, dinner.",
           "featured": "Together Fund's annual AI summit",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/op/61efef0b-90dc-4548-9c58-25c3aa85c4d0",
           "externalLink": "https://luma.com/27rijtxp",
           "status": "Past",
-          "longDescription": "Together's annual flagship summit for AI founders, operators, and researchers, held at The Leela Palace, Bangalore in December 2024.\n\nA full evening of keynotes from founding partners, panels with portfolio and ecosystem leaders, startup showcases from across the India AI build-out, and dinner. The 2024 edition focused on the operating playbook for AI-native companies in the wake of the foundation-model boom — what changes in product, in GTM, and in team-shape."
+          "longDescription": "Together's annual flagship summit for AI founders, operators, and researchers, held at The Leela Palace, Bangalore in December 2024. A full evening of keynotes from founding partners, panels with portfolio and ecosystem leaders, startup showcases from across the India AI build-out, and dinner. The 2024 edition focused on the operating playbook for AI-native companies in the wake of the foundation-model boom, what changes in product, in GTM, and in team-shape."
         },
         {
           "id": "get-together-24",
@@ -410,7 +410,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/4r/a0d3f5bc-c9f6-43ef-bc42-266b2e47778c",
           "externalLink": "https://luma.com/mcnc7rj9",
           "status": "Past",
-          "longDescription": "A year-end community celebration at The Leela Palace, Bangalore.\n\nLess program, more people. An evening to mark the year in India AI & SaaS with the Together community — founders, operators, partners, and the team in one room before the year wrapped."
+          "longDescription": "A year-end community celebration at The Leela Palace, Bangalore. Less program, more people. An evening to mark the year in India AI & SaaS with the Together community, founders, operators, partners, and the team in one room before the year wrapped."
         },
         {
           "id": "healthcare-ai-mixer-nyc",
@@ -440,7 +440,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/dg/1ea7769e-a3c6-4683-899e-96fad6031429",
           "externalLink": "https://luma.com/fhha24",
           "status": "Past",
-          "longDescription": "A Mumbai fintech community mixer for founders, operators, and investors.\n\nAn open-floor evening across infrastructure, regulation, lending, payments, and the early-stage product surface. The format leaves the conversations to be set by whoever shows up — what's most interesting tends to surface that way."
+          "longDescription": "A Mumbai fintech community mixer for founders, operators, and investors. An open-floor evening across infrastructure, regulation, lending, payments, and the early-stage product surface. The format leaves the conversations to be set by whoever shows up, what's most interesting tends to surface that way."
         },
         {
           "id": "india-saas-ai-opportunity-insight-partners",
@@ -465,12 +465,12 @@
           "quarter": "Q2 2024",
           "dateISO": "2024-04-02",
           "location": "Flybridge Capital Partners, New York",
-          "shortDescription": "NYC mixer on the SaaS x AI opportunity across the US–India corridor.",
+          "shortDescription": "NYC mixer on the SaaS x AI opportunity across the US, India corridor.",
           "featured": "Co-hosted with Flybridge Capital Partners",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/0b/8687899e-3c6c-4b79-ba62-d90b5fe97971",
           "externalLink": "https://luma.com/nrw2wkkx",
           "status": "Past",
-          "longDescription": "An evening mixer at Flybridge Capital Partners' New York office, in partnership with Together Fund.\n\nHow does a startup whose engineering happens in India but whose customers are in the US set up its first 18 months? The mixer turned that question over with a few dozen founders and operators working that corridor today — across product, sales, and the inevitable timezone arithmetic."
+          "longDescription": "An evening mixer at Flybridge Capital Partners' New York office, in partnership with Together Fund. How does a startup whose engineering happens in India but whose customers are in the US set up its first 18 months? The mixer turned that question over with a few dozen founders and operators working that corridor today, across product, sales, and the inevitable timezone arithmetic."
         },
         {
           "id": "ai-mixer-with-together-fund-2024",
@@ -480,12 +480,12 @@
           "quarter": "Q2 2024",
           "dateISO": "",
           "location": "",
-          "shortDescription": "Together Fund mixer for AI founders and operators — early in our 15+ Generative AI investments arc.",
+          "shortDescription": "Together Fund mixer for AI founders and operators, early in our 15+ Generative AI investments arc.",
           "featured": "",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/kg/24a57d4b-b45e-414a-8ba3-63c27cc93fae",
           "externalLink": "https://luma.com/evt-kCDEzGtNz7n07RX",
           "status": "Past",
-          "longDescription": "An evening mixer for AI founders and operators in the Together community, early in our 15+ Generative AI investments arc.\n\nTopics ranged across foundation-model choice, agent reliability, and the GTM motion for technical AI products. The mixer set the tone for many of the recurring formats that followed — workshops, fireside chats, and Summit later in the year."
+          "longDescription": "An evening mixer for AI founders and operators in the Together community, early in our 15+ Generative AI investments arc. Topics ranged across foundation-model choice, agent reliability, and the GTM motion for technical AI products. The mixer set the tone for many of the recurring formats that followed, workshops, fireside chats, and Summit later in the year."
         },
         {
           "id": "togethers-ai-summit-copilot-2023",
@@ -495,12 +495,12 @@
           "quarter": "Q4 2023",
           "dateISO": "2023-12-08",
           "location": "The Leela Palace Bengaluru - Garden City's Only Modern Palace Hotel",
-          "shortDescription": "Together's first AI Summit — keynote by founding partners plus product demos from leading AI-first startups.",
+          "shortDescription": "Together's first AI Summit, keynote by founding partners plus product demos from leading AI-first startups.",
           "featured": "Girish Mathrubootham & Manav Garg",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/px/d2180948-a1aa-477f-a13b-fea558f8abaa",
           "externalLink": "https://luma.com/e1t4sgup",
           "status": "Past",
-          "longDescription": "Together's first AI Summit — CoPilot — held at The Leela Palace, Bangalore in December 2023.\n\nKeynote by founding partners Girish Mathrubootham and Manav Garg on the emerging opportunities in AI, followed by product showcases from leading AI-first startups across the India ecosystem. The inaugural edition of what's since become the fund's annual flagship event."
+          "longDescription": "Together's first AI Summit, CoPilot, held at The Leela Palace, Bangalore in December 2023. Keynote by founding partners Girish Mathrubootham and Manav Garg on the emerging opportunities in AI, followed by product showcases from leading AI-first startups across the India ecosystem. The inaugural edition of what's since become the fund's annual flagship event."
         }
       ]
     },
@@ -520,12 +520,12 @@
           "pageCategory": "podcasts-workshops",
           "quarter": "Q1 2026",
           "location": "Together Fund",
-          "shortDescription": "Talk on learning robotic policies from raw human video — the path to building general-purpose robots.",
+          "shortDescription": "Talk on learning robotic policies from raw human video, the path to building general-purpose robots.",
           "featured": "",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/gallery-images/0n/c4b8aff1-e354-412f-847c-ce0ff6a98dab.png",
           "externalLink": "https://luma.com/hl8vccdl",
           "status": "Past",
-          "longDescription": "The 4th session of our monthly research salon — an intimate, research-driven discussion on the next frontier of embodied AI.\n\nHow do we transfer skills from abundant human videos to real robotic execution without drowning in noisy visual data? Inspired by recent work on Contrastive Latent Action Pretraining (CLAP) and dual-formulation VLA systems, the session explores a new approach to general-purpose robotics from people actively building in the space.",
+          "longDescription": "The 4th session of our monthly research salon, an intimate, research-driven discussion on the next frontier of embodied AI. How do we transfer skills from abundant human videos to real robotic execution without drowning in noisy visual data? Inspired by recent work on Contrastive Latent Action Pretraining (CLAP) and dual-formulation VLA systems, the session explores a new approach to general-purpose robotics from people actively building in the space.",
           "dateISO": "2026-02-27"
         },
         {
@@ -540,7 +540,7 @@
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/gallery-images/0n/c4b8aff1-e354-412f-847c-ce0ff6a98dab.png",
           "externalLink": "https://luma.com/q2te4lfv",
           "status": "Past",
-          "longDescription": "A discussion circle on the next frontier of sequence modeling — how AI systems can learn, remember, and adapt in real time without forgetting.\n\nDrawing on recent breakthroughs including Titans, MIRAS, and Nested Learning, the session works through a unifying view of memory, optimization, and architecture — moving beyond static context windows toward systems that actually adapt as they encounter new data.",
+          "longDescription": "A discussion circle on the next frontier of sequence modeling, how AI systems can learn, remember, and adapt in real time without forgetting. Drawing on recent breakthroughs including Titans, MIRAS, and Nested Learning, the session works through a unifying view of memory, optimization, and architecture, moving beyond static context windows toward systems that actually adapt as they encounter new data.",
           "dateISO": "2025-12-18"
         },
         {
@@ -566,12 +566,12 @@
           "quarter": "Q4 2025",
           "dateISO": "2025-10-31",
           "location": "Online Event",
-          "shortDescription": "Online deep-dive into multi-agent orchestration patterns — retrievers, planners, executors. Powered by AWS.",
+          "shortDescription": "Online deep-dive into multi-agent orchestration patterns, retrievers, planners, executors. Powered by AWS.",
           "featured": "Powered by AWS",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/y8/62912f25-8635-4f94-878e-5fc4736eaabe.png",
           "externalLink": "https://luma.com/pkwsdtc4",
           "status": "Past",
-          "longDescription": "An online deep-dive into multi-agent orchestration patterns, powered by AWS.\n\nAs AI systems evolve, single-model pipelines are giving way to multi-agent systems — retrievers, planners, executors all working as a coordinated whole. The session covered the patterns that are working in production today and the rough edges that aren't yet solved."
+          "longDescription": "An online deep-dive into multi-agent orchestration patterns, powered by AWS. As AI systems evolve, single-model pipelines are giving way to multi-agent systems, retrievers, planners, executors all working as a coordinated whole. The session covered the patterns that are working in production today and the rough edges that aren't yet solved."
         },
         {
           "id": "research-paper-reading-circle-oak-architecture",
@@ -580,12 +580,12 @@
           "pageCategory": "podcasts-workshops",
           "quarter": "Q4 2025",
           "location": "Lossfunk",
-          "shortDescription": "Reading circle on Richard Sutton's Oak architecture — discussion + Q&A on lifelong reinforcement learning.",
+          "shortDescription": "Reading circle on Richard Sutton's Oak architecture, discussion + Q&A on lifelong reinforcement learning.",
           "featured": "",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/gallery-images/rm/c1d3305f-0a2d-48f5-af2d-54f39a797866.png",
           "externalLink": "https://luma.com/aket3qkv",
           "status": "Past",
-          "longDescription": "An intimate evening of close reading and discussion built around Richard Sutton's Oak Architecture paper.\n\nAn open space for curious minds — builders, researchers, enthusiasts — to dig into cutting-edge research together and trade perspectives section by section. Pre-reading is required so the conversation can move fast and stay specific.",
+          "longDescription": "An intimate evening of close reading and discussion built around Richard Sutton's Oak Architecture paper. An open space for curious minds, builders, researchers, enthusiasts, to dig into cutting-edge research together and trade perspectives section by section. Pre-reading is required so the conversation can move fast and stay specific.",
           "dateISO": "2025-10-01"
         },
         {
@@ -625,12 +625,12 @@
           "pageCategory": "podcasts-workshops",
           "quarter": "Q3 2025",
           "location": "Together Fund",
-          "shortDescription": "Prateek Jain (Google DeepMind) on what actually scales modern LLMs — model size, test-time thinking, or data.",
+          "shortDescription": "Prateek Jain (Google DeepMind) on what actually scales modern LLMs, model size, test-time thinking, or data.",
           "featured": "Prateek Jain (Principal Scientist and Director, Google DeepMind)",
           "heroPhoto": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/ug/7f6bc25e-fd3a-4903-bc78-0be681c0ce13.png",
           "externalLink": "https://luma.com/svdxwamx",
           "status": "Past",
-          "longDescription": "Prateek Jain — Principal Scientist & Director at Google DeepMind and Research Lead on Gemini Model Design — on the science and engineering behind scaling LLM quality.\n\nHow do you truly scale model intelligence: by adding parameters, giving them more thinking time at inference, or exposing them to richer task-specific data? Prateek walks through the empirical evidence across each lever and makes the case for where the next round of gains is most likely to come from.",
+          "longDescription": "Prateek Jain, Principal Scientist & Director at Google DeepMind and Research Lead on Gemini Model Design, on the science and engineering behind scaling LLM quality. How do you truly scale model intelligence: by adding parameters, giving them more thinking time at inference, or exposing them to richer task-specific data? Prateek walks through the empirical evidence across each lever and makes the case for where the next round of gains is most likely to come from.",
           "dateISO": "2025-08-22"
         },
         {
@@ -646,7 +646,7 @@
           "externalLink": "https://luma.com/c4znyj74",
           "status": "Past",
           "dateISO": "2025-08-08",
-          "longDescription": "Ashwin Rajeeva, co-founder of Acceldata, on data infrastructure for the AI era — held at Together Fund.\n\nWhat does a data stack look like when AI workflows are first-class consumers, not bolt-ons? Ashwin walked the room through the choices that pay off in production — observability across pipelines, controls around data quality, and the architectural decisions that hold up when models start writing back into the system."
+          "longDescription": "Ashwin Rajeeva, co-founder of Acceldata, on data infrastructure for the AI era, held at Together Fund. What does a data stack look like when AI workflows are first-class consumers, not bolt-ons? Ashwin walked the room through the choices that pay off in production, observability across pipelines, controls around data quality, and the architectural decisions that hold up when models start writing back into the system."
         },
         {
           "id": "inside-your-digital-dna-user-embeddings",
@@ -661,7 +661,7 @@
           "externalLink": "https://luma.com/acuco4cd",
           "status": "Past",
           "dateISO": "2025-08-01",
-          "longDescription": "Drew Kirchhoff, founder of ShareD, on user embeddings as the substrate for personal AI.\n\nHow does a compact numerical representation of who you are — what you read, who you talk to, what you care about — become useful input to an AI assistant making decisions on your behalf? Drew walked the room through how embeddings get constructed in practice, where the product surface is interesting, and the privacy questions that arrive immediately."
+          "longDescription": "Drew Kirchhoff, founder of ShareD, on user embeddings as the substrate for personal AI. How does a compact numerical representation of who you are, what you read, who you talk to, what you care about, become useful input to an AI assistant making decisions on your behalf? Drew walked the room through how embeddings get constructed in practice, where the product surface is interesting, and the privacy questions that arrive immediately."
         },
         {
           "id": "from-imitation-to-intelligence-humanoids",
@@ -676,7 +676,7 @@
           "externalLink": "https://luma.com/gfmrq8w4",
           "status": "Past",
           "dateISO": "2025-07-31",
-          "longDescription": "Srikanth Vidapanakal, founder & CEO of xSpecies AI, on porting autonomous-driving lessons into general-purpose robotics.\n\nA decade of autonomous-driving research yielded a playbook for learning policies from massive data. Humanoid robotics is now trying to port that playbook into a new domain — walking, manipulation, reasoning about the physical world. The talk covered what transfers, what doesn't, and what comes next."
+          "longDescription": "Srikanth Vidapanakal, founder & CEO of xSpecies AI, on porting autonomous-driving lessons into general-purpose robotics. A decade of autonomous-driving research yielded a playbook for learning policies from massive data. Humanoid robotics is now trying to port that playbook into a new domain, walking, manipulation, reasoning about the physical world. The talk covered what transfers, what doesn't, and what comes next."
         },
         {
           "id": "podcast-with-composio",
@@ -690,7 +690,7 @@
           "heroPhoto": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past",
-          "longDescription": "A live podcast recording at Bangalore International Centre with the Composio founders.\n\nA long-form conversation on what it took to build AI infrastructure that other AI startups now depend on — founder narrative on the early bets, the engineering choices that scaled, and what's changed in the year since the first thousand customers."
+          "longDescription": "A live podcast recording at Bangalore International Centre with the Composio founders. A long-form conversation on what it took to build AI infrastructure that other AI startups now depend on, founder narrative on the early bets, the engineering choices that scaled, and what's changed in the year since the first thousand customers."
         },
         {
           "id": "podcast-with-emergent",
@@ -704,7 +704,7 @@
           "heroPhoto": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1600&q=80&fm=jpg",
           "externalLink": "#",
           "status": "Past",
-          "longDescription": "A live podcast recording at Bangalore International Centre with the Emergent founders.\n\nHow Emergent went from idea to global agentic product — founder narrative on the product calls, the team shape, and the GTM motion that drove the early scaling arc. The conversation that set up many of the later sessions on the same topic."
+          "longDescription": "A live podcast recording at Bangalore International Centre with the Emergent founders. How Emergent went from idea to global agentic product, founder narrative on the product calls, the team shape, and the GTM motion that drove the early scaling arc. The conversation that set up many of the later sessions on the same topic."
         }
       ]
     }
@@ -725,7 +725,7 @@
     {
       "id": "together-ai-summit-24",
       "displayName": "Together AI Summit",
-      "displayDescription": "Our annual flagship — keynotes, panels, dinner. Editions in 2023 (CoPilot) and 2024 (Summit '24).",
+      "displayDescription": "Our annual flagship, keynotes, panels, dinner. Editions in 2023 (CoPilot) and 2024 (Summit '24).",
       "chipLabel": "Annual flagship"
     },
     {
