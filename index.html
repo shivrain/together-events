@@ -11,6 +11,7 @@
 
   <link rel="preconnect" href="https://cdn.prod.website-files.com" crossorigin="anonymous"/>
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://togetherfund-assets.netlify.app" crossorigin="anonymous"/>
 
   <link href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/css/togetherfund-tc.webflow.shared.2933fae5c.min.css"
         rel="stylesheet" type="text/css"
@@ -19,7 +20,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525k"/>
+  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525l"/>
 
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
 </head>
@@ -109,16 +110,19 @@
   <div class="main-wrapper">
 
   <!-- ============================================================
-       1. HERO (cream) — full-bleed background image with only the
-       headline overlaid. Subline + format pills removed per spec.
+       1. HERO (cream) — reuses the live together.fund homepage hero
+       animation (the coral isometric "network city" video) on a cream
+       background, with a dark serif headline. Matches the main site.
        ============================================================ -->
-  <section class="g_section events_hero_section is-fullbleed" data-wf--global-section--section-color="cream">
+  <section class="g_section events_hero_section is-fullbleed is-animated" data-wf--global-section--section-color="cream">
     <div class="events_hero_wrap is-fullbleed">
       <div class="events_hero_video_wrap" aria-hidden="true">
-        <img class="events_hero_video"
-             src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=2400&q=80&fm=jpg"
-             alt=""
-             loading="eager"/>
+        <video class="events_hero_video"
+               autoplay loop muted playsinline
+               poster="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6894a24a2909c57ebabb919f_Screenshot%202025-08-07%20at%206.25.20%E2%80%AFPM.png">
+          <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.webm" type="video/webm"/>
+          <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.mp4" type="video/mp4"/>
+        </video>
         <div class="events_hero_video_overlay"></div>
       </div>
 
@@ -548,7 +552,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" defer></script>
-  <script src="./assets/js/events-page.js?v=20260525k" defer></script>
+  <script src="./assets/js/events-page.js?v=20260525l" defer></script>
   <script>
     document.getElementById('footer-year').textContent = new Date().getFullYear();
   </script>
