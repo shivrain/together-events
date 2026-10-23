@@ -87,6 +87,7 @@
         '</div>' +
         '<p class="speaker__name">' + esc(s.name) + '</p>' +
         '<p class="speaker__role">' + esc(s.role) + '</p>' +
+        '<p class="speaker__context">' + esc(s.context) + '</p>' +
       '</li>';
     }).join('');
 
@@ -157,7 +158,7 @@
     els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
   }
 
-  fetch('./data/events.json?v=20261023k')
+  fetch('./data/events.json?v=20261023l')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       renderSpeakers(d.speakers || []);
