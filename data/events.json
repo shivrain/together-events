@@ -16,7 +16,7 @@
    "photo": "assets/img/speakers/tanay-kothari.jpg",
    "bio": "Started Wispr in 2021 with Sahaj Garg to make voice the main way we use computers. Wispr Flow is used by millions and raised a $280M Series B at a $2B valuation.",
    "company": "Wispr Flow",
-   "context": "Changing how the world uses the internet: you talk, Wispr Flow writes. Scaled to $2B in five years."
+   "context": "Changing the way we interact with the internet. Now valued at over $2B."
   },
   {
    "id": "marc-manara",
@@ -50,9 +50,9 @@
    "name": "Yash Sheth",
    "role": "Co-founder, Galileo",
    "photo": "assets/img/speakers/yash-sheth.jpg",
-   "bio": "Co-founded Galileo, the evaluation and observability platform for AI agents, which Cisco announced it would acquire in 2026. Spent nearly a decade at Google leading speech platforms.",
+   "bio": "Co-founded Galileo, the evaluation and observability platform for AI agents, now acquired by Cisco. Spent nearly a decade at Google leading speech platforms.",
    "company": "Galileo",
-   "context": "Built the trust layer for AI agents. Cisco is acquiring Galileo to take it to every enterprise."
+   "context": "Trusted by six of the Fortune 50 to keep their AI agents in check. Now acquired by Cisco."
   },
   {
    "id": "soham-ganatra",
@@ -61,7 +61,7 @@
    "photo": "assets/img/speakers/soham-ganatra.jpg",
    "bio": "Building Composio, the skill layer that lets AI agents connect to and act across thousands of tools. Raised a $25M Series A to build it from Bengaluru and San Francisco.",
    "company": "Composio",
-   "context": "Gives AI agents hands: Composio connects them to thousands of apps, from Gmail to Salesforce."
+   "context": "Used by millions of developers across the world. The largest tool-calling platform for AI agents."
   },
   {
    "id": "neha-singh",
@@ -70,7 +70,7 @@
    "photo": "assets/img/speakers/neha-singh.jpg",
    "bio": "Built Tracxn into a listed private-markets intelligence company. Formerly at Sequoia Capital and BCG. IIT Bombay and Stanford MBA.",
    "company": "Tracxn",
-   "context": "Built Tracxn into the startup-data platform investors worldwide rely on, and took it public."
+   "context": "Tracks 4M+ companies across 50+ countries for 850+ clients. Built it into a listed company."
   }
  ],
  "salon": {
@@ -84,6 +84,16 @@
    "Memory & continual learning",
    "Machine consciousness",
    "Richard Sutton's Oak architecture"
+  ],
+  "stats": [
+   {
+    "value": "6",
+    "label": "sessions so far"
+   },
+   {
+    "value": "1",
+    "label": "idea per room"
+   }
   ]
  },
  "programs": [
@@ -103,6 +113,20 @@
     {
      "name": "Claw Hack & OpenClaw",
      "detail": "All-night agentic AI builds, with Zo World"
+    }
+   ],
+   "stats": [
+    {
+     "value": "4",
+     "label": "hackathons"
+    },
+    {
+     "value": "10 hrs",
+     "label": "idea to investor pitch"
+    },
+    {
+     "value": "Up to $1M",
+     "label": "SwarmSpace fast-track"
     }
    ]
   },
@@ -127,6 +151,16 @@
      "name": "Drew Kirchhoff, ShareD",
      "detail": "User embeddings and truly personal AI"
     }
+   ],
+   "stats": [
+    {
+     "value": "7",
+     "label": "deep-dive talks"
+    },
+    {
+     "value": "2",
+     "label": "frontier labs on stage"
+    }
    ]
   },
   {
@@ -137,6 +171,12 @@
     "IIT Bombay",
     "IIT Kharagpur",
     "IIT Roorkee"
+   ],
+   "stats": [
+    {
+     "value": "3",
+     "label": "IIT campuses"
+    }
    ]
   }
  ],
@@ -226,6 +266,44 @@
      "about": "Mornings on court and evenings off the clock"
     }
    ]
+  }
+ ],
+ "logos": [
+  {
+   "name": "Emergent",
+   "src": "assets/img/logos/emergent.svg"
+  },
+  {
+   "name": "Wispr Flow",
+   "src": "assets/img/logos/wispr-flow.png"
+  },
+  {
+   "name": "OpenAI",
+   "src": "assets/img/logos/openai.svg"
+  },
+  {
+   "name": "ClickUp",
+   "src": "assets/img/logos/clickup.svg"
+  },
+  {
+   "name": "Composio",
+   "src": "assets/img/logos/composio.svg"
+  },
+  {
+   "name": "Google DeepMind",
+   "src": "assets/img/logos/google-deepmind.svg"
+  },
+  {
+   "name": "Microsoft Research",
+   "src": "assets/img/logos/microsoft-research.png"
+  },
+  {
+   "name": "Galileo",
+   "src": "assets/img/logos/galileo.png"
+  },
+  {
+   "name": "Tracxn",
+   "src": "assets/img/logos/tracxn.png"
   }
  ]
 }

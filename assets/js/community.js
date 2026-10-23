@@ -103,6 +103,23 @@
     });
   }
 
+  /* ---------- Logo strip: the list is rendered twice so the loop is seamless ---------- */
+  function renderLogos(list) {
+    var track = document.getElementById('logoTrack');
+    if (!track || !list.length) return;
+    var one = list.map(function (l) {
+      return '<li class="marquee__item"><img src="' + esc(l.src) + '" alt="' + esc(l.name) + '" loading="lazy" decoding="async"/></li>';
+    }).join('');
+    track.innerHTML = one + one.replace(/alt="[^"]*"/g, 'alt="" aria-hidden="true"');
+  }
+
+  function stats(list, cls) {
+    if (!list || !list.length) return '';
+    return '<dl class="stats ' + (cls || '') + '">' + list.map(function (s) {
+      return '<div><dt>' + esc(s.label) + '</dt><dd>' + esc(s.value) + '</dd></div>';
+    }).join('') + '</dl>';
+  }
+
   /* ---------- Programs ---------- */
   function renderSalon(s) {
     document.getElementById('salon').innerHTML =
@@ -111,6 +128,7 @@
           '<p class="salon__kicker">' + esc(s.kicker) + '</p>' +
           '<h3 class="salon__name">' + esc(s.name) + '</h3>' +
           '<p class="salon__about">' + esc(s.about) + '</p>' +
+          stats(s.stats, 'stats--salon') +
           '<p class="salon__label">Topics so far</p>' +
           '<ul class="topics">' + s.topics.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' +
         '</div>' +
@@ -125,6 +143,7 @@
         '<div class="program__body">' +
           '<h3 class="program__name">' + esc(p.name) + '</h3>' +
           '<p class="program__about">' + esc(p.about) + '</p>' +
+          stats(p.stats) +
           (p.campuses
             ? '<ul class="campuses">' + p.campuses.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul>'
             : '<ul class="program__items">' + p.items.map(function (i) {
@@ -158,9 +177,10 @@
     els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
   }
 
-  fetch('./data/events.json?v=20261023m')
+  fetch('./data/events.json?v=20261023n')
     .then(function (r) { return r.json(); })
     .then(function (d) {
+      renderLogos(d.logos || []);
       renderSpeakers(d.speakers || []);
       if (d.salon) renderSalon(d.salon);
       renderPrograms(d.programs || []);
