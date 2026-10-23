@@ -5,56 +5,64 @@
    "name": "Mukund Jha",
    "role": "Co-founder & CEO, Emergent",
    "photo": "assets/img/speakers/mukund-jha.jpg",
-   "bio": "Co-founded Dunzo, then Emergent with his twin brother Madhav. Emergent became a $1.5B unicorn in July 2026, serving 200,000+ paying customers. Together wrote its first cheque."
+   "bio": "Co-founded Dunzo, then Emergent with his twin brother Madhav. Emergent became a $1.5B unicorn in July 2026, serving 200,000+ paying customers. Together wrote its first cheque.",
+   "company": "Emergent"
   },
   {
    "id": "tanay-kothari",
    "name": "Tanay Kothari",
    "role": "Co-founder & CEO, Wispr Flow",
    "photo": "assets/img/speakers/tanay-kothari.jpg",
-   "bio": "Started Wispr in 2021 with Sahaj Garg to make voice the main way we use computers. Wispr Flow is used by millions and raised a $280M Series B at a $2B valuation."
+   "bio": "Started Wispr in 2021 with Sahaj Garg to make voice the main way we use computers. Wispr Flow is used by millions and raised a $280M Series B at a $2B valuation.",
+   "company": "Wispr Flow"
   },
   {
    "id": "marc-manara",
    "name": "Marc Manara",
    "role": "Head of Startups, OpenAI",
    "photo": "assets/img/speakers/marc-manara.jpg",
-   "bio": "Leads OpenAI's global Startups, VC and Private Equity teams. Previously ran the startups team at AWS and co-founded Farm Hill. Harvard CS, Stanford MBA."
+   "bio": "Leads OpenAI's global Startups, VC and Private Equity teams. Previously ran the startups team at AWS and co-founded Farm Hill. Harvard CS, Stanford MBA.",
+   "company": "OpenAI"
   },
   {
    "id": "srinivas-narayanan",
    "name": "Srinivas Narayanan",
    "role": "Former CTO, B2B Applications, OpenAI",
    "photo": "assets/img/speakers/srinivas-narayanan.jpg",
-   "bio": "Joined OpenAI in 2023 as VP of Engineering through ChatGPT's fastest growth, then became CTO of B2B Applications. Before that, a decade-plus as VP of Engineering at Facebook. IIT Madras."
+   "bio": "Joined OpenAI in 2023 as VP of Engineering through ChatGPT's fastest growth, then became CTO of B2B Applications. Before that, a decade-plus as VP of Engineering at Facebook. IIT Madras.",
+   "company": "OpenAI"
   },
   {
    "id": "gaurav-agarwal",
    "name": "Gaurav Agarwal",
    "role": "COO, ClickUp",
    "photo": "assets/img/speakers/gaurav-agarwal.jpg",
-   "bio": "Joined ClickUp as Chief Growth Officer and became COO, leading revenue operations and scaling it past $300M ARR with product-led and sales-led growth side by side."
+   "bio": "Joined ClickUp as Chief Growth Officer and became COO, leading revenue operations and scaling it past $300M ARR with product-led and sales-led growth side by side.",
+   "company": "ClickUp"
   },
   {
    "id": "yash-sheth",
    "name": "Yash Sheth",
    "role": "Co-founder, Galileo",
    "photo": "assets/img/speakers/yash-sheth.jpg",
-   "bio": "Co-founded Galileo, the evaluation and observability platform for AI agents, which Cisco announced it would acquire in 2026. Spent nearly a decade at Google leading speech platforms."
+   "bio": "Co-founded Galileo, the evaluation and observability platform for AI agents, which Cisco announced it would acquire in 2026. Spent nearly a decade at Google leading speech platforms.",
+   "company": "Galileo"
   },
   {
    "id": "soham-ganatra",
    "name": "Soham Ganatra",
    "role": "Co-founder & CEO, Composio",
    "photo": "assets/img/speakers/soham-ganatra.jpg",
-   "bio": "Building Composio, the skill layer that lets AI agents connect to and act across thousands of tools. Raised a $25M Series A to build it from Bengaluru and San Francisco."
+   "bio": "Building Composio, the skill layer that lets AI agents connect to and act across thousands of tools. Raised a $25M Series A to build it from Bengaluru and San Francisco.",
+   "company": "Composio"
   },
   {
    "id": "neha-singh",
    "name": "Neha Singh",
    "role": "Co-founder & CEO, Tracxn",
    "photo": "assets/img/speakers/neha-singh.jpg",
-   "bio": "Built Tracxn into a listed private-markets intelligence company. Formerly at Sequoia Capital and BCG. IIT Bombay and Stanford MBA."
+   "bio": "Built Tracxn into a listed private-markets intelligence company. Formerly at Sequoia Capital and BCG. IIT Bombay and Stanford MBA.",
+   "company": "Tracxn"
   }
  ],
  "salon": {
@@ -192,10 +200,6 @@
     {
      "name": "Together AI Summit",
      "about": "Our annual summit for India's AI ecosystem"
-    },
-    {
-     "name": "Together AGM",
-     "about": "Our annual meeting with LPs and portfolio founders"
     },
     {
      "name": "US–India corridor evenings",

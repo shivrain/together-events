@@ -71,28 +71,34 @@
     mixer: function () { var o = { w: 80, h: 64, cx: 40, cy: 18, u: 6 }; return scene([[0, 0, 0, 1.5, 1.5, 2], [3.5, 0.5, 0, 1.5, 1.5, 1.4], [0.5, 3.5, 0, 1.5, 1.5, 1.4], [3.5, 3.5, 0, 1.5, 1.5, 2.4]], [], o); }
   };
 
-  /* ---------- Speakers ---------- */
+  /* ---------- Speakers: cards behave like the together.fund portfolio cards ---------- */
   function renderSpeakers(list) {
     var grid = document.getElementById('speakerGrid');
     grid.innerHTML = list.map(function (s) {
-      return '<li><button class="speaker" type="button" aria-expanded="false" aria-controls="sp-' + esc(s.id) + '">' +
-        '<span class="speaker__frame">' +
-          '<span class="speaker__info" id="sp-' + esc(s.id) + '"><span class="speaker__bio">' + esc(s.bio) + '</span></span>' +
-          '<span class="speaker__hint" aria-hidden="true"></span>' +
-          '<img class="speaker__photo" src="' + esc(s.photo) + '" alt="' + esc(s.name) + '" loading="lazy" decoding="async"/>' +
-        '</span>' +
-        '<span class="speaker__name">' + esc(s.name) + '</span>' +
-        '<span class="speaker__role">' + esc(s.role) + '</span>' +
-      '</button></li>';
+      return '<li class="speaker">' +
+        '<div class="speaker__card" tabindex="0" role="button" aria-expanded="false" aria-label="' + esc(s.name) + ', ' + esc(s.role) + '">' +
+          '<span class="speaker__tag">' + esc(s.company) + '</span>' +
+          '<img class="speaker__photo" src="' + esc(s.photo) + '" alt="" loading="lazy" decoding="async"/>' +
+          '<div class="speaker__info">' +
+            '<p class="speaker__bio">' + esc(s.bio) + '</p>' +
+            '<div class="speaker__divider"></div>' +
+            '<p class="speaker__info-name">' + esc(s.name) + '</p>' +
+          '</div>' +
+        '</div>' +
+        '<p class="speaker__name">' + esc(s.name) + '</p>' +
+        '<p class="speaker__role">' + esc(s.role) + '</p>' +
+      '</li>';
     }).join('');
 
-    // Clicking a speaker lifts the photo to reveal a short intro; one open at a time.
-    grid.addEventListener('click', function (ev) {
-      var btn = ev.target.closest('.speaker');
-      if (!btn) return;
-      var open = btn.getAttribute('aria-expanded') === 'true';
-      grid.querySelectorAll('.speaker[aria-expanded="true"]').forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
-      btn.setAttribute('aria-expanded', String(!open));
+    // Hover reveals the panel on desktop; tap or Enter toggles it, one card at a time.
+    function toggle(card) {
+      var open = card.classList.contains('is-open');
+      grid.querySelectorAll('.speaker__card.is-open').forEach(function (c) { c.classList.remove('is-open'); c.setAttribute('aria-expanded', 'false'); });
+      if (!open) { card.classList.add('is-open'); card.setAttribute('aria-expanded', 'true'); }
+    }
+    grid.addEventListener('click', function (ev) { var c = ev.target.closest('.speaker__card'); if (c) toggle(c); });
+    grid.addEventListener('keydown', function (ev) {
+      if ((ev.key === 'Enter' || ev.key === ' ') && ev.target.classList.contains('speaker__card')) { ev.preventDefault(); toggle(ev.target); }
     });
   }
 
@@ -107,14 +113,14 @@
           '<p class="salon__label">Topics so far</p>' +
           '<ul class="topics">' + s.topics.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' +
         '</div>' +
-        '<div class="salon__art">' + ART.salon() + '</div>' +
+        '<div class="salon__art dark">' + ART.salon() + '</div>' +
       '</article>';
   }
 
   function renderPrograms(list) {
     document.getElementById('programs').innerHTML = list.map(function (p) {
       return '<article class="program reveal">' +
-        '<div class="program__art">' + (ART[p.id] ? ART[p.id]() : '') + '</div>' +
+        '<div class="program__art dark">' + (ART[p.id] ? ART[p.id]() : '') + '</div>' +
         '<div class="program__body">' +
           '<h3 class="program__name">' + esc(p.name) + '</h3>' +
           '<p class="program__about">' + esc(p.about) + '</p>' +
@@ -151,7 +157,7 @@
     els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
   }
 
-  fetch('./data/events.json?v=20261023i')
+  fetch('./data/events.json?v=20261023k')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       renderSpeakers(d.speakers || []);
@@ -160,6 +166,18 @@
       renderGroups(d.groups || []);
       reveal();
     });
+
+  // Mobile menu. On together.fund this runs on Webflow page interactions, which don't exist on
+  // this page, so open the panel here; the site's own GSAP script still fades the links in.
+  var navBtn = document.querySelector('.nav_button'), navMenu = document.querySelector('.nav_menu'), navBar = document.querySelector('.navbar');
+  if (navBtn && navMenu && navBar) {
+    navBtn.addEventListener('click', function () {
+      var open = !navBar.classList.contains('is-menu-open');
+      navBar.classList.toggle('is-menu-open', open);
+      navMenu.style.height = open ? '100vh' : '0vh';
+      document.documentElement.style.overflow = open ? 'hidden' : '';
+    });
+  }
 
   var y = document.getElementById('footer-year');
   if (y) y.textContent = new Date().getFullYear();

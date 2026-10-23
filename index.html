@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-wf-site="682181088907d9e5e12f3d45" lang="en">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -9,31 +9,511 @@
   <meta property="og:description" content="Great things get built when the right people share a room."/>
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
   <link rel="preconnect" href="https://togetherfund-assets.netlify.app" crossorigin/>
-  <!-- together.fund's Webflow stylesheet, used here for the shared footer -->
+  <!-- together.fund's Webflow stylesheet: header, footer, type and buttons match the main site -->
   <link rel="stylesheet" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/css/togetherfund-tc.webflow.shared.3d8dc9f8b.css"/>
-  <link rel="stylesheet" href="./assets/css/community.css?v=20261023i"/>
+  <link rel="stylesheet" href="./assets/css/community.css?v=20261023k"/>
 </head>
 <body>
-  <a class="skip" href="#speakers">Skip to speakers</a>
+<div class="page-wrapper">
+  <!-- Header: together.fund's navbar, copied from the live site, with a Community link -->
+  <nav class="navbar"><div class="global-styles"><div class="style-base w-embed"><style>
+:root {
+    --align--flex-start: flex-start;
+    --align--flex-center: center;
+    --align--flex-end: flex-end;
+    --align--text-left: left;
+    --align--text-center: center;
+    --align--text-right: right;
+}
 
-  <header class="nav">
-    <div class="wrap nav__inner">
-      <a href="https://www.together.fund/" class="nav__logo" aria-label="Together Fund home">
-        <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6823eb2189d5394dde26fff5_navbar-logo.svg" alt="Together" width="110" height="28"/>
-      </a>
-      <nav class="nav__links" aria-label="Main">
-        <a href="https://www.together.fund/about">About</a>
-        <a href="https://www.together.fund/portfolio">Portfolio</a>
-        <a href="https://www.together.fund/team">Team</a>
-        <a href="https://www.together.fund/togetherswarmspace">SwarmSpace</a>
-        <a href="./" aria-current="page">Community</a>
-        <a href="https://www.together.fund/perspectives">Perspectives</a>
-        <a href="https://www.together.fund/contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+button {
+	background-color: unset;
+	padding: unset;
+	text-align: inherit;
+}
+button:not(:disabled) {
+	cursor: pointer;
+}
+video {
+	width: 100%;
+	object-fit: cover;
+}
+video.wf-empty {
+	padding: 0;
+}
+svg {
+	max-width: 100%;
+}
+section, header, footer {
+	position: relative;
+}
+@media (prefers-color-scheme: light) {
+	option {
+		color: black;
+	}
+}
+img::selection {
+	background: transparent;
+}
+/* Typography */
+body {
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+/* Clear Defaults */
+a:not([class]) {
+	text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6,p,blockquote,label {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	text-wrap: inherit;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/* Margin Trim */
+:is(.is-margin-trim, .text-rich-text) > :not(:not(.w-condition-invisible) ~ :not(.w-condition-invisible)) {
+	margin-top: 0;
+}
+:is(.is-margin-trim, .text-rich-text) > :not(:has(~ :not(.w-condition-invisible))) {
+	margin-bottom: 0;
+}
+.w-richtext a {
+	position: relative;
+	z-index: 4;
+}
 
-  <main>
+::before, ::after {
+	box-sizing: border-box;
+}
+
+/* Hide */
+.hide-if-empty:empty,
+.hide-if-empty:not(:has(> :not(.w-condition-invisible))),
+.hide-if-empty-cms:not(:has(.w-dyn-item)),
+.embed-js,
+.embed-css {
+	display: none !important;
+}
+
+/* Focus State */
+a, button, :where([tabindex]),
+.w-checkbox-input--inputType-custom,
+.w-form-formradioinput--inputType-custom {
+	outline-offset: var(--focus--offset-outer);
+}
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible,
+.w-checkbox:has(:focus-visible) .w-checkbox-input--inputType-custom,
+.w-radio:has(:focus-visible) .w-form-formradioinput--inputType-custom {
+	outline-color: var(--_theme---text);
+	outline-width: var(--focus--width);
+	outline-style: solid;
+}
+.w-checkbox-input--inputType-custom.w--redirected-focus,
+.w-form-formradioinput--inputType-custom.w--redirected-focus {
+	box-shadow: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #ffff !important;
+}
+
+.button-cover {
+    transition: transform 400ms cubic-bezier(.164, .84, .44, 1);
+}
+
+.button:hover .button-cover {
+    transform: translateX(0);
+}
+
+
+</style></div><div class="style-overrides w-embed"><style>
+
+/* Ensure all elements inherit the color from its parent */
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-nav-brand,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-slider-arrow-left,
+.w-slider-arrow-right,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+/* Remove default Webflow chevron from form select */
+select{
+  -webkit-appearance:none;
+}
+
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none; 
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.text-rich-text h1 strong,
+.text-rich-text h2 strong,
+.text-rich-text h3 strong,
+.text-rich-text h4 strong,
+.text-rich-text h5 strong,
+.text-rich-text h6 strong {
+  font-weight: 300 !important;
+}
+
+
+</style></div><div class="color-schemes w-embed"><style>
+/* Color Schemes Controls*/
+<meta name="relume-color-schemes" content="false"/>
+
+  .color-scheme-1 {
+/*All sections should point to Color Scheme 1*/
+
+  }
+
+  .color-scheme-2 {
+    --color-scheme-1--text: var(--color-scheme-2--text);
+    --color-scheme-1--background: var(--color-scheme-2--background);
+    --color-scheme-1--foreground: var(--color-scheme-2--foreground);
+    --color-scheme-1--border: var(--color-scheme-2--border);
+    --color-scheme-1--accent: var(--color-scheme-2--accent);
+  }
+
+  .color-scheme-3 {
+    --color-scheme-1--text: var(--color-scheme-3--text);
+    --color-scheme-1--background: var(--color-scheme-3--background);
+    --color-scheme-1--foreground: var(--color-scheme-3--foreground);
+    --color-scheme-1--border: var(--color-scheme-3--border);
+    --color-scheme-1--accent: var(--color-scheme-3--accent);
+  }
+
+  .color-scheme-4 {
+    --color-scheme-1--text: var(--color-scheme-4--text);
+    --color-scheme-1--background: var(--color-scheme-4--background);
+    --color-scheme-1--foreground: var(--color-scheme-4--foreground);
+    --color-scheme-1--border: var(--color-scheme-4--border);
+    --color-scheme-1--accent: var(--color-scheme-4--accent);
+  }
+
+  .color-scheme-5 {
+    --color-scheme-1--text: var(--color-scheme-5--text);
+    --color-scheme-1--background: var(--color-scheme-5--background);
+    --color-scheme-1--foreground: var(--color-scheme-5--foreground);
+    --color-scheme-1--border: var(--color-scheme-5--border);
+    --color-scheme-1--accent: var(--color-scheme-5--accent);
+  }
+
+  .color-scheme-6 {
+    --color-scheme-1--text: var(--color-scheme-6--text);
+    --color-scheme-1--background: var(--color-scheme-6--background);
+    --color-scheme-1--foreground: var(--color-scheme-6--foreground);
+    --color-scheme-1--border: var(--color-scheme-6--border);
+    --color-scheme-1--accent: var(--color-scheme-6--accent);
+  }
+
+  .color-scheme-7 {
+    --color-scheme-1--text: var(--color-scheme-7--text);
+    --color-scheme-1--background: var(--color-scheme-7--background);
+    --color-scheme-1--foreground: var(--color-scheme-7--foreground);
+    --color-scheme-1--border: var(--color-scheme-7--border);
+    --color-scheme-1--accent: var(--color-scheme-7--accent);
+  }
+
+  .color-scheme-8 {
+    --color-scheme-1--text: var(--color-scheme-8--text);
+    --color-scheme-1--background: var(--color-scheme-8--background);
+    --color-scheme-1--foreground: var(--color-scheme-8--foreground);
+    --color-scheme-1--border: var(--color-scheme-8--border);
+    --color-scheme-1--accent: var(--color-scheme-8--accent);
+  }
+
+  .color-scheme-9 {
+    --color-scheme-1--text: var(--color-scheme-9--text);
+    --color-scheme-1--background: var(--color-scheme-9--background);
+    --color-scheme-1--foreground: var(--color-scheme-9--foreground);
+    --color-scheme-1--border: var(--color-scheme-9--border);
+    --color-scheme-1--accent: var(--color-scheme-9--accent);
+  }
+
+  .color-scheme-10 {
+    --color-scheme-1--text: var(--color-scheme-10--text);
+    --color-scheme-1--background: var(--color-scheme-10--background);
+    --color-scheme-1--foreground: var(--color-scheme-10--foreground);
+    --color-scheme-1--border: var(--color-scheme-10--border);
+    --color-scheme-1--accent: var(--color-scheme-10--accent);
+  }
+  
+/* Inherit slider dot colors */
+.w-slider-dot {
+  background-color: var(--color-scheme-1--text);
+  opacity: 0.20;
+}
+
+.w-slider-dot.w-active {
+  background-color: var(--color-scheme-1--text);
+  opacity: 1;
+}
+
+/* Override .w-slider-nav-invert styles */
+.w-slider-nav-invert .w-slider-dot {
+  background-color: var(--color-scheme-1--text) !important;
+  opacity: 0.20 !important;
+}
+
+.w-slider-nav-invert .w-slider-dot.w-active {
+  background-color: var(--color-scheme-1--text) !important;
+  opacity: 1 !important;
+}
+
+
+
+</style></div><style>:root {--_typography---font-size--h1: clamp(3.5rem, 2.357142857142857rem + 5.714285714285714vw, 7.5rem);--_typography---font-size--h2: clamp(3rem, 2.0714285714285716rem + 4.642857142857143vw, 6.25rem);--_typography---font-size--h3: clamp(2.5rem, 1.7857142857142858rem + 3.571428571428571vw, 5rem);--_typography---font-size--h4: clamp(1.875rem, 1.3392857142857142rem + 2.6785714285714284vw, 3.75rem);--_typography---font-size--h5: clamp(1.5625rem, 1.1160714285714286rem + 2.232142857142857vw, 3.125rem);--_typography---font-size--h6: clamp(1.5rem, 1.4285714285714286rem + 0.35714285714285715vw, 1.75rem);--_ui-styles---size--11rem: clamp(7rem, 5.857142857142857rem + 5.714285714285714vw, 11rem);--_ui-styles---size--10rem: clamp(6.25rem, 5.178571428571429rem + 5.357142857142857vw, 10rem);--_ui-styles---size--9rem: clamp(6rem, 5.142857142857143rem + 4.285714285714286vw, 9rem);--_ui-styles---size--8rem: clamp(5.25rem, 4.464285714285714rem + 3.9285714285714284vw, 8rem);--_ui-styles---size--7rem: clamp(4.875rem, 4.267857142857143rem + 3.0357142857142856vw, 7rem);--_ui-styles---size--6-5rem: clamp(4.5rem, 3.9285714285714284rem + 2.857142857142857vw, 6.5rem);--_ui-styles---size--6-25rem: clamp(4.375rem, 3.8392857142857144rem + 2.6785714285714284vw, 6.25rem);--_ui-styles---size--5-5rem: clamp(4rem, 3.5714285714285716rem + 2.142857142857143vw, 5.5rem);--_ui-styles---size--5rem: clamp(3.875rem, 3.5535714285714284rem + 1.607142857142857vw, 5rem);--_ui-styles---size--4-5rem: clamp(3.5rem, 3.2142857142857144rem + 1.4285714285714286vw, 4.5rem);--_ui-styles---size--4rem: clamp(3rem, 2.7142857142857144rem + 1.4285714285714286vw, 4rem);--_ui-styles---size--3-5rem: clamp(2.625rem, 2.375rem + 1.25vw, 3.5rem);--_ui-styles---size--3rem: clamp(2.25rem, 2.0357142857142856rem + 1.0714285714285714vw, 3rem);--_ui-styles---size--2-5rem: clamp(2rem, 1.8571428571428572rem + 0.7142857142857143vw, 2.5rem);--_ui-styles---size--2rem: clamp(1.75rem, 1.6785714285714286rem + 0.35714285714285715vw, 2rem);--_ui-styles---size--1-5rem: clamp(1.25rem, 1.1785714285714286rem + 0.35714285714285715vw, 1.5rem);}</style></div><div class="navbar_container"><div class="embed-css w-embed"><style>
+/* Default transition */
+.nav_link-text {
+  transition: transform 500ms cubic-bezier(.164, .84, .44, 1);
+}
+
+.nav_link:hover .nav_link-text {
+  transform: translate(0%, -100%);
+}
+
+/* Disable transform on hover for tablet and smaller */
+@media screen and (max-width: 991px) {
+  .nav_link:hover .nav_link-text {
+    transform: none;
+  }
+}
+
+
+.nav_link.w--open .nav_icon {
+  transform: rotate(180deg);
+}
+
+
+.navbar_dropdown-list {
+  transform: translateY(10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar_dropdown-wrap:has(.w--open) .navbar_dropdown-list {
+  transform: translateY(0);
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.nav_menu-bg {
+  inset: auto 0% 100%;
+  transition: inset 500ms cubic-bezier(.164, .84, .44, 1);
+}
+
+.nav_menu-bg.is-active {
+  inset: auto 0% 0%;
+}
+
+.nav_link_img {
+    transition: transform 450ms ease;
+}
+
+.nav_dropdown-link:hover .nav_link_img {
+    transform: translate(150%, -150%);
+}
+
+</style></div><a href="https://www.together.fund/" class="navbar_logo w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6823eb2189d5394dde26fff5_navbar-logo.svg" alt="" class="navbar_img"/></a><div class="nav_menu"><div class="nav_links-wrapper"><a href="https://www.together.fund/about" class="nav_link w-inline-block"><div class="nav_link_text-wrap"><div class="nav_link-text text-size-regular">About</div><div class="nav_link-text text-size-regular is-abs">About</div></div></a><a href="https://www.together.fund/portfolio" class="nav_link w-inline-block"><div class="nav_link_text-wrap"><div class="nav_link-text text-size-regular">Portfolio</div><div class="nav_link-text text-size-regular is-abs">Portfolio</div></div></a><a href="https://www.together.fund/team" class="nav_link w-inline-block"><div class="nav_link_text-wrap"><div class="nav_link-text text-size-regular">Team</div><div class="nav_link-text text-size-regular is-abs">Team</div></div></a><div data-hover="true" data-delay="0" class="navbar_dropdown-wrap w-dropdown"><div class="nav_link w-dropdown-toggle"><div class="nav_link_text-wrap"><div class="nav_link-text text-size-regular">Programs</div><div class="nav_link-text text-size-regular is-abs">Programs</div></div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 16 16" fill="none" class="nav_icon icon-embed-xxsmall"><path d="M2 5L8 11L14 5" stroke="currentColor" stroke-width="1.5"></path></svg></div><nav class="navbar_dropdown-list w-dropdown-list"><a href="https://www.together.fund/togetherswarmspace" class="nav_dropdown-link w-inline-block"><div class="nav_dropdown-content"><div class="nav_dropdown-header"><div class="nav_dropdown-title">SwarmSpace</div></div><div class="footer_link_icon"><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="nav_link_img"/><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="nav_link_img is-abs"/></div></div></a></nav></div><a href="./" aria-current="page" class="nav_link w-inline-block w--current"><div class="nav_link_text-wrap"><div class="nav_link-text text-size-regular">Community</div><div class="nav_link-text text-size-regular is-abs">Community</div></div></a><a href="https://www.together.fund/perspectives" class="nav_link w-inline-block"><div class="nav_link_text-wrap"><div class="nav_link-text text-size-regular">Perspectives</div><div class="nav_link-text text-size-regular is-abs">Perspectives</div></div></a><a href="https://www.together.fund/contact" class="nav_link is-last w-inline-block"><div class="nav_link_text-wrap"><div class="nav_link-text text-size-regular">Contact</div><div class="nav_link-text text-size-regular is-abs">Contact</div></div></a><div class="hide"><a href="#" class="nav_link w-inline-block"><div>Blog</div></a><a href="#" class="nav_link w-inline-block"><div>Changelog</div></a></div></div></div><div class="nav_button"><div class="nav_button-icon"><div class="nav_button-line-1"></div><div class="nav_button-line-2"></div><div class="nav_button-line-3"></div></div></div></div></nav>
+
+  <main class="main-wrapper community">
     <section class="intro">
       <video class="intro__art" autoplay muted loop playsinline aria-hidden="true"
              poster="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6894a24a2909c57ebabb919f_Screenshot%202025-08-07%20at%206.25.20%E2%80%AFPM.png">
@@ -42,18 +522,17 @@
       </video>
       <div class="wrap intro__inner">
         <div class="intro__copy">
-        <h1 class="intro__title">Great things get built when the right people <span>share a room.</span></h1>
-        <p class="intro__text">At Together, we give back to the community we're part of. We bring the founders, researchers and operators shaping AI into the same space, so we can all learn faster and build it right.</p>
+          <h1 class="intro__title">Great things get built when the right people <span>share a room.</span></h1>
+          <p class="intro__text">At Together, we give back to the community we're part of. We bring the founders, researchers and operators shaping AI into the same space, so we can all learn faster and build it right.</p>
         </div>
       </div>
     </section>
 
-    <section class="section" id="speakers" aria-labelledby="speakers-h">
+    <section class="section section--white" id="speakers" aria-labelledby="speakers-h">
       <div class="wrap">
         <header class="head reveal">
-          <p class="eyebrow">In the room</p>
-          <h2 id="speakers-h" class="head__title">People who've shared what they know.</h2>
-          <p class="head__text">Tap a card to meet them.</p>
+          <h2 id="speakers-h" class="head__title">In the <em>room</em></h2>
+          <p class="head__text">Founders, operators and researchers who've shared what they know with our community.</p>
         </header>
         <ul class="speakers" id="speakerGrid"></ul>
       </div>
@@ -62,34 +541,32 @@
     <section class="section" aria-labelledby="programs-h">
       <div class="wrap">
         <header class="head reveal">
-          <p class="eyebrow">What we run</p>
-          <h2 id="programs-h" class="head__title">Formats built for depth.</h2>
+          <h2 id="programs-h" class="head__title">What we <em>run</em></h2>
+          <p class="head__text">Formats built for depth, not small talk.</p>
         </header>
         <div id="salon"></div>
         <div class="programs" id="programs"></div>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="events-h">
+    <section class="section section--white" aria-labelledby="events-h">
       <div class="wrap">
         <header class="head reveal">
-          <p class="eyebrow">Other events we've hosted</p>
-          <h2 id="events-h" class="head__title">And many more rooms.</h2>
+          <h2 id="events-h" class="head__title">And many more <em>rooms</em></h2>
+          <p class="head__text">Other events we've hosted.</p>
         </header>
         <div class="groups" id="groups"></div>
       </div>
     </section>
 
-    <section class="section section--cta">
+    <section class="section">
       <div class="wrap">
         <div class="invite reveal">
           <div>
-            <h2 class="invite__title">Want to be in the next room?</h2>
+            <h2 class="invite__title">Want to be in the <em>next room?</em></h2>
             <p class="invite__text">Follow our calendar for invites to every salon, hackathon, talk and mixer.</p>
           </div>
-          <a class="invite__btn" href="https://luma.com/togetherfund" target="_blank" rel="noopener">Follow on Luma
-            <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
-          </a>
+          <a href="https://luma.com/togetherfund" target="_blank" rel="noopener" class="button w-inline-block"><div class="button-cover"></div><div class="button-text z-index-1">Follow on Luma</div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 30 30" fill="none" class="button_icon z-index-1"><rect width="30" height="30" rx="15" fill="white"></rect><path d="M18.1287 14.2477L14.1057 10.2247L15.1663 9.16406L21 14.9977L15.1663 20.8313L14.1057 19.7707L18.1287 15.7477H9V14.2477H18.1287Z" fill="black"></path></svg></a>
         </div>
       </div>
     </section>
@@ -98,6 +575,49 @@
   <!-- Footer: together.fund's footer markup, copied from the live site -->
   <div class="footer_wrap bg-color-fbf4ed"><div class="footer_main"><div class="padding-global"><div class="container-large"><div class="footer_main_wrap"><div class="footer_link_wrap"><a href="https://www.together.fund/about" class="footer_link-text heading-style-h6">About</a><a href="https://www.together.fund/portfolio" class="footer_link-text heading-style-h6">Portfolio</a><a href="https://www.together.fund/team" class="footer_link-text heading-style-h6">Team</a><a href="https://www.together.fund/perspectives" class="footer_link-text heading-style-h6">Perspectives</a><a href="https://www.together.fund/contact" class="footer_link-text heading-style-h6">Contact</a><a href="https://www.together.fund/legal" class="footer_link-text heading-style-h6">Legal</a></div><div class="footer_link_wrap is-right"><div class="footer_link_inner"><div class="footer_link-header">Programs</div><a href="https://www.together.fund/togetherswarmspace" class="footer_link-sub-text heading-style-h6">SwarmSpace</a></div><div class="footer_social_wrap"><a href="https://www.linkedin.com/company/scaletogether/" target="_blank" rel="noopener" class="footer_link w-inline-block"><div class="footer_link-social heading-style-h6">LinkedIn</div><div class="footer_link_icon"><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/></div></a><a href="https://x.com/scaletogether" target="_blank" rel="noopener" class="footer_link w-inline-block"><div class="footer_link-social heading-style-h6">Twitter</div><div class="footer_link_icon"><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/></div></a><a href="https://medium.com/@scaletogether" target="_blank" rel="noopener" class="footer_link w-inline-block"><div class="footer_link-social heading-style-h6">Medium</div><div class="footer_link_icon"><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/></div></a><a href="#" class="footer_link hide w-inline-block"><div class="footer_link-social heading-style-h6">Resources</div><div class="footer_link_icon"><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/></div></a></div></div></div></div></div></div><div class="footer_bottom"><div class="padding-global"><div class="container-large"><div class="footer_bottom_content"><div class="footer_bottom_link-wrap"><div class="footer_bottom_copyright"><div class="footer_bottom_text text-size-tiny">Copyright @ <span id="footer-year">2026</span> TogetherFund. All Rights Reserved.</div></div><div class="footer_bottom_links"><a href="#" class="footer_bottom_link hide w-inline-block"><div class="footer_bottom_text text-size-tiny">Privacy Policy</div></a><a href="#" class="footer_bottom_link hide w-inline-block"><div class="footer_bottom_text text-size-tiny">ToS</div></a><a href="#" class="footer_bottom_link hide w-inline-block"><div class="footer_bottom_text text-size-tiny">Disclaimer</div></a></div></div><div class="footer_bottom_decor"><img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68237c70e0fc7b26b680a91f_footer-logo.svg" loading="lazy" alt="" class="footer_bottom_img"/></div></div></div></div></div></div></div>
 
-  <script src="./assets/js/community.js?v=20261023i" defer></script>
+</div>
+
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=682181088907d9e5e12f3d45" crossorigin="anonymous"></script>
+  <script src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/js/webflow.d0ca551f.f928496763eb0093.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const navButton = document.querySelector(".nav_button");
+  const navItems = document.querySelectorAll(".nav_links-wrapper > *");
+
+  if (!navButton || !navItems.length) return;
+
+  let isMenuOpen = false;
+
+  navButton.addEventListener("click", () => {
+    isMenuOpen = !isMenuOpen;
+
+    if (isMenuOpen) {
+      // Set nav items to hidden state immediately
+      gsap.set(navItems, { y: 30, opacity: 0 });
+
+      // Animate nav items in
+      gsap.to(navItems, {
+        y: 0,
+        opacity: 1,
+        duration: 0.6,
+        ease: "power2.out",
+        stagger: 0.1,
+        delay: 0.2, // mimic previous delay from .is-active
+      });
+    } else {
+      // Optionally reverse the animation when menu closes
+      gsap.to(navItems, {
+        y: 30,
+        opacity: 0,
+        duration: 0.3,
+        ease: "power2.in",
+        stagger: 0.05,
+      });
+    }
+  });
+});
+</script>
+  <script src="./assets/js/community.js?v=20261023k" defer></script>
 </body>
 </html>
