@@ -1,598 +1,154 @@
 <!DOCTYPE html>
-<html lang="en" data-wf-domain="www.together.fund">
+<html lang="en">
 <head>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Community | Together Fund</title>
-  <meta name="description" content="AMAs, hackathons, community meetups, podcasts and workshops, the rooms where Together comes together."/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta name="description" content="The rooms Together Fund has built: firesides with founders like Mukund Jha and Tanay Kothari, research salons, hackathons and mixers across India and the US."/>
   <meta property="og:title" content="Community | Together Fund"/>
-  <meta property="og:type" content="website"/>
-  <meta name="twitter:card" content="summary_large_image"/>
-
-  <link rel="preconnect" href="https://cdn.prod.website-files.com" crossorigin="anonymous"/>
-  <link rel="preconnect" href="https://images.unsplash.com" crossorigin="anonymous"/>
-  <link rel="preconnect" href="https://togetherfund-assets.netlify.app" crossorigin="anonymous"/>
-
-  <link href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/css/togetherfund-tc.webflow.shared.2933fae5c.min.css"
-        rel="stylesheet" type="text/css"
-        integrity="sha384-KTP65cm5ruj+l/txz2gmiM7BAh6jMIJnSzhcQWI/dJWjCV0gb58/WJKArp9NPIQX"
-        crossorigin="anonymous"/>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
-  <link rel="stylesheet" href="./assets/css/events-page.css?v=20260525m"/>
-
+  <meta property="og:description" content="Firesides, research salons, hackathons and mixers from Together Fund, ranked by impact."/>
+  <meta property="og:image" content="https://shivrain.github.io/together-events/assets/img/wispr-tanay-kothari.jpg"/>
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
+  <link rel="preconnect" href="https://images.lumacdn.com" crossorigin/>
+  <link rel="preconnect" href="https://i.ytimg.com" crossorigin/>
+  <link rel="stylesheet" href="./assets/css/community.css?v=20261023a"/>
 </head>
 <body>
-<div class="page-wrapper">
+  <a class="skip" href="#top5">Skip to events</a>
 
-  <!-- ============================================================
-       NAVBAR — copied verbatim from live together.fund, with
-       "Events" added between Programs and Perspectives. Programs
-       remains a dropdown with SwarmSpace child (matches live site).
-       ============================================================ -->
-  <nav class="navbar">
-    <div class="navbar_container">
-      <a href="https://www.together.fund/" class="navbar_logo w-inline-block">
-        <img loading="lazy" src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6823eb2189d5394dde26fff5_navbar-logo.svg" alt="Together Fund" class="navbar_img"/>
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a href="https://www.together.fund/" class="nav__logo" aria-label="Together Fund home">
+        <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6823eb2189d5394dde26fff5_navbar-logo.svg" alt="Together" width="110" height="28"/>
       </a>
-      <div class="nav_menu">
-        <div class="nav_links-wrapper">
-          <a href="https://www.together.fund/about" class="nav_link w-inline-block">
-            <div class="nav_link_text-wrap">
-              <div class="nav_link-text text-size-regular">About</div>
-              <div class="nav_link-text text-size-regular is-abs">About</div>
-            </div>
-          </a>
-          <a href="https://www.together.fund/portfolio" class="nav_link w-inline-block">
-            <div class="nav_link_text-wrap">
-              <div class="nav_link-text text-size-regular">Portfolio</div>
-              <div class="nav_link-text text-size-regular is-abs">Portfolio</div>
-            </div>
-          </a>
-          <a href="https://www.together.fund/team" class="nav_link w-inline-block">
-            <div class="nav_link_text-wrap">
-              <div class="nav_link-text text-size-regular">Team</div>
-              <div class="nav_link-text text-size-regular is-abs">Team</div>
-            </div>
-          </a>
-          <div data-hover="true" data-delay="0" class="navbar_dropdown-wrap w-dropdown">
-            <div class="nav_link w-dropdown-toggle">
-              <div class="nav_link_text-wrap">
-                <div class="nav_link-text text-size-regular">Programs</div>
-                <div class="nav_link-text text-size-regular is-abs">Programs</div>
-              </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 16 16" fill="none" class="nav_icon icon-embed-xxsmall">
-                <path d="M2 5L8 11L14 5" stroke="currentColor" stroke-width="1.5"></path>
-              </svg>
-            </div>
-            <nav class="navbar_dropdown-list w-dropdown-list">
-              <a href="https://www.together.fund/togetherswarmspace" class="nav_dropdown-link w-inline-block">
-                <div class="nav_dropdown-content">
-                  <div class="nav_dropdown-header">
-                    <div class="nav_dropdown-title">SwarmSpace</div>
-                  </div>
-                </div>
-              </a>
-            </nav>
-          </div>
-          <a href="./" aria-current="page" class="nav_link w--current w-inline-block">
-            <div class="nav_link_text-wrap">
-              <div class="nav_link-text text-size-regular">Community</div>
-              <div class="nav_link-text text-size-regular is-abs">Community</div>
-            </div>
-          </a>
-          <a href="https://www.together.fund/perspectives" class="nav_link w-inline-block">
-            <div class="nav_link_text-wrap">
-              <div class="nav_link-text text-size-regular">Perspectives</div>
-              <div class="nav_link-text text-size-regular is-abs">Perspectives</div>
-            </div>
-          </a>
-          <a href="https://www.together.fund/contact" class="nav_link is-last w-inline-block">
-            <div class="nav_link_text-wrap">
-              <div class="nav_link-text text-size-regular">Contact</div>
-              <div class="nav_link-text text-size-regular is-abs">Contact</div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nav_button">
-        <div class="nav_button-icon">
-          <div class="nav_button-line-1"></div>
-          <div class="nav_button-line-2"></div>
-          <div class="nav_button-line-3"></div>
-        </div>
-      </div>
+      <nav class="nav__links" aria-label="Main">
+        <a href="https://www.together.fund/about">About</a>
+        <a href="https://www.together.fund/portfolio">Portfolio</a>
+        <a href="https://www.together.fund/team">Team</a>
+        <a href="https://www.together.fund/togetherswarmspace">SwarmSpace</a>
+        <a href="./" aria-current="page">Community</a>
+        <a href="https://www.together.fund/perspectives">Perspectives</a>
+        <a href="https://www.together.fund/contact">Contact</a>
+      </nav>
+      <a class="btn btn--ink btn--sm nav__cta" href="https://luma.com/togetherfund" target="_blank" rel="noopener">Get invites</a>
     </div>
-  </nav>
+  </header>
 
-  <div class="main-wrapper">
-
-  <!-- ============================================================
-       1. HERO (cream) — reuses the live together.fund homepage hero
-       animation (the coral isometric "network city" video) on a cream
-       background, with a dark serif headline. Matches the main site.
-       ============================================================ -->
-  <section class="g_section events_hero_section is-fullbleed is-animated" data-wf--global-section--section-color="cream">
-    <div class="events_hero_wrap is-fullbleed">
-      <div class="events_hero_video_wrap" aria-hidden="true">
-        <video class="events_hero_video"
-               autoplay loop muted playsinline
-               poster="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6894a24a2909c57ebabb919f_Screenshot%202025-08-07%20at%206.25.20%E2%80%AFPM.png">
-          <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.webm" type="video/webm"/>
-          <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.mp4" type="video/mp4"/>
-        </video>
-        <div class="events_hero_video_overlay"></div>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <video class="hero__art" autoplay muted loop playsinline aria-hidden="true"
+             poster="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6894a24a2909c57ebabb919f_Screenshot%202025-08-07%20at%206.25.20%E2%80%AFPM.png">
+        <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.webm" type="video/webm"/>
+        <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.mp4" type="video/mp4"/>
+      </video>
+      <div class="wrap hero__inner">
+        <p class="eyebrow">Together Community</p>
+        <h1 class="hero__title">Where Together <em>comes</em> together.</h1>
+        <p class="hero__lede">The rooms we build for founders, researchers and operators: firesides with the people running the fastest-growing AI companies, research salons, hackathons and the dinners in between.</p>
+        <dl class="hero__stats" id="heroStats">
+          <div><dt>Events hosted</dt><dd data-stat="events">50+</dd></div>
+          <div><dt>Cities</dt><dd data-stat="cities">6</dd></div>
+          <div><dt>Views of recorded sessions</dt><dd data-stat="views">120K+</dd></div>
+        </dl>
       </div>
+    </section>
 
-      <div class="events_hero_content">
-        <h1 class="events_hero_heading heading-style-h2">
-          Where Together <em class="text-color-coral-red">comes</em> together.
-        </h1>
-        <p class="events_hero_subline text-size-large">
-          A glance of the community we've built. AMAs with founders, hackathons with builders, and the mixers, dinners, and workshops in between.
-        </p>
+    <!-- TOP 5 -->
+    <section class="section" id="top5" aria-labelledby="top5-h">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Ranked by impact</p>
+          <h2 id="top5-h" class="h2">The five rooms that mattered most</h2>
+          <p class="section__sub">Ranked on who took the chair, how many people asked to be in the room, and how far the conversation travelled afterwards.</p>
+        </div>
+        <div class="top5" id="top5List"></div>
       </div>
+    </section>
+
+    <!-- 6-15 -->
+    <section class="section section--white" aria-labelledby="next-h">
+      <div class="wrap">
+        <div class="section__head section__head--row">
+          <h2 id="next-h" class="h3">The next ten</h2>
+          <p class="section__sub">Still in the top tier, in order.</p>
+        </div>
+        <ol class="ranklist" id="rankList"></ol>
+      </div>
+    </section>
+
+    <!-- WATCH -->
+    <section class="section section--ink" id="watch" aria-labelledby="watch-h">
+      <div class="wrap">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="eyebrow eyebrow--light">Watch</p>
+            <h2 id="watch-h" class="h2">Recorded sessions</h2>
+          </div>
+          <p class="section__sub section__sub--light">The most-watched episodes from <a href="https://www.youtube.com/@ManavGargPodcast" target="_blank" rel="noopener">The Next Big Opportunity with Manav Garg</a> and <a href="https://www.youtube.com/@together2328" target="_blank" rel="noopener">Together on YouTube</a>.</p>
+        </div>
+        <div class="watch" id="watchGrid"></div>
+      </div>
+    </section>
+
+    <!-- ARCHIVE -->
+    <section class="section" id="archive" aria-labelledby="archive-h">
+      <div class="wrap">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="eyebrow">Archive</p>
+            <h2 id="archive-h" class="h2">Every event</h2>
+          </div>
+          <label class="search">
+            <span class="sr-only">Search events</span>
+            <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 13.5 18 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <input id="search" type="search" placeholder="Search speakers, companies, topics" autocomplete="off"/>
+          </label>
+        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filter by format"></div>
+        <div id="archiveList" class="archive"></div>
+        <p class="empty" id="empty" hidden>No events match that search.</p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="wrap cta__inner">
+        <h2 class="h2">The next room is already being planned.</h2>
+        <p>Follow Together on Luma and you'll hear about firesides, salons and hackathons when they open.</p>
+        <a class="btn btn--cream" href="https://luma.com/togetherfund" target="_blank" rel="noopener">Follow on Luma
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6823eb2189d5394dde26fff5_navbar-logo.svg" alt="Together" width="110" height="28"/>
+      <nav aria-label="Footer">
+        <a href="https://www.together.fund/about">About</a>
+        <a href="https://www.together.fund/portfolio">Portfolio</a>
+        <a href="https://www.together.fund/team">Team</a>
+        <a href="https://www.together.fund/perspectives">Perspectives</a>
+        <a href="https://www.together.fund/contact">Contact</a>
+      </nav>
+      <nav aria-label="Social">
+        <a href="https://www.linkedin.com/company/scaletogether/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com/scaletogether" target="_blank" rel="noopener">X</a>
+        <a href="https://www.youtube.com/@ManavGargPodcast" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://luma.com/togetherfund" target="_blank" rel="noopener">Luma</a>
+      </nav>
     </div>
-  </section>
+  </footer>
 
-  <!-- ============================================================
-       2. WHAT WE HOST category overview strip (base) — placed before
-       Featured events per spec.
-       ============================================================ -->
-  <section class="g_section events_what_section" data-wf--global-section--section-color="base">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_what_header">
-          <h2 class="heading-style-h4">What we host</h2>
-        </div>
-        <div class="events_what_grid">
-          <a href="#cat-amas" class="events_what_tile" data-jump="cat-amas">
-            <span class="events_what_index">(01)</span>
-            <span class="events_what_title_wrap">
-              <span class="events_what_title heading-style-h6" data-text="Jump to &rarr;">AMAs / Founder Chats</span>
-            </span>
-            <span class="events_what_copy text-size-regular">Intimate sessions where founders unpack hard-won lessons with our network.</span>
-          </a>
-          <a href="#cat-hackathons" class="events_what_tile" data-jump="cat-hackathons">
-            <span class="events_what_index">(02)</span>
-            <span class="events_what_title_wrap">
-              <span class="events_what_title heading-style-h6" data-text="Jump to &rarr;">Hackathons</span>
-            </span>
-            <span class="events_what_copy text-size-regular">Two-day sprints where builders ship something real, together.</span>
-          </a>
-          <a href="#cat-meetups" class="events_what_tile" data-jump="cat-meetups">
-            <span class="events_what_index">(03)</span>
-            <span class="events_what_title_wrap">
-              <span class="events_what_title heading-style-h6" data-text="Jump to &rarr;">Community Meetups</span>
-            </span>
-            <span class="events_what_copy text-size-regular">Mixers, demo nights, pickleball, the network in person.</span>
-          </a>
-          <a href="#cat-podcasts-workshops" class="events_what_tile" data-jump="cat-podcasts-workshops">
-            <span class="events_what_index">(04)</span>
-            <span class="events_what_title_wrap">
-              <span class="events_what_title heading-style-h6" data-text="Jump to &rarr;">Podcasts + Workshops</span>
-            </span>
-            <span class="events_what_copy text-size-regular">Live recordings and deep-dive talks from operators, researchers, and founders.</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
+  <dialog class="modal" id="modal" aria-labelledby="modalTitle">
+    <button class="modal__close" type="button" data-close aria-label="Close">
+      <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15" stroke="currentColor" stroke-width="1.6"/></svg>
+    </button>
+    <div class="modal__body" id="modalBody"></div>
+  </dialog>
 
-  <!-- ============================================================
-       3. FEATURED EVENTS (cream) — horizontal carousel populated from
-       events.json `featuredEvents`. JS renders one slide per entry.
-       ============================================================ -->
-  <section class="g_section events_featured_section" data-wf--global-section--section-color="cream" id="featured-events">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_section_header">
-          <div class="events_section_header_text">
-            <h2 class="heading-style-h4">Featured events</h2>
-          </div>
-        </div>
-
-        <div class="events_slider_wrap events_featured_slider_wrap">
-          <div class="events_slider_swiper" data-featured-swiper>
-            <div class="swiper-wrapper" data-featured-swiper-track>
-              <!-- slides injected by events-page.js -->
-            </div>
-          </div>
-          <button type="button" class="events_slider_arrow is-prev" data-featured-prev aria-label="Previous featured">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-          <button type="button" class="events_slider_arrow is-next" data-featured-next aria-label="Next featured">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
-
-  <!-- ============================================================
-       4-7. CATEGORY CAROUSELS (rendered via template below)
-       Each section keeps section color alternation: cream/base/cream/base.
-       The contents (carousel + grid) are populated by events-page.js.
-       ============================================================ -->
-
-  <!-- 4. AMAs / Founder Chats (cream) -->
-  <section class="g_section events_carousel_section" id="cat-amas" data-wf--global-section--section-color="cream">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_slider_wrap" data-category-block="amas">
-          <div class="events_section_header">
-            <div class="events_section_header_text">
-              <h2 class="heading-style-h4" data-category-title>AMAs / Founder Chats</h2>
-              <p class="events_section_description text-size-regular" data-category-description></p>
-            </div>
-            <button type="button" class="button events_section_header_cta" data-see-all="amas" aria-expanded="false">
-              <div class="button-cover"></div>
-              <div class="button-text" data-see-all-text>See all AMAs</div>
-              <span class="events_button_arrow" aria-hidden="true">
-                <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="10" cy="10" r="9.25"/>
-                  <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </button>
-          </div>
-
-          <button type="button"
-                  class="news_slider_arrow is-prev events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Previous">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M15 18l-6-6 6-6"/>
-            </svg>
-          </button>
-          <button type="button"
-                  class="news_slider_arrow is-next events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Next">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 18l6-6-6-6"/>
-            </svg>
-          </button>
-
-          <div class="news_slider_swiper events_slider_swiper" data-events-swiper="amas">
-            <div class="news_slider_swiper-wrap swiper-wrapper" data-events-track>
-              <div class="events_loading text-size-regular">Loading AMAs / Founder Chats...</div>
-            </div>
-          </div>
-
-          <div class="news_slider_dragable events_slider_dragable">
-            <div class="news_slider_drag events_slider_drag"></div>
-          </div>
-
-          <div class="events_grid" data-events-grid="amas" hidden></div>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
-
-  <!-- 5. Hackathons (base) -->
-  <section class="g_section events_carousel_section" id="cat-hackathons" data-wf--global-section--section-color="base">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_slider_wrap" data-category-block="hackathons">
-          <div class="events_section_header">
-            <div class="events_section_header_text">
-              <h2 class="heading-style-h4" data-category-title>Hackathons</h2>
-              <p class="events_section_description text-size-regular" data-category-description></p>
-            </div>
-            <button type="button" class="button events_section_header_cta" data-see-all="hackathons" aria-expanded="false">
-              <div class="button-cover"></div>
-              <div class="button-text" data-see-all-text>See all Hackathons</div>
-              <span class="events_button_arrow" aria-hidden="true">
-                <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="10" cy="10" r="9.25"/>
-                  <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </button>
-          </div>
-
-          <button type="button"
-                  class="news_slider_arrow is-prev events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Previous">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M15 18l-6-6 6-6"/>
-            </svg>
-          </button>
-          <button type="button"
-                  class="news_slider_arrow is-next events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Next">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 18l6-6-6-6"/>
-            </svg>
-          </button>
-
-          <div class="news_slider_swiper events_slider_swiper" data-events-swiper="hackathons">
-            <div class="news_slider_swiper-wrap swiper-wrapper" data-events-track>
-              <div class="events_loading text-size-regular">Loading Hackathons...</div>
-            </div>
-          </div>
-
-          <div class="news_slider_dragable events_slider_dragable">
-            <div class="news_slider_drag events_slider_drag"></div>
-          </div>
-
-          <div class="events_grid" data-events-grid="hackathons" hidden></div>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
-
-  <!-- 6. Community Meetups (cream) -->
-  <section class="g_section events_carousel_section" id="cat-meetups" data-wf--global-section--section-color="cream">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_slider_wrap" data-category-block="meetups">
-          <div class="events_section_header">
-            <div class="events_section_header_text">
-              <h2 class="heading-style-h4" data-category-title>Community Meetups</h2>
-              <p class="events_section_description text-size-regular" data-category-description></p>
-            </div>
-            <button type="button" class="button events_section_header_cta" data-see-all="meetups" aria-expanded="false">
-              <div class="button-cover"></div>
-              <div class="button-text" data-see-all-text>See all Meetups</div>
-              <span class="events_button_arrow" aria-hidden="true">
-                <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="10" cy="10" r="9.25"/>
-                  <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </button>
-          </div>
-
-          <button type="button"
-                  class="news_slider_arrow is-prev events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Previous">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M15 18l-6-6 6-6"/>
-            </svg>
-          </button>
-          <button type="button"
-                  class="news_slider_arrow is-next events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Next">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 18l6-6-6-6"/>
-            </svg>
-          </button>
-
-          <div class="news_slider_swiper events_slider_swiper" data-events-swiper="meetups">
-            <div class="news_slider_swiper-wrap swiper-wrapper" data-events-track>
-              <div class="events_loading text-size-regular">Loading Meetups...</div>
-            </div>
-          </div>
-
-          <div class="news_slider_dragable events_slider_dragable">
-            <div class="news_slider_drag events_slider_drag"></div>
-          </div>
-
-          <div class="events_grid" data-events-grid="meetups" hidden></div>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
-
-  <!-- 7. Podcasts + Workshops (base) -->
-  <section class="g_section events_carousel_section" id="cat-podcasts-workshops" data-wf--global-section--section-color="base">
-    <div class="g_section_space"></div>
-    <div class="padding-global">
-      <div class="container-large">
-        <div class="events_slider_wrap" data-category-block="podcasts-workshops">
-          <div class="events_section_header">
-            <div class="events_section_header_text">
-              <h2 class="heading-style-h4" data-category-title>Podcasts + Workshops</h2>
-              <p class="events_section_description text-size-regular" data-category-description></p>
-            </div>
-            <button type="button" class="button events_section_header_cta" data-see-all="podcasts-workshops" aria-expanded="false">
-              <div class="button-cover"></div>
-              <div class="button-text" data-see-all-text>See all Podcasts + Workshops</div>
-              <span class="events_button_arrow" aria-hidden="true">
-                <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="10" cy="10" r="9.25"/>
-                  <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </button>
-          </div>
-
-          <button type="button"
-                  class="news_slider_arrow is-prev events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Previous">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M15 18l-6-6 6-6"/>
-            </svg>
-          </button>
-          <button type="button"
-                  class="news_slider_arrow is-next events_slider_arrow events_slider_arrow_btn"
-                  aria-label="Next">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 18l6-6-6-6"/>
-            </svg>
-          </button>
-
-          <div class="news_slider_swiper events_slider_swiper" data-events-swiper="podcasts-workshops">
-            <div class="news_slider_swiper-wrap swiper-wrapper" data-events-track>
-              <div class="events_loading text-size-regular">Loading Podcasts + Workshops...</div>
-            </div>
-          </div>
-
-          <div class="news_slider_dragable events_slider_dragable">
-            <div class="news_slider_drag events_slider_drag"></div>
-          </div>
-
-          <div class="events_grid" data-events-grid="podcasts-workshops" hidden></div>
-        </div>
-      </div>
-    </div>
-    <div class="g_section_space"></div>
-  </section>
-
-  </div><!-- /.main-wrapper -->
-
-  <!-- ============================================================
-       FOOTER — copied verbatim from live together.fund. Contains
-       coral newsletter banner, 2-col serif link section, copyright
-       row, and the oversized Together wordmark.
-       ============================================================ -->
-  <div class="footer_wrap bg-color-fbf4ed">
-    <div class="footer_form bg-color-fb5b51">
-      <div class="g_section_space"></div>
-      <div class="padding-global">
-        <div class="container-large">
-          <div class="cta_contain">
-            <h2 class="cta_heading heading-style-h3">Want to attend?</h2>
-            <div class="cta_paths is-single">
-              <div class="cta_path">
-                <p class="cta_path_label text-size-regular">Follow our calendar to get invites to every AMA, hackathon, mixer, and workshop.</p>
-                <a class="cta_btn is-primary" href="https://luma.com/togetherfund" target="_blank" rel="noopener">
-                  <span class="cta_btn_text">Follow on Luma</span>
-                  <span class="cta_btn_icon" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 62" width="44" height="44" fill="none">
-                      <rect y="0.499023" width="61" height="61" rx="30.5" fill="white"></rect>
-                      <path d="M36.8625 29.474L28.6824 21.2939L30.839 19.1372L42.7008 30.999L30.839 42.8606L28.6824 40.7039L36.8625 32.524H18.3008V29.474H36.8625Z" fill="black"></path>
-                    </svg>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="g_section_space"></div>
-    </div>
-
-    <div class="footer_main">
-      <div class="padding-global">
-        <div class="container-large">
-          <div class="footer_main_wrap">
-            <div class="footer_link_wrap">
-              <a href="https://www.together.fund/about" class="footer_link-text heading-style-h6">About</a>
-              <a href="https://www.together.fund/portfolio" class="footer_link-text heading-style-h6">Portfolio</a>
-              <a href="https://www.together.fund/team" class="footer_link-text heading-style-h6">Team</a>
-              <a href="https://www.together.fund/perspectives" class="footer_link-text heading-style-h6">Perspectives</a>
-              <a href="./" class="footer_link-text heading-style-h6">Community</a>
-              <a href="https://www.together.fund/contact" class="footer_link-text heading-style-h6">Contact</a>
-            </div>
-            <div class="footer_link_wrap is-right">
-              <div class="footer_link_inner">
-                <div class="footer_link-header">Programs</div>
-                <a href="https://www.together.fund/togetherswarmspace" class="footer_link-sub-text heading-style-h6">SwarmSpace</a>
-              </div>
-              <div class="footer_social_wrap">
-                <a href="https://www.linkedin.com/company/scaletogether/" target="_blank" class="footer_link w-inline-block">
-                  <div class="footer_link-social heading-style-h6">LinkedIn</div>
-                  <div class="footer_link_icon">
-                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/>
-                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/>
-                  </div>
-                </a>
-                <a href="https://x.com/scaletogether" target="_blank" class="footer_link w-inline-block">
-                  <div class="footer_link-social heading-style-h6">Twitter</div>
-                  <div class="footer_link_icon">
-                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/>
-                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/>
-                  </div>
-                </a>
-                <a href="https://medium.com/@scaletogether" target="_blank" class="footer_link w-inline-block">
-                  <div class="footer_link-social heading-style-h6">Medium</div>
-                  <div class="footer_link_icon">
-                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/>
-                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer_bottom">
-      <div class="padding-global">
-        <div class="container-large">
-          <div class="footer_bottom_content">
-            <div class="footer_bottom_link-wrap">
-              <div class="footer_bottom_copyright">
-                <div class="footer_bottom_text text-size-tiny">Copyright @ <span id="footer-year">2026</span> TogetherFund. All Rights Reserved.</div>
-              </div>
-            </div>
-            <div class="footer_bottom_decor">
-              <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68237c70e0fc7b26b680a91f_footer-logo.svg" loading="lazy" alt="" class="footer_bottom_img"/>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- jQuery + Webflow runtime are loaded so the live navbar dropdown
-       (Programs > SwarmSpace) and the live newsletter form behave the
-       same way they do on together.fund. Loaded BEFORE Swiper so
-       Webflow doesn't interfere with our carousel init. -->
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=682181088907d9e5e12f3d45" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/js/webflow.6e9dd82c.8f66fa883c389b8f.js" type="text/javascript" integrity="sha384-eFUC9xUnhJZy7jHoXjJTgm1CErK224JvAY6p6ixDSDD/qJ/1PvGHmNxTLIvYUQQ7" crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" defer></script>
-  <script src="./assets/js/events-page.js?v=20260525m" defer></script>
-  <script>
-    document.getElementById('footer-year').textContent = new Date().getFullYear();
-  </script>
-
-  <!-- ============================================================
-       EVENT DETAIL MODAL — opened by clicking "Read more" on any
-       event card. JS populates the fields from the clicked event
-       and toggles the .is-open class.
-       ============================================================ -->
-  <div class="events_modal" data-event-modal hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="event-modal-title">
-    <div class="events_modal_backdrop" data-event-modal-close></div>
-    <div class="events_modal_dialog" role="document">
-      <button type="button" class="events_modal_close" data-event-modal-close aria-label="Close">
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
-        </svg>
-      </button>
-      <div class="events_modal_visual">
-        <img data-event-modal-img alt="" loading="lazy"/>
-      </div>
-      <div class="events_modal_body">
-        <div class="events_modal_chip" data-event-modal-chip></div>
-        <h3 id="event-modal-title" class="events_modal_heading heading-style-h4" data-event-modal-title></h3>
-        <div class="events_modal_meta text-size-small" data-event-modal-meta></div>
-        <div class="events_modal_description" data-event-modal-description></div>
-        <div class="events_modal_actions">
-          <a class="button events_modal_cta" data-event-modal-luma href="#" target="_blank" rel="noopener">
-            <div class="button-text">View on Luma</div>
-            <span class="events_button_arrow" aria-hidden="true">
-              <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
-                <circle cx="10" cy="10" r="9.25"/>
-                <path d="M7 10h6M10.5 7.5L13 10l-2.5 2.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div><!-- /.page-wrapper -->
+  <script src="./assets/js/community.js?v=20261023a" defer></script>
 </body>
 </html>
