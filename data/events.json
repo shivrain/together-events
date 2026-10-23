@@ -7,7 +7,7 @@
    "photo": "assets/img/speakers/mukund-jha.jpg",
    "bio": "Co-founded Dunzo, then Emergent with his twin brother Madhav. Emergent became a $1.5B unicorn in July 2026, serving 200,000+ paying customers. Together wrote its first cheque.",
    "company": "Emergent",
-   "context": "Emergent builds working apps from a simple prompt. A $1.5B company; Together wrote its first cheque."
+   "context": "The fastest-growing AI company to come out of India. Valued at $1.5B, used by millions worldwide, and Together wrote its first cheque."
   },
   {
    "id": "tanay-kothari",
@@ -16,7 +16,7 @@
    "photo": "assets/img/speakers/tanay-kothari.jpg",
    "bio": "Started Wispr in 2021 with Sahaj Garg to make voice the main way we use computers. Wispr Flow is used by millions and raised a $280M Series B at a $2B valuation.",
    "company": "Wispr Flow",
-   "context": "Wispr Flow lets you write by speaking, in any app. Used by millions, valued at $2B."
+   "context": "Changing how the world uses the internet: you talk, Wispr Flow writes. Scaled to $2B in five years."
   },
   {
    "id": "marc-manara",
@@ -25,7 +25,7 @@
    "photo": "assets/img/speakers/marc-manara.jpg",
    "bio": "Leads OpenAI's global Startups, VC and Private Equity teams. Previously ran the startups team at AWS and co-founded Farm Hill. Harvard CS, Stanford MBA.",
    "company": "OpenAI",
-   "context": "OpenAI makes ChatGPT. Marc leads its work with startups and investors worldwide."
+   "context": "Leads OpenAI's startup program, at the company that set off the entire AI wave."
   },
   {
    "id": "srinivas-narayanan",
@@ -34,7 +34,7 @@
    "photo": "assets/img/speakers/srinivas-narayanan.jpg",
    "bio": "Joined OpenAI in 2023 as VP of Engineering through ChatGPT's fastest growth, then became CTO of B2B Applications. Before that, a decade-plus as VP of Engineering at Facebook. IIT Madras.",
    "company": "OpenAI",
-   "context": "Led engineering at OpenAI during ChatGPT's fastest growth, after a decade at Facebook."
+   "context": "Ran engineering at OpenAI as ChatGPT became the fastest-growing product in history."
   },
   {
    "id": "gaurav-agarwal",
@@ -43,7 +43,7 @@
    "photo": "assets/img/speakers/gaurav-agarwal.jpg",
    "bio": "Joined ClickUp as Chief Growth Officer and became COO, leading revenue operations and scaling it past $300M ARR with product-led and sales-led growth side by side.",
    "company": "ClickUp",
-   "context": "ClickUp is the all-in-one workplace app used by millions of teams, past $300M in yearly revenue."
+   "context": "Took ClickUp past $300M a year, the work app millions of teams run on."
   },
   {
    "id": "yash-sheth",
@@ -52,7 +52,7 @@
    "photo": "assets/img/speakers/yash-sheth.jpg",
    "bio": "Co-founded Galileo, the evaluation and observability platform for AI agents, which Cisco announced it would acquire in 2026. Spent nearly a decade at Google leading speech platforms.",
    "company": "Galileo",
-   "context": "Galileo tests and monitors AI agents so companies can trust them. Being acquired by Cisco."
+   "context": "Built the trust layer for AI agents. Cisco is acquiring Galileo to take it to every enterprise."
   },
   {
    "id": "soham-ganatra",
@@ -61,7 +61,7 @@
    "photo": "assets/img/speakers/soham-ganatra.jpg",
    "bio": "Building Composio, the skill layer that lets AI agents connect to and act across thousands of tools. Raised a $25M Series A to build it from Bengaluru and San Francisco.",
    "company": "Composio",
-   "context": "Composio lets AI agents use thousands of apps, from Gmail to Salesforce."
+   "context": "Gives AI agents hands: Composio connects them to thousands of apps, from Gmail to Salesforce."
   },
   {
    "id": "neha-singh",
@@ -70,7 +70,7 @@
    "photo": "assets/img/speakers/neha-singh.jpg",
    "bio": "Built Tracxn into a listed private-markets intelligence company. Formerly at Sequoia Capital and BCG. IIT Bombay and Stanford MBA.",
    "company": "Tracxn",
-   "context": "Tracxn tracks millions of startups for investors and corporates. A listed company."
+   "context": "Built Tracxn into the startup-data platform investors worldwide rely on, and took it public."
   }
  ],
  "salon": {

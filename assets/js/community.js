@@ -158,7 +158,7 @@
     els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
   }
 
-  fetch('./data/events.json?v=20261023l')
+  fetch('./data/events.json?v=20261023m')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       renderSpeakers(d.speakers || []);
