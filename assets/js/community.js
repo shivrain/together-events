@@ -93,7 +93,7 @@
   /* ---------- Programs ---------- */
   function renderSalon(s) {
     document.getElementById('salon').innerHTML =
-      '<article class="salon">' +
+      '<article class="salon reveal">' +
         '<div class="salon__text">' +
           '<p class="salon__kicker">' + esc(s.kicker) + '</p>' +
           '<h3 class="salon__name">' + esc(s.name) + '</h3>' +
@@ -107,36 +107,52 @@
 
   function renderPrograms(list) {
     document.getElementById('programs').innerHTML = list.map(function (p) {
-      return '<article class="program">' +
+      return '<article class="program reveal">' +
         '<div class="program__art">' + (ART[p.id] ? ART[p.id]() : '') + '</div>' +
         '<div class="program__body">' +
           '<h3 class="program__name">' + esc(p.name) + '</h3>' +
           '<p class="program__about">' + esc(p.about) + '</p>' +
-          '<ul class="program__items">' + p.items.map(function (i) {
-            return '<li><span class="program__item">' + esc(i.name) + '</span><span class="program__detail">' + esc(i.detail) + '</span></li>';
-          }).join('') + '</ul>' +
+          (p.campuses
+            ? '<ul class="campuses">' + p.campuses.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul>'
+            : '<ul class="program__items">' + p.items.map(function (i) {
+                return '<li><span class="program__item">' + esc(i.name) + '</span><span class="program__detail">' + esc(i.detail) + '</span></li>';
+              }).join('') + '</ul>') +
         '</div>' +
       '</article>';
     }).join('');
   }
 
-  function renderEvents(list) {
-    document.getElementById('eventList').innerHTML = list.map(function (e) {
-      return '<li class="tile">' +
-        '<span class="tile__icon">' + (ICON[e.type] ? ICON[e.type]() : '') + '</span>' +
-        '<h3 class="tile__name">' + esc(e.name) + '</h3>' +
-        '<p class="tile__about">' + esc(e.about) + '</p>' +
-      '</li>';
+  var GROUP_ICON = { firesides: 'fireside', builders: 'workshop', gatherings: 'summit' };
+  function renderGroups(list) {
+    document.getElementById('groups').innerHTML = list.map(function (g) {
+      var icon = ICON[GROUP_ICON[g.id]];
+      return '<section class="group reveal">' +
+        '<div class="group__head"><span class="group__icon">' + (icon ? icon() : '') + '</span><h3 class="group__name">' + esc(g.name) + '</h3></div>' +
+        '<ul class="group__list">' + g.events.map(function (e) {
+          return '<li><span class="group__event">' + esc(e.name) + '</span><span class="group__about">' + esc(e.about) + '</span></li>';
+        }).join('') + '</ul>' +
+      '</section>';
     }).join('');
   }
 
-  fetch('./data/events.json?v=20261023f')
+  // Fade sections up as they enter the viewport; content stays visible if observers are unavailable.
+  function reveal() {
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
+  }
+
+  fetch('./data/events.json?v=20261023h')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       renderSpeakers(d.speakers || []);
       if (d.salon) renderSalon(d.salon);
       renderPrograms(d.programs || []);
-      renderEvents(d.events || []);
+      renderGroups(d.groups || []);
+      reveal();
     });
 
   var y = document.getElementById('footer-year');
