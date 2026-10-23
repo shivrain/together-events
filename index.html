@@ -6,9 +6,12 @@
   <title>Community | Together Fund</title>
   <meta name="description" content="Together Fund brings the best people in AI into the same room: founders and operators from OpenAI, Emergent, Wispr Flow, ClickUp, Galileo, Composio and Tracxn."/>
   <meta property="og:title" content="Community | Together Fund"/>
-  <meta property="og:description" content="We give back to the community we're part of, by bringing the best people into the same room."/>
+  <meta property="og:description" content="Great things get built when the right people share a room."/>
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
-  <link rel="stylesheet" href="./assets/css/community.css?v=20261023c"/>
+  <link rel="preconnect" href="https://togetherfund-assets.netlify.app" crossorigin/>
+  <!-- together.fund's Webflow stylesheet, used here for the shared footer -->
+  <link rel="stylesheet" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/css/togetherfund-tc.webflow.shared.3d8dc9f8b.css"/>
+  <link rel="stylesheet" href="./assets/css/community.css?v=20261023f"/>
 </head>
 <body>
   <a class="skip" href="#speakers">Skip to speakers</a>
@@ -32,9 +35,14 @@
 
   <main>
     <section class="intro">
-      <div class="wrap">
-        <h1 class="intro__title">We give back to the community we're part of.</h1>
-        <p class="intro__text">At Together, we believe in sharing what we learn with the ecosystem that shaped us. So we bring the best people into the same room, to build it right.</p>
+      <video class="intro__art" autoplay muted loop playsinline aria-hidden="true"
+             poster="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6894a24a2909c57ebabb919f_Screenshot%202025-08-07%20at%206.25.20%E2%80%AFPM.png">
+        <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.webm" type="video/webm"/>
+        <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.mp4" type="video/mp4"/>
+      </video>
+      <div class="wrap intro__inner">
+        <h1 class="intro__title">Great things get built when the right people <span>share a room.</span></h1>
+        <p class="intro__text">At Together, we give back to the community we're part of. We bring the founders, researchers and operators shaping AI into the same space, so we can all learn faster and build it right.</p>
       </div>
     </section>
 
@@ -45,41 +53,112 @@
       </div>
     </section>
 
-    <section class="section section--line" aria-labelledby="events-h">
+    <section class="section section--tight" aria-labelledby="programs-h">
       <div class="wrap">
-        <h2 id="events-h" class="label">Other events we've hosted</h2>
-        <ul class="events" id="eventList"></ul>
+        <h2 id="programs-h" class="label">What we run</h2>
+        <div id="salon"></div>
+        <div class="programs" id="programs"></div>
       </div>
     </section>
 
-    <section class="cta">
-      <div class="wrap cta__inner">
-        <p class="cta__text">Hear about the next one.</p>
-        <a class="btn" href="https://luma.com/togetherfund" target="_blank" rel="noopener">Follow Together on Luma
-          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
-        </a>
+    <section class="section section--tight" aria-labelledby="events-h">
+      <div class="wrap">
+        <h2 id="events-h" class="label">Other events we've hosted</h2>
+        <ul class="tiles" id="eventList"></ul>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="wrap footer__inner">
-      <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6823eb2189d5394dde26fff5_navbar-logo.svg" alt="Together" width="110" height="28"/>
-      <nav aria-label="Footer">
-        <a href="https://www.together.fund/about">About</a>
-        <a href="https://www.together.fund/portfolio">Portfolio</a>
-        <a href="https://www.together.fund/team">Team</a>
-        <a href="https://www.together.fund/perspectives">Perspectives</a>
-        <a href="https://www.together.fund/contact">Contact</a>
-      </nav>
-      <nav aria-label="Social">
-        <a href="https://www.linkedin.com/company/scaletogether/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://x.com/scaletogether" target="_blank" rel="noopener">X</a>
-        <a href="https://luma.com/togetherfund" target="_blank" rel="noopener">Luma</a>
-      </nav>
+  <!-- Footer: together.fund's footer markup, with the coral "Want to attend?" band from the earlier version of this page -->
+  <div class="footer_wrap bg-color-fbf4ed">
+    <div class="footer_form bg-color-fb5b51">
+      <div class="g_section_space"></div>
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="cta_contain">
+            <h2 class="cta_heading heading-style-h3">Want to attend?</h2>
+            <div class="cta_path">
+              <p class="cta_path_label text-size-regular">Follow our calendar to get invites to every salon, hackathon, talk and mixer.</p>
+              <a class="cta_btn" href="https://luma.com/togetherfund" target="_blank" rel="noopener">
+                <span class="cta_btn_text">Follow on Luma</span>
+                <span class="cta_btn_icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 62" width="44" height="44" fill="none">
+                    <rect y="0.499023" width="61" height="61" rx="30.5" fill="white"></rect>
+                    <path d="M36.8625 29.474L28.6824 21.2939L30.839 19.1372L42.7008 30.999L30.839 42.8606L28.6824 40.7039L36.8625 32.524H18.3008V29.474H36.8625Z" fill="black"></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g_section_space"></div>
     </div>
-  </footer>
 
-  <script src="./assets/js/community.js?v=20261023c" defer></script>
+    <div class="footer_main">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="footer_main_wrap">
+            <div class="footer_link_wrap">
+              <a href="https://www.together.fund/about" class="footer_link-text heading-style-h6">About</a>
+              <a href="https://www.together.fund/portfolio" class="footer_link-text heading-style-h6">Portfolio</a>
+              <a href="https://www.together.fund/team" class="footer_link-text heading-style-h6">Team</a>
+              <a href="https://www.together.fund/perspectives" class="footer_link-text heading-style-h6">Perspectives</a>
+              <a href="./" class="footer_link-text heading-style-h6">Community</a>
+              <a href="https://www.together.fund/contact" class="footer_link-text heading-style-h6">Contact</a>
+            </div>
+            <div class="footer_link_wrap is-right">
+              <div class="footer_link_inner">
+                <div class="footer_link-header">Programs</div>
+                <a href="https://www.together.fund/togetherswarmspace" class="footer_link-sub-text heading-style-h6">SwarmSpace</a>
+              </div>
+              <div class="footer_social_wrap">
+                <a href="https://www.linkedin.com/company/scaletogether/" target="_blank" rel="noopener" class="footer_link w-inline-block">
+                  <div class="footer_link-social heading-style-h6">LinkedIn</div>
+                  <div class="footer_link_icon">
+                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/>
+                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/>
+                  </div>
+                </a>
+                <a href="https://x.com/scaletogether" target="_blank" rel="noopener" class="footer_link w-inline-block">
+                  <div class="footer_link-social heading-style-h6">Twitter</div>
+                  <div class="footer_link_icon">
+                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/>
+                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/>
+                  </div>
+                </a>
+                <a href="https://medium.com/@scaletogether" target="_blank" rel="noopener" class="footer_link w-inline-block">
+                  <div class="footer_link-social heading-style-h6">Medium</div>
+                  <div class="footer_link_icon">
+                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img"/>
+                    <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6822de0d187cdbb288b7aa72_Group%2039953.svg" loading="lazy" alt="" class="footer_link_img is-abs"/>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer_bottom">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="footer_bottom_content">
+            <div class="footer_bottom_link-wrap">
+              <div class="footer_bottom_copyright">
+                <div class="footer_bottom_text text-size-tiny">Copyright @ <span id="footer-year">2026</span> TogetherFund. All Rights Reserved.</div>
+              </div>
+            </div>
+            <div class="footer_bottom_decor">
+              <img src="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68237c70e0fc7b26b680a91f_footer-logo.svg" loading="lazy" alt="" class="footer_bottom_img"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/community.js?v=20261023f" defer></script>
 </body>
 </html>

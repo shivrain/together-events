@@ -5,114 +5,104 @@
    "name": "Mukund Jha",
    "role": "Co-founder & CEO, Emergent",
    "photo": "assets/img/speakers/mukund-jha.jpg",
-   "event": "Emergent: Journey to $10M ARR in 2 Months",
-   "about": "Taking a global agentic product from India to $10M ARR in two months."
+   "bio": "Co-founded Dunzo, then Emergent, the AI app builder now valued at $1.5B. Together wrote Emergent's first cheque."
   },
   {
    "id": "tanay-kothari",
    "name": "Tanay Kothari",
    "role": "Co-founder & CEO, Wispr Flow",
    "photo": "assets/img/speakers/tanay-kothari.jpg",
-   "event": "The Next Billion Won't Type",
-   "about": "Voice as the next interface, and Wispr Flow's road to $2B."
+   "bio": "IOI medalist building Wispr Flow, the voice interface used by millions. Raised a $280M Series B at a $2B valuation."
   },
   {
    "id": "marc-manara",
    "name": "Marc Manara",
    "role": "Head of Startups, OpenAI",
    "photo": "assets/img/speakers/marc-manara.jpg",
-   "event": "Bits n Atoms: Build with the OpenAI Team",
-   "about": "Founders building alongside the OpenAI team on the latest models."
+   "bio": "Leads OpenAI's global startups and venture teams. Previously ran the startups team at AWS and co-founded Farm Hill."
   },
   {
    "id": "srinivas-narayanan",
    "name": "Srinivas Narayanan",
    "role": "Former CTO, B2B Applications, OpenAI",
    "photo": "assets/img/speakers/srinivas-narayanan.jpg",
-   "event": "An evening with Srinivas Narayanan",
-   "about": "An intimate dinner with senior tech leaders."
+   "bio": "IIT Madras alumnus who spent three years at OpenAI, leading engineering behind ChatGPT's growth and its B2B applications."
   },
   {
    "id": "gaurav-agarwal",
    "name": "Gaurav Agarwal",
    "role": "President, ClickUp",
    "photo": "assets/img/speakers/gaurav-agarwal.jpg",
-   "event": "Distribution in the Age of AI",
-   "about": "Running product-led and sales-led growth together, and rebuilding around AI."
+   "bio": "Rebuilt ClickUp's go-to-market engine, taking it past $300M ARR with product-led and sales-led growth running together."
   },
   {
    "id": "yash-sheth",
    "name": "Yash Sheth",
    "role": "Co-founder, Galileo",
    "photo": "assets/img/speakers/yash-sheth.jpg",
-   "event": "Evals and Observability in AI",
-   "about": "Building the trust layer for AI: evals and reliability in production."
+   "bio": "Co-founded Galileo, the AI evaluation platform Cisco agreed to acquire. Spent nearly a decade at Google leading speech platforms."
   },
   {
    "id": "soham-ganatra",
    "name": "Soham Ganatra",
    "role": "Co-founder, Composio",
    "photo": "assets/img/speakers/soham-ganatra.jpg",
-   "event": "The Composio Blueprint",
-   "about": "Building developer-first AI infrastructure from India for the world."
+   "bio": "Building Composio, the skill layer that lets AI agents connect to and act across thousands of tools."
   },
   {
    "id": "neha-singh",
    "name": "Neha Singh",
    "role": "Co-founder & CEO, Tracxn",
    "photo": "assets/img/speakers/neha-singh.jpg",
-   "event": "Navigating the Entrepreneurial Ladder",
-   "about": "A masterclass on the founder journey, from first idea to a listed company."
+   "bio": "Built Tracxn into a listed private-markets data company. Formerly an investor at Sequoia Capital, with degrees from IIT Bombay and Stanford."
+  }
+ ],
+ "salon": {
+  "name": "Reasoning Traces",
+  "kicker": "Research salon",
+  "about": "We pick a paper or an open question, put the people researching it in one small room, and work through it together. A discussion, not a lecture.",
+  "topics": ["World models", "AI alignment", "Self-improving harnesses", "Memory & continual learning", "Machine consciousness", "Richard Sutton's Oak architecture"]
+ },
+ "programs": [
+  {
+   "id": "hackathons",
+   "name": "Hackathons",
+   "about": "Builders ship something real in a day or two, judged by founders and investors.",
+   "items": [
+    { "name": "Runtogether", "detail": "Idea to demo to pitch in 10 hours, with Anthropic, ElevenLabs and Stripe" },
+    { "name": "Voice AI Hackathon", "detail": "Two days building voice agents with portfolio engineers" },
+    { "name": "Claw Hack", "detail": "Agentic AI builds, with Zo World" }
+   ]
+  },
+  {
+   "id": "talks",
+   "name": "Talks",
+   "about": "Researchers and operators go deep on one idea, then take every question.",
+   "items": [
+    { "name": "Prateek Jain, Google DeepMind", "detail": "What actually scales LLMs" },
+    { "name": "Amit Sharma, Microsoft Research", "detail": "From pattern recognition to reasoning" },
+    { "name": "Srikanth Vidapanakal, xSpecies AI", "detail": "From autonomous driving to humanoids" },
+    { "name": "Ashwin Rajeeva, Acceldata", "detail": "Data infrastructure for the AI era" }
+   ]
+  },
+  {
+   "id": "colleges",
+   "name": "College visits",
+   "about": "We take the conversation to campuses, to meet the founders of the next decade early.",
+   "items": [
+    { "name": "BITS Pilani", "detail": "BITSian GenAI meetup" },
+    { "name": "IIT Kharagpur", "detail": "AI & SaaS mixer with the KGP community" }
+   ]
   }
  ],
  "events": [
-  {
-   "name": "Together AI Summit",
-   "about": "Our annual summit for India's AI founders, operators and researchers."
-  },
-  {
-   "name": "OpenAI × Together",
-   "about": "Wulfie Bain, Applied AI lead at OpenAI, on taking AI products from prototype to production."
-  },
-  {
-   "name": "Google: AI, Search & Beyond",
-   "about": "Srinivasan V, VP of Search at Google, on the future of search. Hosted in the Bay Area with Insight Partners."
-  },
-  {
-   "name": "Reasoning Traces",
-   "about": "Our research salon. One idea, a small room, and the people researching it."
-  },
-  {
-   "name": "Research talks",
-   "about": "Researchers from Google DeepMind, Microsoft Research and robotics labs on reasoning, scaling and embodied AI."
-  },
-  {
-   "name": "Runtogether Hackathon",
-   "about": "Ten hours from an idea to a working demo and an investor pitch."
-  },
-  {
-   "name": "Voice AI Hackathon",
-   "about": "Two days building voice agents alongside Together portfolio engineers."
-  },
-  {
-   "name": "The Metaforms Story",
-   "about": "Akshat Tyagi on dropping out, three pivots and scaling Metaforms."
-  },
-  {
-   "name": "The Portkey GTM Story",
-   "about": "Vrushank Vyas on selling AI infrastructure from India to the world."
-  },
-  {
-   "name": "The Founder's Notebook",
-   "about": "Closed-door masterclasses for early AI founders, with Venture Catalysts++."
-  },
-  {
-   "name": "US–India corridor evenings",
-   "about": "Mixers in New York and the Bay Area with Insight Partners and Flybridge."
-  },
-  {
-   "name": "Together AI Mixers",
-   "about": "Founders and operators across Bengaluru, Chennai, Mumbai and New York."
-  }
+  { "name": "Together AI Summit", "about": "Our annual summit for India's AI founders, operators and researchers.", "type": "summit" },
+  { "name": "OpenAI × Together", "about": "Wulfie Bain, Applied AI lead at OpenAI, on shipping AI products.", "type": "fireside" },
+  { "name": "Google: AI, Search & Beyond", "about": "Srinivasan V, VP of Search at Google, in the Bay Area.", "type": "fireside" },
+  { "name": "The Metaforms Story", "about": "Akshat Tyagi on dropping out, three pivots and scaling fast.", "type": "fireside" },
+  { "name": "The Portkey GTM Story", "about": "Vrushank Vyas on selling AI infra from India to the world.", "type": "fireside" },
+  { "name": "The Founder's Notebook", "about": "Closed-door masterclasses for early AI founders.", "type": "workshop" },
+  { "name": "US–India corridor evenings", "about": "New York and the Bay Area, with Insight Partners and Flybridge.", "type": "mixer" },
+  { "name": "Together AI Mixers", "about": "Bengaluru, Chennai, Mumbai and New York.", "type": "mixer" }
  ]
 }

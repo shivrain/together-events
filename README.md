@@ -2,11 +2,11 @@
 
 Static page at https://shivrain.github.io/together-events/.
 
-- `index.html`: page shell (intro, speakers, other events, footer)
-- `assets/css/community.css`: all styles; Neue Haas Unica loads from the together.fund Webflow CDN
-- `assets/js/community.js`: renders the speaker grid and event list from `data/events.json`
+- `index.html`: page shell (intro, speakers, programs, other events) and the together.fund footer
+- `assets/css/community.css`: page styles, loaded after together.fund's Webflow stylesheet (which styles the footer)
+- `assets/js/community.js`: renders everything from `data/events.json`, including the isometric line drawings
 - `assets/img/speakers/`: 640×640 speaker portraits
-- `data/events.json`: `speakers` (name, role, photo, event, about) and `events` (name, about)
+- `data/events.json`: `speakers` (name, role, photo, bio), `salon` (Reasoning Traces and its topics), `programs` (hackathons, talks, college visits) and `events`
 
 To add a speaker, drop a square photo in `assets/img/speakers/` and add an entry to `speakers`.
 
