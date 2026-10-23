@@ -87,7 +87,7 @@
    "title": "Distribution in the Age of AI",
    "format": "Fireside",
    "summary": "Gaurav Agarwal, President of ClickUp, on scaling past $300M ARR with PLG and sales-led growth running at once.",
-   "rank": 4,
+   "rank": 6,
    "why": "The operator behind one of SaaS's best distribution machines, on rebuilding it around AI.",
    "stats": [
     {
@@ -106,17 +106,27 @@
    "quarter": null,
    "venue": "Together Fund, Bengaluru",
    "city": "Bengaluru",
-   "speakers": "Marc Manara, Thomas Jeng and the OpenAI India team · with The Product Folks",
-   "body": "After a walkthrough of what OpenAI has been shipping (the 5.6 series, full-duplex voice, programmatic tool calls), the room broke into pods for inference, voice AI, infra, evals and context engineering, and spent three hours working through the problems builders brought with them. Co-hosted with The Product Folks.",
+   "speakers": "Marc Manara (Head of Startups, OpenAI), Thomas Jeng and the OpenAI India team · with The Product Folks",
+   "body": "Marc Manara, Head of Startups at OpenAI, came to the Together office with Thomas Jeng and the OpenAI India team. After a walkthrough of what OpenAI has been shipping (the 5.6 series, full-duplex voice, programmatic tool calls), the room broke into pods for inference, voice AI, infra, evals and context engineering, and spent three hours working through the problems builders brought with them. Co-hosted with The Product Folks.",
    "image": "https://images.lumacdn.com/uploads/k0/8e8e2f37-903f-4f87-8944-3091e384c912.png",
    "link": "https://luma.com/65luxpii",
    "video": null,
    "id": "bits-n-atoms-openai",
-   "title": "Bits n Atoms: Build with the OpenAI Team",
+   "title": "Bits n Atoms: Building with Marc Manara and the OpenAI Team",
    "format": "Workshop",
-   "summary": "An afternoon building with the OpenAI team on GPT-5.6, full-duplex voice and tool calling, in pods for inference, voice, infra, evals and context engineering.",
-   "rank": 6,
-   "why": "OpenAI India's team building alongside founders in pods for three hours.",
+   "summary": "OpenAI's Head of Startups and the OpenAI India team spent an afternoon building with founders on GPT-5.6, full-duplex voice and tool calling, in pods for inference, voice, infra, evals and context engineering.",
+   "rank": 4,
+   "why": "OpenAI's Head of Startups in our office, building alongside founders for three hours.",
+   "stats": [
+    {
+     "value": "Head of",
+     "label": "Startups, OpenAI"
+    },
+    {
+     "value": "3 hrs",
+     "label": "hands-on building"
+    }
+   ],
    "year": "2026"
   },
   {
@@ -149,7 +159,7 @@
    "title": "Reasoning Traces: World Models",
    "format": "Research salon",
    "summary": "The first Reasoning Traces salon: one idea, a small room. Is a good generator also a good planner? Do you even need video?",
-   "rank": 12,
+   "rank": 13,
    "why": "The first edition of our research salon series.",
    "year": "2026"
   },
@@ -211,7 +221,7 @@
    "title": "Evals and Observability in AI: An Infra Founder's Playbook",
    "format": "Fireside",
    "summary": "Yash Sheth on building the trust layer for AI, from first principles to Cisco's acquisition of Galileo.",
-   "rank": 7,
+   "rank": 8,
    "why": "139 registered to hear how an evals company got to a Cisco acquisition.",
    "year": "2026"
   },
@@ -265,20 +275,32 @@
   },
   {
    "id": "ama-with-srinivas-narayanan",
-   "title": "AMA with Srinivas Narayanan",
+   "title": "Dinner with Srinivas Narayanan, former CTO of B2B Applications at OpenAI",
    "date": null,
    "quarter": "Q2 2026",
    "format": "Fireside",
-   "venue": "Together Fund",
+   "venue": "Together Fund, Bengaluru",
    "city": null,
-   "speakers": "Srinivas Narayanan (Former CTO, B2B Applications at OpenAI)",
-   "summary": "Intimate dinner with senior tech leaders, hosted by former OpenAI CTO Srinivas Narayanan.",
-   "body": "An intimate dinner with Srinivas Narayanan, former CTO of B2B Applications at OpenAI, hosted at Together Fund. The evening was an off-the-record conversation with senior tech leaders from the Together community on the engineering and operating playbook behind shipping enterprise AI products at frontier scale, what actually works, what gets in the way, and where the next 12 months of enterprise AI infrastructure is heading.",
+   "speakers": "Srinivas Narayanan (Former CTO, B2B Applications, OpenAI)",
+   "summary": "An intimate, invite-only dinner for senior tech leaders with OpenAI's former CTO of B2B Applications.",
+   "body": "Srinivas Narayanan led engineering for OpenAI's B2B applications as CTO. Together hosted him for an invite-only dinner with senior tech leaders at the Together Fund office, a candid conversation on building and deploying AI inside enterprises.",
    "image": null,
    "link": null,
    "video": null,
-   "rank": 14,
-   "why": "An intimate dinner with OpenAI's former CTO of B2B Applications.",
+   "cardLabel": "Srinivas Narayanan",
+   "cardSub": "Former CTO, B2B Applications · OpenAI",
+   "rank": 5,
+   "why": "A private dinner for senior tech leaders with the former CTO of OpenAI's B2B Applications.",
+   "stats": [
+    {
+     "value": "OpenAI",
+     "label": "former CTO, B2B Apps"
+    },
+    {
+     "value": "Dinner",
+     "label": "invite-only"
+    }
+   ],
    "year": "2026"
   },
   {
@@ -343,6 +365,8 @@
    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/wr/5f460643-ba9f-44c9-a227-0dc2c29a75f0.png",
    "link": "https://luma.com/4q9fymnx",
    "video": null,
+   "rank": 16,
+   "why": "An evening with the OpenAI team for builders and researchers at the frontier.",
    "year": "2026"
   },
   {
@@ -455,7 +479,7 @@
    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/3e/63ee8e82-6329-4b1d-bba0-170409ed0a75.png",
    "link": "https://luma.com/l8i1t3dr",
    "video": null,
-   "rank": 11,
+   "rank": 12,
    "why": "Idea to demo to pitch in 10 hours, with Anthropic, ElevenLabs and Stripe as partners.",
    "year": "2026"
   },
@@ -505,7 +529,7 @@
    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/7x/49f00bc6-2b2b-4e91-9f01-6faca48bb34e.png",
    "link": "https://luma.com/48q2jdd9",
    "video": "F-nOb-HHRe0",
-   "rank": 8,
+   "rank": 9,
    "why": "335 approved guests from 1,100+ invites, and a recording on Manav's podcast.",
    "year": "2025"
   },
@@ -555,7 +579,7 @@
    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/ek/16a0b3be-8429-40fa-ba47-2bc5ce0e42a4.png",
    "link": "https://luma.com/ytjzgg7t",
    "video": "FqNr_ERuA7o",
-   "rank": 10,
+   "rank": 11,
    "why": "240 approved guests for a portfolio founder's story, now on YouTube.",
    "year": "2025"
   },
@@ -589,7 +613,7 @@
    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/ug/7f6bc25e-fd3a-4903-bc78-0be681c0ce13.png",
    "link": "https://luma.com/svdxwamx",
    "video": null,
-   "rank": 13,
+   "rank": 14,
    "why": "Google DeepMind's Prateek Jain on what actually scales LLMs.",
    "year": "2025"
   },
@@ -827,18 +851,8 @@
    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/op/61efef0b-90dc-4548-9c58-25c3aa85c4d0",
    "link": "https://luma.com/27rijtxp",
    "video": null,
-   "rank": 5,
+   "rank": 7,
    "why": "Our annual flagship at The Leela Palace: keynotes, panels and dinner for India's AI ecosystem.",
-   "stats": [
-    {
-     "value": "Annual",
-     "label": "flagship"
-    },
-    {
-     "value": "2023–24",
-     "label": "editions"
-    }
-   ],
    "year": "2024"
   },
   {
@@ -887,7 +901,7 @@
    "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=85,width=2400,height=1350/event-covers/fb/a0734916-84ae-40c8-a721-458f09cd7db9",
    "link": "https://luma.com/evt-VOHQx0DlSFSlqG4",
    "video": null,
-   "rank": 9,
+   "rank": 10,
    "why": "Google's VP of Search in the Bay Area, with Insight Partners.",
    "year": "2024"
   },

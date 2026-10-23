@@ -11,6 +11,7 @@
   var ARROW = '<svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
   var PLAY = '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M5 3.5v9l7-4.5z" fill="currentColor"/></svg>';
 
+  var TOP = 6; // feature cards: #1 full width, #2-3 halves, #4-6 thirds
   var data, byId = {};
   var state = { format: 'All', q: '' };
 
@@ -31,7 +32,8 @@
 
   function media(e, cls) {
     if (!e.image) {
-      return '<div class="media media--fallback ' + (cls || '') + '"><span>' + esc(shortTitle(e.title)) + '</span></div>';
+      return '<div class="media media--fallback ' + (e.cardLabel ? 'media--name ' : '') + (cls || '') + '"><span>' + esc(e.cardLabel || shortTitle(e.title)) + '</span>' +
+        (e.cardSub ? '<small>' + esc(e.cardSub) + '</small>' : '') + '</div>';
     }
     // Resolve against the page: a relative url() inside a custom property resolves against the stylesheet.
     var abs = new URL(e.image, document.baseURI).href;
@@ -51,7 +53,7 @@
       var stats = (e.stats || []).map(function (s) {
         return '<div><dt>' + esc(s.label) + '</dt><dd>' + esc(s.value) + '</dd></div>';
       }).join('');
-      return '<article class="feat' + (e.rank === 1 ? ' feat--lead' : '') + '" data-open="' + esc(e.id) + '" tabindex="0">' +
+      return '<article class="feat ' + (e.rank === 1 ? 'feat--lead' : e.rank <= 3 ? 'feat--half' : 'feat--third') + '" data-open="' + esc(e.id) + '" tabindex="0">' +
         '<span class="feat__rank" aria-label="Rank ' + e.rank + '">' + e.rank + '</span>' +
         media(e) +
         '<div class="feat__body">' +
@@ -202,14 +204,14 @@
 
   function compact(n) { return n >= 1000 ? Math.floor(n / 1000) + 'K+' : String(n); }
 
-  fetch('./data/events.json?v=20261023a')
+  fetch('./data/events.json?v=20261023b')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       data = d;
       d.events.forEach(function (e) { byId[e.id] = e; });
       var ranked = d.events.filter(function (e) { return e.rank; }).sort(function (a, b) { return a.rank - b.rank; });
-      renderTop5(ranked.slice(0, 5));
-      renderRanks(ranked.slice(5));
+      renderTop5(ranked.slice(0, TOP));
+      renderRanks(ranked.slice(TOP));
       renderWatch(d.watch || [], d.channels || []);
       renderChips(d.events);
       renderArchive();
