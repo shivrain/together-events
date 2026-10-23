@@ -16,7 +16,7 @@
    "photo": "assets/img/speakers/tanay-kothari.jpg",
    "bio": "Started Wispr in 2021 with Sahaj Garg to make voice the main way we use computers. Wispr Flow is used by millions and raised a $280M Series B at a $2B valuation.",
    "company": "Wispr Flow",
-   "context": "Changing the way we interact with the internet. Now valued at over $2B."
+   "context": "Speak, and Wispr Flow writes it for you in any app, 3x faster than typing. Now valued at over $2B."
   },
   {
    "id": "marc-manara",
@@ -73,29 +73,6 @@
    "context": "Tracks 4M+ companies across 50+ countries for 850+ clients. Built it into a listed company."
   }
  ],
- "salon": {
-  "name": "Reasoning Traces",
-  "kicker": "Research salon",
-  "about": "We pick a paper or an open question, put the people researching it in one small room, and work through it together. A discussion, not a lecture.",
-  "topics": [
-   "World models",
-   "AI alignment",
-   "Self-improving harnesses",
-   "Memory & continual learning",
-   "Machine consciousness",
-   "Richard Sutton's Oak architecture"
-  ],
-  "stats": [
-   {
-    "value": "6",
-    "label": "sessions so far"
-   },
-   {
-    "value": "1",
-    "label": "idea per room"
-   }
-  ]
- },
  "programs": [
   {
    "id": "hackathons",
@@ -113,20 +90,6 @@
     {
      "name": "Claw Hack & OpenClaw",
      "detail": "All-night agentic AI builds, with Zo World"
-    }
-   ],
-   "stats": [
-    {
-     "value": "4",
-     "label": "hackathons"
-    },
-    {
-     "value": "10 hrs",
-     "label": "idea to investor pitch"
-    },
-    {
-     "value": "Up to $1M",
-     "label": "SwarmSpace fast-track"
     }
    ]
   },
@@ -151,16 +114,6 @@
      "name": "Drew Kirchhoff, ShareD",
      "detail": "User embeddings and truly personal AI"
     }
-   ],
-   "stats": [
-    {
-     "value": "7",
-     "label": "deep-dive talks"
-    },
-    {
-     "value": "2",
-     "label": "frontier labs on stage"
-    }
    ]
   },
   {
@@ -171,12 +124,6 @@
     "IIT Bombay",
     "IIT Kharagpur",
     "IIT Roorkee"
-   ],
-   "stats": [
-    {
-     "value": "3",
-     "label": "IIT campuses"
-    }
    ]
   }
  ],

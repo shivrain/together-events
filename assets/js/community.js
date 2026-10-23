@@ -177,7 +177,7 @@
     els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
   }
 
-  fetch('./data/events.json?v=20261023o')
+  fetch('./data/events.json?v=20261023p')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       renderLogos(d.logos || []);
