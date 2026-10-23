@@ -108,7 +108,7 @@
     var track = document.getElementById('logoTrack');
     if (!track || !list.length) return;
     var one = list.map(function (l) {
-      return '<li class="marquee__item"><img src="' + esc(l.src) + '" alt="' + esc(l.name) + '" loading="lazy" decoding="async"/></li>';
+      return '<li class="marquee__item"><img src="' + esc(l.src) + '" alt="' + esc(l.name) + '" decoding="async"/></li>';
     }).join('');
     track.innerHTML = one + one.replace(/alt="[^"]*"/g, 'alt="" aria-hidden="true"');
   }
@@ -177,7 +177,7 @@
     els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
   }
 
-  fetch('./data/events.json?v=20261023n')
+  fetch('./data/events.json?v=20261023o')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       renderLogos(d.logos || []);
