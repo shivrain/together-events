@@ -31,9 +31,9 @@
   {
    "id": "gaurav-agarwal",
    "name": "Gaurav Agarwal",
-   "role": "President, ClickUp",
+   "role": "COO, ClickUp",
    "photo": "assets/img/speakers/gaurav-agarwal.jpg",
-   "bio": "Joined ClickUp as Chief Growth Officer and rose to COO, then President, scaling it past $300M ARR with product-led and sales-led growth running side by side."
+   "bio": "Joined ClickUp as Chief Growth Officer and became COO, leading revenue operations and scaling it past $300M ARR with product-led and sales-led growth side by side."
   },
   {
    "id": "yash-sheth",
@@ -61,7 +61,14 @@
   "name": "Reasoning Traces",
   "kicker": "Research salon",
   "about": "We pick a paper or an open question, put the people researching it in one small room, and work through it together. A discussion, not a lecture.",
-  "topics": ["World models", "AI alignment", "Self-improving harnesses", "Memory & continual learning", "Machine consciousness", "Richard Sutton's Oak architecture"]
+  "topics": [
+   "World models",
+   "AI alignment",
+   "Self-improving harnesses",
+   "Memory & continual learning",
+   "Machine consciousness",
+   "Richard Sutton's Oak architecture"
+  ]
  },
  "programs": [
   {
@@ -69,9 +76,18 @@
    "name": "Hackathons",
    "about": "Builders ship something real in a day or two, judged by founders and investors.",
    "items": [
-    { "name": "Runtogether", "detail": "Idea to demo to pitch in 10 hours, with Anthropic, ElevenLabs and Stripe" },
-    { "name": "Voice AI Hackathon", "detail": "Two days building voice agents with portfolio engineers" },
-    { "name": "Claw Hack & OpenClaw", "detail": "All-night agentic AI builds, with Zo World" }
+    {
+     "name": "Runtogether",
+     "detail": "Idea to demo to pitch in 10 hours, with Anthropic, ElevenLabs and Stripe"
+    },
+    {
+     "name": "Voice AI Hackathon",
+     "detail": "Two days building voice agents with portfolio engineers"
+    },
+    {
+     "name": "Claw Hack & OpenClaw",
+     "detail": "All-night agentic AI builds, with Zo World"
+    }
    ]
   },
   {
@@ -79,17 +95,33 @@
    "name": "Talks",
    "about": "Researchers and operators go deep on one idea, then take every question.",
    "items": [
-    { "name": "Prateek Jain, Google DeepMind", "detail": "What actually scales LLMs" },
-    { "name": "Amit Sharma, Microsoft Research", "detail": "From pattern recognition to reasoning" },
-    { "name": "Srikanth Vidapanakal, xSpecies AI", "detail": "From autonomous driving to humanoids" },
-    { "name": "Drew Kirchhoff, ShareD", "detail": "User embeddings and truly personal AI" }
+    {
+     "name": "Prateek Jain, Google DeepMind",
+     "detail": "What actually scales LLMs"
+    },
+    {
+     "name": "Amit Sharma, Microsoft Research",
+     "detail": "From pattern recognition to reasoning"
+    },
+    {
+     "name": "Srikanth Vidapanakal, xSpecies AI",
+     "detail": "From autonomous driving to humanoids"
+    },
+    {
+     "name": "Drew Kirchhoff, ShareD",
+     "detail": "User embeddings and truly personal AI"
+    }
    ]
   },
   {
    "id": "colleges",
    "name": "College visits",
    "about": "We take the conversation to campus, to meet the founders of the next decade early.",
-   "campuses": ["IIT Bombay", "IIT Kharagpur", "IIT Roorkee", "BITS Pilani"]
+   "campuses": [
+    "IIT Bombay",
+    "IIT Kharagpur",
+    "IIT Roorkee"
+   ]
   }
  ],
  "groups": [
@@ -97,36 +129,90 @@
    "id": "firesides",
    "name": "Firesides & AMAs",
    "events": [
-    { "name": "OpenAI × Together", "about": "Wulfie Bain, Applied AI lead at OpenAI, on shipping AI products" },
-    { "name": "Fireside with the OpenAI Codex team", "about": "Codex, computer-use agents and a live voice demo" },
-    { "name": "Google: AI, Search & Beyond", "about": "Srinivasan V, VP of Search at Google" },
-    { "name": "Monetizing AI", "about": "Girish Mathrubootham and Madhavan on pricing AI-native products" },
-    { "name": "The Metaforms Story", "about": "Akshat Tyagi on dropping out, three pivots and scaling fast" },
-    { "name": "The Portkey GTM Story", "about": "Vrushank Vyas on selling AI infra from India to the world" }
+    {
+     "name": "OpenAI × Together",
+     "about": "Wulfie Bain, Applied AI lead at OpenAI, on shipping AI products"
+    },
+    {
+     "name": "Fireside with the OpenAI Codex team",
+     "about": "Codex, computer-use agents and a live voice demo"
+    },
+    {
+     "name": "Google: AI, Search & Beyond",
+     "about": "Srinivasan V, VP of Search at Google"
+    },
+    {
+     "name": "Monetizing AI",
+     "about": "Girish Mathrubootham and Madhavan on pricing AI-native products"
+    },
+    {
+     "name": "The Metaforms Story",
+     "about": "Akshat Tyagi on dropping out, three pivots and scaling fast"
+    },
+    {
+     "name": "The Portkey GTM Story",
+     "about": "Vrushank Vyas on selling AI infra from India to the world"
+    }
    ]
   },
   {
    "id": "builders",
    "name": "Builder nights",
    "events": [
-    { "name": "Coding Agents Meetup", "about": "Engineers and founders on how the SDLC is changing" },
-    { "name": "LangChain Connect Bengaluru", "about": "Architecting AI agents, with the LangChain team" },
-    { "name": "How Composio runs 15,000+ tools", "about": "Jayesh Sharma on tools that agents call in production" },
-    { "name": "Building with Agents", "about": "Multi-agent orchestration patterns, with AWS" },
-    { "name": "The Founder's Notebook", "about": "Closed-door masterclasses for early AI founders" },
-    { "name": "Consumer AI Demo Day", "about": "Founders shipping consumer AI, on stage" }
+    {
+     "name": "Coding Agents Meetup",
+     "about": "Engineers and founders on how the SDLC is changing"
+    },
+    {
+     "name": "LangChain Connect Bengaluru",
+     "about": "Architecting AI agents, with the LangChain team"
+    },
+    {
+     "name": "How Composio runs 15,000+ tools",
+     "about": "Jayesh Sharma on tools that agents call in production"
+    },
+    {
+     "name": "Building with Agents",
+     "about": "Multi-agent orchestration patterns, with AWS"
+    },
+    {
+     "name": "The Founder's Notebook",
+     "about": "Closed-door masterclasses for early AI founders"
+    },
+    {
+     "name": "Consumer AI Demo Day",
+     "about": "Founders shipping consumer AI, on stage"
+    }
    ]
   },
   {
    "id": "gatherings",
    "name": "Summits & gatherings",
    "events": [
-    { "name": "Together AI Summit", "about": "Our annual summit for India's AI ecosystem" },
-    { "name": "Together AGM", "about": "Our annual meeting with LPs and portfolio founders" },
-    { "name": "US–India corridor evenings", "about": "New York and the Bay Area, with Insight Partners and Flybridge" },
-    { "name": "HealthCare AI Mixer", "about": "Healthcare AI founders and operators in New York" },
-    { "name": "Together AI Mixers", "about": "Bengaluru, Chennai with Google Cloud, and Mumbai" },
-    { "name": "Pickleball & Together Fridays", "about": "Mornings on court and evenings off the clock" }
+    {
+     "name": "Together AI Summit",
+     "about": "Our annual summit for India's AI ecosystem"
+    },
+    {
+     "name": "Together AGM",
+     "about": "Our annual meeting with LPs and portfolio founders"
+    },
+    {
+     "name": "US–India corridor evenings",
+     "about": "New York and the Bay Area, with Insight Partners and Flybridge"
+    },
+    {
+     "name": "HealthCare AI Mixer",
+     "about": "Healthcare AI founders and operators in New York"
+    },
+    {
+     "name": "Together AI Mixers",
+     "about": "Bengaluru, Chennai with Google Cloud, and Mumbai"
+    },
+    {
+     "name": "Pickleball & Together Fridays",
+     "about": "Mornings on court and evenings off the clock"
+    }
    ]
   }
  ]

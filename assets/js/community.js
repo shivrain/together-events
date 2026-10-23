@@ -51,10 +51,16 @@
       var o = { w: 320, h: 220, cx: 160, cy: 60, u: 15 };
       return scene([[0, 0, 0, 7, 7, 0.8], [1, 1, 0.8, 5, 5, 0.8], [2, 2, 1.6, 3, 3, 0.8], [3, 3, 2.4, 1, 1, 2.6]], [], o);
     },
-    // A campus: a tall block flanked by two halls.
+    // A campus: a central hall with a clock tower, two wings and a quad in front.
     colleges: function () {
-      var o = { w: 320, h: 220, cx: 160, cy: 42, u: 15 };
-      return scene([[0, 0, 0, 3, 3, 6], [4, 0, 0, 3, 2, 3], [0, 4, 0, 2, 3, 3], [4, 4, 0, 3, 3, 1.2]], [[[3, 3, 0], [7, 7, 0]]], o);
+      var o = { w: 320, h: 220, cx: 158, cy: 40, u: 14 };
+      return scene([
+        [0, 0, 0, 9, 9, 0.25],          // quad
+        [1, 1, 0.25, 7, 2.2, 2.4],      // main hall
+        [3.6, 1.4, 2.65, 1.8, 1.4, 2.6],// clock tower
+        [1, 3.6, 0.25, 2.2, 4.4, 1.8],  // west wing
+        [5.8, 3.6, 0.25, 2.2, 4.4, 1.8] // east wing
+      ], [], o);
     }
   };
 
@@ -145,7 +151,7 @@
     els.forEach(function (el) { el.classList.add('is-pending'); io.observe(el); });
   }
 
-  fetch('./data/events.json?v=20261023h')
+  fetch('./data/events.json?v=20261023i')
     .then(function (r) { return r.json(); })
     .then(function (d) {
       renderSpeakers(d.speakers || []);
