@@ -4,17 +4,14 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Community | Together Fund</title>
-  <meta name="description" content="The rooms Together Fund has built: firesides with founders like Mukund Jha and Tanay Kothari, research salons, hackathons and mixers across India and the US."/>
+  <meta name="description" content="Together Fund brings the best people in AI into the same room: founders and operators from OpenAI, Emergent, Wispr Flow, ClickUp, Galileo, Composio and Tracxn."/>
   <meta property="og:title" content="Community | Together Fund"/>
-  <meta property="og:description" content="Firesides, research salons, hackathons and mixers from Together Fund, ranked by impact."/>
-  <meta property="og:image" content="https://shivrain.github.io/together-events/assets/img/wispr-tanay-kothari.jpg"/>
+  <meta property="og:description" content="We give back to the community we're part of, by bringing the best people into the same room."/>
   <link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/68242c8a48d5a16804939e8b_favicon.png"/>
-  <link rel="preconnect" href="https://images.lumacdn.com" crossorigin/>
-  <link rel="preconnect" href="https://i.ytimg.com" crossorigin/>
-  <link rel="stylesheet" href="./assets/css/community.css?v=20261023b"/>
+  <link rel="stylesheet" href="./assets/css/community.css?v=20261023c"/>
 </head>
 <body>
-  <a class="skip" href="#top5">Skip to events</a>
+  <a class="skip" href="#speakers">Skip to speakers</a>
 
   <header class="nav">
     <div class="wrap nav__inner">
@@ -30,93 +27,35 @@
         <a href="https://www.together.fund/perspectives">Perspectives</a>
         <a href="https://www.together.fund/contact">Contact</a>
       </nav>
-      <a class="btn btn--ink btn--sm nav__cta" href="https://luma.com/togetherfund" target="_blank" rel="noopener">Get invites</a>
     </div>
   </header>
 
   <main>
-    <!-- HERO -->
-    <section class="hero">
-      <video class="hero__art" autoplay muted loop playsinline aria-hidden="true"
-             poster="https://cdn.prod.website-files.com/682181088907d9e5e12f3d45/6894a24a2909c57ebabb919f_Screenshot%202025-08-07%20at%206.25.20%E2%80%AFPM.png">
-        <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.webm" type="video/webm"/>
-        <source src="https://togetherfund-assets.netlify.app/videos/hero-video-v2.mp4" type="video/mp4"/>
-      </video>
-      <div class="wrap hero__inner">
-        <p class="eyebrow">Together Community</p>
-        <h1 class="hero__title">Where Together <em>comes</em> together.</h1>
-        <p class="hero__lede">The rooms we build for founders, researchers and operators: firesides with the people running the fastest-growing AI companies, research salons, hackathons and the dinners in between.</p>
-        <dl class="hero__stats" id="heroStats">
-          <div><dt>Events hosted</dt><dd data-stat="events">50+</dd></div>
-          <div><dt>Cities</dt><dd data-stat="cities">6</dd></div>
-          <div><dt>Views of recorded sessions</dt><dd data-stat="views">120K+</dd></div>
-        </dl>
-      </div>
-    </section>
-
-    <!-- TOP 5 -->
-    <section class="section" id="top5" aria-labelledby="top5-h">
+    <section class="intro">
       <div class="wrap">
-        <div class="section__head">
-          <p class="eyebrow">Ranked by impact</p>
-          <h2 id="top5-h" class="h2">The rooms that mattered most</h2>
-          <p class="section__sub">Ranked on who took the chair, how many people asked to be in the room, and how far the conversation travelled afterwards.</p>
-        </div>
-        <div class="top5" id="top5List"></div>
+        <h1 class="intro__title">We give back to the community we're part of.</h1>
+        <p class="intro__text">At Together, we believe in sharing what we learn with the ecosystem that shaped us. So we bring the best people into the same room, to build it right.</p>
       </div>
     </section>
 
-    <!-- 6-15 -->
-    <section class="section section--white" aria-labelledby="next-h">
+    <section class="section" id="speakers" aria-labelledby="speakers-h">
       <div class="wrap">
-        <div class="section__head section__head--row">
-          <h2 id="next-h" class="h3">The next ten</h2>
-          <p class="section__sub">Still in the top tier, in order.</p>
-        </div>
-        <ol class="ranklist" id="rankList"></ol>
+        <h2 id="speakers-h" class="label">In the room</h2>
+        <ul class="speakers" id="speakerGrid"></ul>
       </div>
     </section>
 
-    <!-- WATCH -->
-    <section class="section section--ink" id="watch" aria-labelledby="watch-h">
+    <section class="section section--line" aria-labelledby="events-h">
       <div class="wrap">
-        <div class="section__head section__head--row">
-          <div>
-            <p class="eyebrow eyebrow--light">Watch</p>
-            <h2 id="watch-h" class="h2">Recorded sessions</h2>
-          </div>
-          <p class="section__sub section__sub--light">The most-watched episodes from <a href="https://www.youtube.com/@ManavGargPodcast" target="_blank" rel="noopener">The Next Big Opportunity with Manav Garg</a> and <a href="https://www.youtube.com/@together2328" target="_blank" rel="noopener">Together on YouTube</a>.</p>
-        </div>
-        <div class="watch" id="watchGrid"></div>
+        <h2 id="events-h" class="label">Other events we've hosted</h2>
+        <ul class="events" id="eventList"></ul>
       </div>
     </section>
 
-    <!-- ARCHIVE -->
-    <section class="section" id="archive" aria-labelledby="archive-h">
-      <div class="wrap">
-        <div class="section__head section__head--row">
-          <div>
-            <p class="eyebrow">Archive</p>
-            <h2 id="archive-h" class="h2">Every event</h2>
-          </div>
-          <label class="search">
-            <span class="sr-only">Search events</span>
-            <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 13.5 18 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            <input id="search" type="search" placeholder="Search speakers, companies, topics" autocomplete="off"/>
-          </label>
-        </div>
-        <div class="chips" id="chips" role="group" aria-label="Filter by format"></div>
-        <div id="archiveList" class="archive"></div>
-        <p class="empty" id="empty" hidden>No events match that search.</p>
-      </div>
-    </section>
-
-    <!-- CTA -->
     <section class="cta">
       <div class="wrap cta__inner">
-        <h2 class="h2">The next room is already being planned.</h2>
-        <p>Follow Together on Luma and you'll hear about firesides, salons and hackathons when they open.</p>
-        <a class="btn btn--cream" href="https://luma.com/togetherfund" target="_blank" rel="noopener">Follow on Luma
+        <p class="cta__text">Hear about the next one.</p>
+        <a class="btn" href="https://luma.com/togetherfund" target="_blank" rel="noopener">Follow Together on Luma
           <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
         </a>
       </div>
@@ -136,19 +75,11 @@
       <nav aria-label="Social">
         <a href="https://www.linkedin.com/company/scaletogether/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://x.com/scaletogether" target="_blank" rel="noopener">X</a>
-        <a href="https://www.youtube.com/@ManavGargPodcast" target="_blank" rel="noopener">YouTube</a>
         <a href="https://luma.com/togetherfund" target="_blank" rel="noopener">Luma</a>
       </nav>
     </div>
   </footer>
 
-  <dialog class="modal" id="modal" aria-labelledby="modalTitle">
-    <button class="modal__close" type="button" data-close aria-label="Close">
-      <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15" stroke="currentColor" stroke-width="1.6"/></svg>
-    </button>
-    <div class="modal__body" id="modalBody"></div>
-  </dialog>
-
-  <script src="./assets/js/community.js?v=20261023b" defer></script>
+  <script src="./assets/js/community.js?v=20261023c" defer></script>
 </body>
 </html>

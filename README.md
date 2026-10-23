@@ -1,12 +1,13 @@
 # Together Community page
 
-Static page for the Together Fund community at https://shivrain.github.io/together-events/.
+Static page at https://shivrain.github.io/together-events/.
 
-- `index.html`: page shell (nav, hero, sections, footer, modal)
-- `assets/css/community.css`: all styles; brand fonts load from the together.fund Webflow CDN
-- `assets/js/community.js`: renders every section from `data/events.json`, with no carousels
-- `data/events.json`: every event, plus the impact ranking (`rank`, `why`, `stats`) and the most-watched YouTube recordings (`watch`)
+- `index.html`: page shell (intro, speakers, other events, footer)
+- `assets/css/community.css`: all styles; Neue Haas Unica loads from the together.fund Webflow CDN
+- `assets/js/community.js`: renders the speaker grid and event list from `data/events.json`
+- `assets/img/speakers/`: 640×640 speaker portraits
+- `data/events.json`: `speakers` (name, role, photo, event, about) and `events` (name, about)
 
-Ranking: the top 15 events are ranked by hand on three signals: who was in the chair, demand for the room (Luma registrations/applications), and reach afterwards (YouTube views, LinkedIn). Edit `rank` / `why` in `data/events.json` to change it.
+To add a speaker, drop a square photo in `assets/img/speakers/` and add an entry to `speakers`.
 
 Run locally: `python3 -m http.server 8000`, then open http://localhost:8000.
